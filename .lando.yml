@@ -71,19 +71,19 @@ services:
       - database
 
   # Gestión de caché.
-  cache:
-    type: redis
-    portforward: 6380
-    persist: true
+  # cache:
+  #  type: redis
+  #  portforward: 6380
+  #  persist: true
 
-proxy:
-  appserver:
-    - [PROYECTO].lndo.site
-    - cdn.[PROYECTO].lndo.site
-  mailhog:
-    - mail.[PROYECTO].lndo.site
-  adminer:
-    - db.[PROYECTO].lndo.site
+#proxy:
+#  appserver:
+#    - [PROYECTO].lndo.site
+#    - cdn.[PROYECTO].lndo.site
+#  mailhog:
+#    - mail.[PROYECTO].lndo.site
+#  adminer:
+#    - db.[PROYECTO].lndo.site
 
 tooling:
 
@@ -122,9 +122,9 @@ tooling:
     cmd: "php /app/vendor/bin/phpunit -c /app/phpunit.xml --testsuite"
 
   # lando redis-cli
-  redis-cli:
-    service: cache
-    description: Ejecución del cli de Redis.
+  #redis-cli:
+  #  service: cache
+  #  description: Ejecución del cli de Redis.
 
   # ############################################################################
   #  Zona de Scripts personalizados.
