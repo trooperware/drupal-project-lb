@@ -1,0 +1,20 @@
+uuid: 2fd03a7a-aff8-4c25-ba90-87b6997d2ac8
+langcode: es
+status: true
+dependencies:
+  theme:
+    - thex
+_core:
+  default_config_hash: ugZKgGr6AlyZ6qG4fEWjVMFDx77ybtIvnFaOZry2r9w
+id: thex_local_actions
+theme: thex
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: es
+uuid: b87242ae-90e7-4854-a8b6-21076fd9c5a5
+name: 'Programa de Educación Audiovisual'
+mail: admin@example.com
+slogan: 'Aprender a mirar'
+page:
+  403: ''
+  404: ''
+  front: /node/1
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: es

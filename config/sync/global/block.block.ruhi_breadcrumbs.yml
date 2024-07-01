@@ -1,0 +1,22 @@
+uuid: 0eb21bb7-f5e2-4939-9404-1ad685efbd72
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - ruhi
+_core:
+  default_config_hash: bkXrlEqyl1SXlHWCtpnGKex7fy_CbrZUV9yrnpZhe3s
+id: ruhi_breadcrumbs
+theme: ruhi
+region: page_header
+weight: -5
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

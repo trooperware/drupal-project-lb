@@ -1,0 +1,25 @@
+uuid: 29de5fc9-23ee-47f0-9cd0-a685c47b79d6
+langcode: es
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - ruhi
+id: ruhi_useraccountmenu
+theme: ruhi
+region: header_top_right
+weight: 0
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

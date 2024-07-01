@@ -1,0 +1,27 @@
+uuid: 54f02108-b755-462a-ae48-bd8312388f92
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.module.field_attachments
+    - field.field.node.module.field_content
+    - field.field.node.module.field_media
+    - node.type.module
+  module:
+    - user
+id: node.module.teaser
+targetEntityType: node
+bundle: module
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_attachments: true
+  field_content: true
+  field_media: true
+  langcode: true

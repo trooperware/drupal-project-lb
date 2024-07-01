@@ -1,0 +1,6 @@
+basic_config.register:
+  title: 'Registrar'
+  description: 'User register'
+  menu_name: account
+  route_name: basic_config.register
+  weight: 20

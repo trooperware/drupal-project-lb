@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1920"
+   height="1080"
+   viewBox="0 0 1920 1080"
+   fill="none"
+   version="1.1"
+   id="svg9"
+   sodipodi:docname="slider-aprender.svg"
+   inkscape:version="1.3 (0e150ed, 2023-07-21)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview9"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.43703704"
+     inkscape:cx="538.85593"
+     inkscape:cy="405"
+     inkscape:window-width="1680"
+     inkscape:window-height="997"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g9" />
+  <g
+     clip-path="url(#clip0)"
+     id="g9">
+    <path
+       d="M1348 217.5C1148 191.1 1166.67 52.5 1201 -13.5L1942.5 -29.5L1952.5 480.5C1878.67 521 1708.7 567.7 1619.5 430.5C1508 259 1598 250.5 1348 217.5Z"
+       fill="#FBF1E2"
+       id="path1" />
+    <path
+       d="M244 440.5C136.8 403.7 31.6667 455.833 -7.5 486.5V-121C180.667 -157.5 575.5 -200.9 649.5 -82.5C723.5 35.9 680.333 144.167 649.5 183.5C601 255 622.5 217.5 585.5 337.5C548.5 457.5 378 486.5 244 440.5Z"
+       fill="#FBF1E2"
+       id="path2" />
+    <circle
+       cx="224"
+       cy="209"
+       r="23"
+       stroke="#E25B0E"
+       stroke-width="2"
+       id="circle2"
+       style="stroke:#ffb456;stroke-opacity:1" />
+    <circle
+       cx="1610.5"
+       cy="677.5"
+       r="20.5"
+       stroke="#E25B0E"
+       stroke-width="2"
+       id="circle3"
+       style="stroke:#ffb456;stroke-opacity:1" />
+    <circle
+       cx="1647"
+       cy="741"
+       r="14"
+       stroke="#E25B0E"
+       stroke-width="2"
+       id="circle4"
+       style="stroke:#ffb456;stroke-opacity:1" />
+    <circle
+       cx="1658"
+       cy="695"
+       r="10"
+       stroke="#E25B0E"
+       stroke-width="2"
+       id="circle5"
+       style="stroke:#ffb456;stroke-opacity:1" />
+    <circle
+       cx="1841"
+       cy="209"
+       r="10"
+       stroke="#E25B0E"
+       stroke-width="2"
+       id="circle6"
+       style="stroke:#ffb456;stroke-opacity:1" />
+    <path
+       d="M179.278 812.5L194 787L208.722 812.5H179.278Z"
+       stroke="#E25B0E"
+       stroke-width="2"
+       id="path6"
+       style="stroke:#ffb456;stroke-opacity:1" />
+    <path
+       d="M198.278 804.5L213 779L227.722 804.5H198.278Z"
+       stroke="#E25B0E"
+       stroke-width="2"
+       id="path7"
+       style="stroke:#ffb456;stroke-opacity:1" />
+    <path
+       d="M330.746 327.75L348.5 297L366.254 327.75H330.746Z"
+       stroke="#E25B0E"
+       stroke-width="2"
+       id="path8"
+       style="stroke:#ffb456;stroke-opacity:1" />
+    <path
+       d="M1734.75 124.75L1752.5 94L1770.25 124.75H1734.75Z"
+       stroke="#E25B0E"
+       stroke-width="2"
+       id="path9"
+       style="stroke:#ffb456;stroke-opacity:1" />
+  </g>
+  <defs
+     id="defs9">
+    <clipPath
+       id="clip0">
+      <rect
+         width="1920"
+         height="1080"
+         fill="white"
+         id="rect9" />
+    </clipPath>
+  </defs>
+</svg>

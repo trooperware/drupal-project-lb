@@ -1,0 +1,25 @@
+uuid: 71399bb1-5abb-448a-ad85-a70a371eeedd
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.course.field_content
+    - field.field.node.course.field_modules
+    - node.type.course
+  module:
+    - user
+id: node.course.teaser
+targetEntityType: node
+bundle: course
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_content: true
+  field_modules: true
+  langcode: true

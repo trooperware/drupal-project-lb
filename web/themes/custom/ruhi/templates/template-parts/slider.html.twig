@@ -1,0 +1,40 @@
+{{ attach_library('ruhi/slider') }}
+<section class="slider">
+  <div class="container">
+  <div class="slider-container">
+    <div class="slider-text">
+      <ul class="js-rotating">
+        {% if slider_code != '' %}
+          {{ slider_code | striptags('<ol>,<ul>,<li>,<p>,<a>,<img>,<video>,<h1>,<h2>,<h3>,<h4>,<em>,<strong>,<br>,<i>,<button>,<mark>,<hr>,<div>,<span>,<sub>,<sup>') | raw }}
+        {% else %}
+        <li>
+  				<h1>Quiero <em>inscribirme</em> en el Programa de Educación Audiovisual</h1>
+  				<p>El PEA dota a las entidades educativas de las herramientas necesarias para una completa educación en medios audiovisuales.</p>
+  				<a class="button" href="#">Inscribirme ahora</a>
+  			</li>
+
+  			<li>
+  				<h2>Soy padre y quiero que </em>más información</em></h2>
+  				<p>El PEA trabaja para que padres, profesores y alumnos estén informados y formados de modo que saquen el máximo partido al entorno digital en el que vivimos. </p>
+  				<a class="button" href="#">Más información</a>
+  			</li>
+        <!--
+  			<li>
+  				<h1>Satisfied customer is the best business strategy</h1>
+  				<p>We have high academic programs and fully qualified faculties with over 12 years of teaching experience.</p>
+  				<a class="button" href="#">Get Started</a>
+  			</li>
+        -->
+        {% endif %}
+      </ul> <!--/.home-slider -->
+    </div><!-- /slider-text -->
+    <div class="slider-image">
+      {% if slider_image_path != '' %}
+        <img src="{{ slider_image_path }}" alt="slider image" />
+      {% else %}
+        <img src="{{ directory }}/images/demo/slider.svg" alt="slider image" />
+      {% endif %}
+    </div><!-- /slider-image -->
+  </div> <!--/.slider-container -->
+  </div> <!--/.container -->
+</section>

@@ -1,0 +1,67 @@
+.node-content {
+
+  .paragraph:nth-child(even) {
+    background: var(--light);
+  }
+
+  .paragraph {
+    position: relative;
+    padding: 4rem 0;
+  }
+
+  .basic-text_title {
+    text-align: center;
+    margin-bottom: 1rem;
+    position: relative;
+  }
+
+  .box-secondary {
+    background-color: #d2d6ff;
+  }
+
+  a.button-secondary,
+  .button-secondary
+  [type="button"],
+  [type="reset"],
+  [type="submit"] {
+    background-color: var(--secondary);
+  }
+
+  .check-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .check-list li::before {
+    font-family: bootstrap-icons !important;
+    content: "\F270";
+    color: var(--primary);
+    padding-right: 6px;
+  }
+
+
+  @media (min-width: 768px) {
+    .basic-text_title::before {
+        position: absolute;
+        content: "";
+        width: 40px;
+        height: 2px;
+        background: var(--primary);
+        top: 50%;
+        transform: translateX(-50px);
+
+    }
+    .basic-text_title::after {
+      position: absolute;
+      content: "";
+      width: 40px;
+      height: 2px;
+      background: var(--primary);
+      top: 50%;
+      transform: translateX(10px);
+    }
+  }
+
+}
+

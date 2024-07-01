@@ -1,0 +1,25 @@
+uuid: 79f751f4-c378-43c5-8b69-3e8714ecd18f
+langcode: es
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:90a92a3d-ff78-474d-ba34-5a5de87294a7'
+  module:
+    - block_content
+  theme:
+    - ruhi
+id: ruhi_headerleft
+theme: ruhi
+region: header_top_left
+weight: 0
+provider: null
+plugin: 'block_content:90a92a3d-ff78-474d-ba34-5a5de87294a7'
+settings:
+  id: 'block_content:90a92a3d-ff78-474d-ba34-5a5de87294a7'
+  label: 'Header left'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,107 @@
+{
+    "uuid": [
+        {
+            "value": "0a8d5d3f-0293-4d5c-8be1-52e00d35d80d"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "module",
+            "target_type": "node_type",
+            "target_uuid": "3969f277-e6d8-4cf2-8611-47702c40827a"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2023-11-20T19:05:46+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "57cd2b87-53d5-4a9d-aef9-1f2e416a347e"
+        }
+    ],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "57cd2b87-53d5-4a9d-aef9-1f2e416a347e"
+        }
+    ],
+    "title": [
+        {
+            "value": "M\u00f3dulo 1"
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-11-16T09:57:35+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-11-20T19:05:46+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false
+        }
+    ],
+    "sticky": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": "",
+            "pid": null,
+            "langcode": "es"
+        }
+    ],
+    "field_attachments": [
+        {
+            "display": true,
+            "description": "M\u00f3dulo 1 - Contenidos del curso",
+            "target_type": "file",
+            "target_uuid": "821f1a0b-a27f-4ca3-b081-252051901fac"
+        }
+    ],
+    "field_content": [
+        {
+            "value": "<!-- wp:heading -->\r\n<h2>Lorem ipsum dolor sit amet consectetur adipiscing elit<\/h2>\r\n<!-- \/wp:heading -->\r\n\r\n<!-- wp:paragraph -->\r\n<p>Sem in euismod blandit egestas <strong>scelerisque cursus<\/strong>, justo dapibus duis facilisis magna non. Tempor vivamus tortor sociis leo nam primis a turpis est, suscipit penatibus condimentum ut augue maecenas volutpat netus porta quisque, habitasse inceptos magna curae lectus suspendisse curabitur in.<\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:paragraph -->\r\n<p>shajkhsdah jsdhkajhs kdjahkjsdhkasdk as.<\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:columns -->\r\n<div class=\"wp-block-columns\"><!-- wp:column -->\r\n<div class=\"wp-block-column\"><!-- wp:paragraph -->\r\n<p>ejhrkwjehrkjwehrjwhejkrhwej rhwkje rhkwj ehjkrhw jkerhkweh rkw er<\/p>\r\n<!-- \/wp:paragraph --><\/div>\r\n<!-- \/wp:column -->\r\n\r\n<!-- wp:column -->\r\n<div class=\"wp-block-column\"><!-- wp:image {\"id\":7,\"sizeSlug\":\"large\",\"linkDestination\":\"none\",\"className\":\"is-style-rounded\",\"mediaAttrs\":{\"data-entity-type\":\"file\",\"data-entity-uuid\":\"462bd1f5-eb18-4abf-9a85-79cdce727b26\",\"data-image-style\":\"original\"}} -->\r\n<figure class=\"wp-block-image size-large is-style-rounded\"><img src=\"\/sites\/default\/files\/styles\/large\/public\/2023-11\/web-faam-pagina-pea-2-3.jpg?itok=ar0E1w9S\" alt=\"Img 1\" class=\"wp-image-7\" data-entity-type=\"file\" data-entity-uuid=\"462bd1f5-eb18-4abf-9a85-79cdce727b26\" data-image-style=\"original\"\/><\/figure>\r\n<!-- \/wp:image --><\/div>\r\n<!-- \/wp:column -->\r\n\r\n<!-- wp:column -->\r\n<div class=\"wp-block-column\"><!-- wp:list -->\r\n<ul><li>hsdjfhskjhdfjkshdkf<\/li><li>dsjfhjkshdjkfhskjdfs<\/li><li>sdfhsjdhfkjshds<\/li><\/ul>\r\n<!-- \/wp:list --><\/div>\r\n<!-- \/wp:column --><\/div>\r\n<!-- \/wp:columns -->\r\n\r\n<!-- wp:columns -->\r\n<div class=\"wp-block-columns\"><!-- wp:column -->\r\n<div class=\"wp-block-column\"><!-- wp:paragraph -->\r\n<p><meta charset=\"utf-8\">Sem in euismod blandit egestas <strong>scelerisque cursus<\/strong>, justo dapibus duis facilisis magna non. Tempor vivamus tortor sociis leo nam primis a turpis est, suscipit penatibus condimentum ut augue maecenas volutpat netus porta quisque, habitasse inceptos magna curae lectus suspendisse curabitur in.<\/p>\r\n<!-- \/wp:paragraph --><\/div>\r\n<!-- \/wp:column -->\r\n\r\n<!-- wp:column -->\r\n<div class=\"wp-block-column\"><!-- wp:image {\"id\":7,\"sizeSlug\":\"large\",\"linkDestination\":\"none\",\"mediaAttrs\":{\"data-entity-type\":\"file\",\"data-entity-uuid\":\"462bd1f5-eb18-4abf-9a85-79cdce727b26\",\"data-image-style\":\"original\"}} -->\r\n<figure class=\"wp-block-image size-large\"><img src=\"\/sites\/default\/files\/styles\/large\/public\/2023-11\/web-faam-pagina-pea-2-3.jpg?itok=ar0E1w9S\" alt=\"Img 1\" class=\"wp-image-7\" data-entity-type=\"file\" data-entity-uuid=\"462bd1f5-eb18-4abf-9a85-79cdce727b26\" data-image-style=\"original\"\/><\/figure>\r\n<!-- \/wp:image --><\/div>\r\n<!-- \/wp:column --><\/div>\r\n<!-- \/wp:columns -->\r\n\r\n<!-- wp:heading -->\r\n<h2>Orci egestas dapibus consequat pretium dignissim<\/h2>\r\n<!-- \/wp:heading -->\r\n\r\n<!-- wp:list -->\r\n<ul><li>Ante rutrum magna nam eget risus platea donec.<\/li><li>Potenti ad ut cras interdum dapibus vivamus nulla. <\/li><li>Consequat maecenas iaculis montes non ullamcorper. <\/li><\/ul>\r\n<!-- \/wp:list -->\r\n\r\n<!-- wp:paragraph -->\r\n<p>Tellus nascetur nec risus a vel augue sociosqu, curabitur cursus pulvinar congue blandit ac, mus fames erat tempor curae urna. Interdum placerat netus egestas pulvinar convallis arcu, curabitur habitasse et nostra nisl himenaeos condimentum, lacus praesent mi etiam dui.<\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:heading -->\r\n<h2>Prova 1<\/h2>\r\n<!-- \/wp:heading -->\r\n\r\n<!-- wp:paragraph -->\r\n<p>s,ajhdkja ksdjhaksjhdkajsdk a<\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:image {\"id\":7,\"sizeSlug\":\"large\",\"linkDestination\":\"none\",\"mediaAttrs\":{\"data-entity-type\":\"file\",\"data-entity-uuid\":\"462bd1f5-eb18-4abf-9a85-79cdce727b26\",\"data-image-style\":\"original\"}} -->\r\n<figure class=\"wp-block-image size-large\"><img src=\"\/sites\/default\/files\/styles\/large\/public\/2023-11\/web-faam-pagina-pea-2-3.jpg?itok=ar0E1w9S\" alt=\"Img 1\" class=\"wp-image-7\" data-entity-type=\"file\" data-entity-uuid=\"462bd1f5-eb18-4abf-9a85-79cdce727b26\" data-image-style=\"original\"\/><\/figure>\r\n<!-- \/wp:image -->\r\n\r\n<!-- wp:paragraph -->\r\n<p><\/p>\r\n<!-- \/wp:paragraph -->",
+            "format": "gutenberg"
+        }
+    ],
+    "field_media": [
+        {
+            "target_type": "media",
+            "target_uuid": "796a05c9-59f5-4bd2-86d5-8a0b3be9469a"
+        }
+    ]
+}

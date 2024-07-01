@@ -1,0 +1,27 @@
+uuid: b6654868-186b-4753-b0ff-7b56a6288388
+langcode: es
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - thex
+_core:
+  default_config_hash: Fp7f6V-8OaHIBSPopLsMKA3UHbVRcYT3HItG-veMnvQ
+id: thex_main_menu
+theme: thex
+region: hidden
+weight: -8
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

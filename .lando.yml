@@ -1,4 +1,4 @@
-name: [PROYECTO]
+name: aprenderamirar
 recipe: drupal10
 
 config:
@@ -30,12 +30,12 @@ services:
         # Soporte para debug con Drush y XDEBUG.
         PHP_IDE_CONFIG: "serverName=appserver"
         # PHPUnit.
-        SIMPLETEST_BASE_URL: "https://[PROYECTO].lndo.site"
-        SIMPLETEST_DB: "mysql://[DB_USER]:[DB_PASSWORD]@database/[DB_DATABASE]"
+        SIMPLETEST_BASE_URL: "https://aprenderamirar.lndo.site"
+        SIMPLETEST_DB: "mysql://drupal:drupal@database/drupal10_aprender"
         # Mailhog.
         PHP_SENDMAIL_PATH: '/usr/sbin/sendmail -S mailhog:1025'
         # Drush.
-        DRUSH_OPTIONS_URI: "https://[PROYECTO].lndo.site"
+        DRUSH_OPTIONS_URI: "https://aprenderamirar.lndo.site"
 
   # Configuración de la base de datos.
   # database: disabled # No activa el servicio de database.
@@ -44,9 +44,9 @@ services:
     type: mariadb
     portforward: 3307
     creds:
-      user: [DB_USER]
-      database: [DB_DATABASE]
-      password: [DB_PASSWORD]
+      user: drupal
+      database: drupal10_aprender
+      password: drupal
     # Esta configuración se puede usar para generar nuevas bases de datos,
     # nuevos usuarios..., es ideal para multi-site y evitar tener que crear
     # varios contenedores con bases de datos.
@@ -95,7 +95,7 @@ tooling:
   gulp:
     service: appserver
     description: Ejecución del watch de gulp en el custom theme.
-    dir: /app/web/themes/custom/[THEME_MACHINE_NAME]/
+    dir: /app/web/themes/custom/aprenderamirar/
     cmd:
       - gulp
 
@@ -103,7 +103,7 @@ tooling:
   npm:
     service: appserver
     description: Ejecución del gestor de paquetes npm dentro del custom theme.
-    dir: /app/web/themes/custom/[THEME_MACHINE_NAME]/
+    dir: /app/web/themes/custom/aprenderamirar/
     cmd:
       - npm
 
@@ -111,7 +111,7 @@ tooling:
   sass:
     service: appserver
     description: Ejecución del watch de sass en el custom theme.
-    dir: /app/web/themes/custom/[THEME_MACHINE_NAME]/
+    dir: /app/web/themes/custom/aprenderamirar/
     cmd:
       - sass -w ./scss:./css --style compressed
 
@@ -135,7 +135,7 @@ tooling:
     service: appserver
     description: Ejecuta 'drush uli' con la URI del proyecto.
     cmd:
-      - appserver: drush uli --uri=https://[PROYECTO].lndo.site
+      - appserver: drush uli --uri=https://aprenderamirar.lndo.site
 
   # lando db [ex|im]
   db:

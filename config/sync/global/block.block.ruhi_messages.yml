@@ -1,0 +1,22 @@
+uuid: bbd484b1-2b89-47a9-93ae-e1dad3728aec
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - ruhi
+_core:
+  default_config_hash: '-XVizLHAsOW5B_cHrBPWjug4zSFAVPbqe1qD7rvtvj0'
+id: ruhi_messages
+theme: ruhi
+region: highlighted
+weight: -6
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

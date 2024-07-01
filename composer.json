@@ -21,36 +21,31 @@
         "ext-curl": "*",
         "ext-dom": "*",
         "ext-gd": "*",
-        "ext-redis": "*",
-        "ext-igbinary": "*",
-        "ext-apcu": "*",
         "ext-zlib": "*",
-
         "composer/installers": "^2.2",
         "cweagans/composer-patches": "^1.7",
-
-        "drupal/core-composer-scaffold": "^10.1",
-        "drupal/core-recommended": "^10.1",
-
         "drupal/admin_toolbar": "^3.4",
         "drupal/captcha": "^2.0",
         "drupal/cookies": "^1.2",
+        "drupal/core-composer-scaffold": "^10.1",
+        "drupal/core-recommended": "^10.1",
         "drupal/easy_breadcrumb": "^2.0",
+        "drupal/gutenberg": "^2.8",
         "drupal/metatag": "^2.0",
         "drupal/pathauto": "^1.11",
         "drupal/redirect": "^1.8",
         "drupal/robotstxt": "^1.5",
+        "drupal/ruhi": "^10.2",
         "drupal/simple_sitemap": "^4.1",
-
+        "drupal/social_auth_google": "^4.0",
+        "drupal/thex": "^10.0",
+        "drupal/tome": "^1.11",
         "drush/drush": "^11.6",
         "mikehaertl/phpwkhtmltopdf": "^2.5",
         "oomphinc/composer-installers-extender": "^2.0",
         "vlucas/phpdotenv": "^5.5",
         "webflo/drupal-finder": "^1.2",
         "wikimedia/composer-merge-plugin": "^2.1"
-    },
-
-    "require-dev": {
     },
 
     "conflict": {

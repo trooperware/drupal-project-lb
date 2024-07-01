@@ -1,0 +1,27 @@
+uuid: 2e4ce2c2-de19-42c7-bcf7-f1c5b92c6a61
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_attachments
+    - node.type.module
+  module:
+    - file
+id: node.module.field_attachments
+field_name: field_attachments
+entity_type: node
+bundle: module
+label: 'Documentos adjuntos'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: pdf
+  max_filesize: ''
+  description_field: true
+field_type: file

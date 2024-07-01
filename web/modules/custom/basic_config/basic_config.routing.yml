@@ -1,0 +1,6 @@
+basic_config.register:
+  path: /user/register
+  requirements:
+    _role: 'anonymous'
+  options:
+    no_cache: 'TRUE'

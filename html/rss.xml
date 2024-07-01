@@ -1,0 +1,19 @@
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_rss' -->
+<!-- BEGIN OUTPUT from 'core/themes/stable9/templates/views/views-view-rss.html.twig' -->
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://aprenderamirar.lndo.site/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Programa de Educación Audiovisual - Aprender a mirar</title>
+    <link>https://aprenderamirar.lndo.site/</link>
+    <description></description>
+    <language>es</language>
+    
+    
+  </channel>
+</rss>
+
+<!-- END OUTPUT from 'core/themes/stable9/templates/views/views-view-rss.html.twig' -->
+

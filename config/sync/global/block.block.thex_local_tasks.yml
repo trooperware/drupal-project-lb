@@ -1,0 +1,22 @@
+uuid: 17ff7529-90a9-407c-b6a7-d03cd51e83cc
+langcode: es
+status: true
+dependencies:
+  theme:
+    - thex
+_core:
+  default_config_hash: c-nfovvmtzi1DA7oD859t7CMWMFn1ucaUGEn5fvQHMo
+id: thex_local_tasks
+theme: thex
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

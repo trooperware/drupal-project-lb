@@ -5,7 +5,8 @@
             "Default lifetime for permanent TTL": "https://www.drupal.org/files/issues/2020-09-23/redis-default_permanent_ttl-2944938.patch"
         },
         "drupal/gutenberg": {
-            "Null value during using gutenberg with hook_event_dispatcher module.": "https://www.drupal.org/files/issues/2023-04-15/3350950-Null_value_issue_0.patch"
+            "Null value during using gutenberg with hook_event_dispatcher module.": "https://www.drupal.org/files/issues/2023-04-15/3350950-Null_value_issue_0.patch",
+            "The gutenberg_node_type_route hook is not working.": "https://www.drupal.org/files/issues/2023-11-14/gutenberg_3401653_2.patch"
         }
     }
 }

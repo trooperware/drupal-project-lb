@@ -1,0 +1,10 @@
+uuid: be39caad-c47f-4b80-998f-aa2648b6334c
+langcode: es
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: yoNVreoTdTZTY7GuE8fI9Jmxqdz8vlo4ZJKixMNSosw
+name: Etiquetas
+vid: tags
+description: 'Use tags to group articles on similar topics into categories.'
+weight: 0
