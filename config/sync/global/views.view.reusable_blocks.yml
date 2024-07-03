@@ -80,7 +80,7 @@ display:
           hide_empty: false
           empty_zero: false
           hide_alter_empty: true
-          action_title: Action
+          action_title: Acción
           include_exclude: exclude
           selected_actions: {  }
         info:
@@ -236,7 +236,7 @@ display:
           submit_button: Aplicar
           reset_button: false
           reset_button_label: Restablecer
-          exposed_sorts_label: 'Sort by'
+          exposed_sorts_label: 'Ordenar por'
           expose_sort_order: true
           sort_asc_label: Asc
           sort_desc_label: Desc
@@ -280,7 +280,7 @@ display:
           exposed: true
           expose:
             operator_id: ''
-            label: Published
+            label: Publicado
             description: ''
             use_operator: false
             operator: status_op

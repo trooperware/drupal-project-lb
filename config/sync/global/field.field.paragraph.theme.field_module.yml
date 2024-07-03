@@ -1,0 +1,29 @@
+uuid: df7df46a-f5cd-4667-933e-4696aa7cb184
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_module
+    - node.type.module
+    - paragraphs.paragraphs_type.theme
+id: paragraph.theme.field_module
+field_name: field_module
+entity_type: paragraph
+bundle: theme
+label: Módulo
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      module: module
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

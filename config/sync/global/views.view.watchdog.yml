@@ -29,7 +29,7 @@ display:
           field: nothing
           relationship: none
           group_type: group
-          admin_label: Icon
+          admin_label: Icono
           plugin_id: custom
           label: ''
           exclude: false
@@ -395,7 +395,7 @@ display:
           group_type: group
           admin_label: ''
           plugin_id: dblog_operations
-          label: Operations
+          label: Operaciones
           exclude: false
           alter:
             alter_text: false
@@ -460,7 +460,7 @@ display:
           submit_button: Filter
           reset_button: true
           reset_button_label: Restablecer
-          exposed_sorts_label: 'Sort by'
+          exposed_sorts_label: 'Ordenar por'
           expose_sort_order: false
           sort_asc_label: Asc
           sort_desc_label: Desc

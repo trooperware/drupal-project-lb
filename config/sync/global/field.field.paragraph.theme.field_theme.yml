@@ -1,0 +1,19 @@
+uuid: de3f9987-0428-46a1-907f-b1ca3dbb5cee
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_theme
+    - paragraphs.paragraphs_type.theme
+id: paragraph.theme.field_theme
+field_name: field_theme
+entity_type: paragraph
+bundle: theme
+label: Temática
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

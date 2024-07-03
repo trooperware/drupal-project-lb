@@ -1,0 +1,102 @@
+{
+    "uuid": [
+        {
+            "value": "c4fd93df-61f5-4f9c-8bff-8d63df3e5c39"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "course",
+            "target_type": "node_type",
+            "target_uuid": "bc51874a-96c6-424a-8777-786e90c6642d"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2024-07-03T06:13:03+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "57cd2b87-53d5-4a9d-aef9-1f2e416a347e"
+        }
+    ],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "57cd2b87-53d5-4a9d-aef9-1f2e416a347e"
+        }
+    ],
+    "title": [
+        {
+            "value": "Curso 1 modificat"
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-11-16T08:53:27+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-07-03T06:13:03+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false
+        }
+    ],
+    "sticky": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/curso-1",
+            "langcode": "es"
+        }
+    ],
+    "field_content": [
+        {
+            "value": "<h2>Contenido del curso<\/h2><h2>Objetivos<\/h2><h2>A quien va dirigido<\/h2><h2>Ponentes<\/h2>",
+            "format": "basic_html"
+        }
+    ],
+    "field_modules": [
+        {
+            "target_type": "paragraph",
+            "target_uuid": "930bcdee-e7ed-4e13-b212-c9da4fed63c5"
+        },
+        {
+            "target_type": "paragraph",
+            "target_uuid": "a6ae0397-894d-4bb6-9e99-f4e1b0892170"
+        }
+    ]
+}

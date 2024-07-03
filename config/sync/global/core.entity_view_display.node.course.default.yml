@@ -7,6 +7,7 @@ dependencies:
     - field.field.node.course.field_modules
     - node.type.course
   module:
+    - entity_reference_revisions
     - text
     - user
 id: node.course.default
@@ -22,10 +23,11 @@ content:
     weight: 102
     region: content
   field_modules:
-    type: entity_reference_label
-    label: hidden
+    type: entity_reference_revisions_entity_view
+    label: above
     settings:
-      link: true
+      view_mode: default
+      link: ''
     third_party_settings: {  }
     weight: 103
     region: content

@@ -1,0 +1,30 @@
+uuid: 3d17f480-f7a6-4bba-9abc-e107fddf5ea8
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.theme.field_module
+    - field.field.paragraph.theme.field_theme
+    - paragraphs.paragraphs_type.theme
+id: paragraph.theme.default
+targetEntityType: paragraph
+bundle: theme
+mode: default
+content:
+  field_module:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_theme:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }
