@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.paragraph.theme.field_module
     - field.field.paragraph.theme.field_theme
+    - field.field.paragraph.theme.field_topic
     - paragraphs.paragraphs_type.theme
 id: paragraph.theme.default
 targetEntityType: paragraph
@@ -13,7 +14,7 @@ mode: default
 content:
   field_module:
     type: entity_reference_autocomplete
-    weight: 1
+    weight: 2
     region: content
     settings:
       match_operator: CONTAINS
@@ -26,6 +27,16 @@ content:
     weight: 0
     region: content
     settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_topic:
+    type: entity_reference_autocomplete
+    weight: 1
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
       size: 60
       placeholder: ''
     third_party_settings: {  }

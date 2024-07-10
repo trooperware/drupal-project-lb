@@ -9,7 +9,7 @@ id: paragraph.theme.field_theme
 field_name: field_theme
 entity_type: paragraph
 bundle: theme
-label: Temática
+label: 'Temática (Antic)'
 description: ''
 required: false
 translatable: false

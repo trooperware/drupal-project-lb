@@ -1,0 +1,29 @@
+uuid: 70d24e77-4a49-4f03-81f0-3457d23eca0c
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_topic
+    - node.type.module
+    - paragraphs.paragraphs_type.theme
+id: paragraph.theme.field_topic
+field_name: field_topic
+entity_type: paragraph
+bundle: theme
+label: 'Temática principal'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      module: module
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

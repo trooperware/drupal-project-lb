@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.paragraph.theme.field_module
     - field.field.paragraph.theme.field_theme
+    - field.field.paragraph.theme.field_topic
     - paragraphs.paragraphs_type.theme
 id: paragraph.theme.default
 targetEntityType: paragraph
@@ -26,5 +27,13 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     weight: 0
+    region: content
+  field_topic:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 2
     region: content
 hidden: {  }
