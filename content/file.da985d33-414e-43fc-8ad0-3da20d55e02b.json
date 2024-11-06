@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "da985d33-414e-43fc-8ad0-3da20d55e02b"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "57cd2b87-53d5-4a9d-aef9-1f2e416a347e"
+        }
+    ],
+    "filename": [
+        {
+            "value": "TIPS GENERALES PANTALLAS Y CEREBRO INFANTIL.pdf"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2024-07\/TIPS GENERALES PANTALLAS Y CEREBRO INFANTIL.pdf"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "application\/pdf"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 123498
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-07-25T10:43:41+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-07-25T10:47:14+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

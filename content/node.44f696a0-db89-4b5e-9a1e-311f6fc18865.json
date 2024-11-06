@@ -1,0 +1,98 @@
+{
+    "uuid": [
+        {
+            "value": "44f696a0-db89-4b5e-9a1e-311f6fc18865"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "module",
+            "target_type": "node_type",
+            "target_uuid": "3969f277-e6d8-4cf2-8611-47702c40827a"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2024-09-09T15:03:11+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "57cd2b87-53d5-4a9d-aef9-1f2e416a347e"
+        }
+    ],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "57cd2b87-53d5-4a9d-aef9-1f2e416a347e"
+        }
+    ],
+    "title": [
+        {
+            "value": "Las cuatro palabras m\u00e1gicas"
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-08-27T08:24:43+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-09-09T15:03:11+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false
+        }
+    ],
+    "sticky": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [],
+    "path": [
+        {
+            "alias": "",
+            "pid": null,
+            "langcode": "es"
+        }
+    ],
+    "field_attachments": [
+        {
+            "display": true,
+            "description": "",
+            "target_type": "file",
+            "target_uuid": "167d61d0-1c81-4b6d-a6e1-044141e1977f"
+        }
+    ],
+    "field_content": [
+        {
+            "value": "<!-- wp:paragraph {\"fontSize\":\"large\"} -->\r\n<p class=\"has-large-font-size\"><strong>\u00bfC\u00f3mo cuidar el cerebro?<\/strong><\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:image {\"id\":26,\"sizeSlug\":\"large\",\"linkDestination\":\"none\",\"mediaAttrs\":{\"data-entity-type\":\"file\",\"data-entity-uuid\":\"ec7be336-6d8c-416a-a814-d2ebfa795648\",\"data-image-style\":\"original\"}} -->\r\n<figure class=\"wp-block-image size-large\"><img src=\"\/sites\/default\/files\/styles\/large\/public\/inline-images\/unnamed.png?itok=CeLVlqDd\" alt=\"\" class=\"wp-image-26\" data-entity-type=\"file\" data-entity-uuid=\"ec7be336-6d8c-416a-a814-d2ebfa795648\" data-image-style=\"original\"\/><\/figure>\r\n<!-- \/wp:image -->\r\n\r\n<!-- wp:paragraph -->\r\n<p><\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:paragraph -->\r\n<p>\u00bfAlguna vez te has preguntado c\u00f3mo puedes cuidar de tu cerebro? Los adultos tenemos un papel clave como educadores, ya seamos padres o docentes. Somos referentes y agentes socializadores primarios de la infancia, por lo que debemos ayudarles a proteger su cerebro y su desarrollo integral.<\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:paragraph -->\r\n<p>Os dejamos el enlace a un art\u00edculo de la revista contraste que nos habla de cuatro palabras que debemos tener siempre presentes: <a rel=\"noreferrer noopener\" href=\"https:\/\/contraste.info\/articulo-las-cuatro-palabras-magicas\/\" data-type=\"URL\" data-id=\"https:\/\/contraste.info\/articulo-las-cuatro-palabras-magicas\/\" target=\"_blank\"><strong>tiempo, sue\u00f1o, intimidad y autocontrol<\/strong><\/a>.<\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:paragraph -->\r\n<p>Adem\u00e1s, os adjuntamos un recortable para jugar y aprender sobre h\u00e1bitos saludables y tips <strong>Guay-fi<\/strong>.<\/p>\r\n<!-- \/wp:paragraph -->",
+            "format": "gutenberg"
+        }
+    ],
+    "field_media": []
+}

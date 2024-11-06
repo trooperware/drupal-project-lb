@@ -1,0 +1,94 @@
+{
+    "uuid": [
+        {
+            "value": "34d87d23-edd0-407e-9ff7-835731b3d559"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "page",
+            "target_type": "node_type",
+            "target_uuid": "f7240b7e-8a6b-41b1-8e70-3e0fc4715aa5"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2024-09-09T14:19:54+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "57cd2b87-53d5-4a9d-aef9-1f2e416a347e"
+        }
+    ],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "57cd2b87-53d5-4a9d-aef9-1f2e416a347e"
+        }
+    ],
+    "title": [
+        {
+            "value": "El juego"
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-09-09T14:14:41+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-09-09T14:19:54+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false
+        }
+    ],
+    "sticky": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": "",
+            "pid": null,
+            "langcode": "es"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>La infancia necesita tiempo para jugar, es un elemento esencial para su desarrollo y crecimiento. El juego no es solo diversi\u00f3n. Se trata de la principal forma de aprendizaje de los m\u00e1s peque\u00f1os, y ser\u00e1 su mayor aliado durante los primeros a\u00f1os de vida.<\/p><p>Jugar es la forma favorita que tiene el cerebro de aprender. \u00bfConoces todos sus beneficios? Permite desarrollar habilidades sociales, favorece al desarrollo cognitivo y f\u00edsico. Adem\u00e1s, ayuda a estimular el lenguaje y a potenciar la imaginaci\u00f3n y creatividad.<\/p><p>Tambi\u00e9n proporciona un desarrollo saludable a todos los niveles: f\u00edsico, emocional, relacional y cognitivo. El juego permite pasar tiempo de calidad con nuestros hijos y fortalece el v\u00ednculo entre ambos.<\/p>",
+            "format": "basic_html",
+            "summary": ""
+        }
+    ]
+}

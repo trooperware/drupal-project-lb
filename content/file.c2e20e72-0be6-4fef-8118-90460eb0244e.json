@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "c2e20e72-0be6-4fef-8118-90460eb0244e"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "57cd2b87-53d5-4a9d-aef9-1f2e416a347e"
+        }
+    ],
+    "filename": [
+        {
+            "value": "40- FITXA AUTOCONEIXEMENT.pdf"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2024-09\/40- FITXA AUTOCONEIXEMENT.pdf"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "application\/pdf"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 71546
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-09-09T16:31:28+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-09-09T16:31:35+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

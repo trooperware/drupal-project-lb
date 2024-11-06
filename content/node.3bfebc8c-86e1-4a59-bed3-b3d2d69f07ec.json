@@ -1,0 +1,127 @@
+{
+    "uuid": [
+        {
+            "value": "3bfebc8c-86e1-4a59-bed3-b3d2d69f07ec"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "course",
+            "target_type": "node_type",
+            "target_uuid": "bc51874a-96c6-424a-8777-786e90c6642d"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2024-07-03T12:10:32+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "57cd2b87-53d5-4a9d-aef9-1f2e416a347e"
+        }
+    ],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "57cd2b87-53d5-4a9d-aef9-1f2e416a347e"
+        }
+    ],
+    "title": [
+        {
+            "value": "Orientaci\u00f3n (a partir de 12 a\u00f1os)"
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-07-03T12:04:34+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-07-03T12:10:32+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false
+        }
+    ],
+    "sticky": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [],
+    "path": [
+        {
+            "alias": "",
+            "pid": null,
+            "langcode": "es"
+        }
+    ],
+    "field_content": [
+        {
+            "value": "<p>El&nbsp;<strong>Programa de Educaci\u00f3n Audiovisual (PEA)&nbsp;<\/strong>cuenta con una etapa enfocada a <strong>la orientaci\u00f3n&nbsp;de<\/strong>&nbsp;<strong>adolescentes y j\u00f3venes a partir de los 12 a\u00f1os.&nbsp;<\/strong>Su objetivo es ofrecer un espacio a los estudiantes libre de prejuicios, donde poder preguntar y reflexionar sobre las inquietudes que les surgen a trav\u00e9s del mundo digital. Es importante destacar, dentro del PEA, el acompa\u00f1amiento a las familias y docentes de estos j\u00f3venes para que, a su vez, sepan ser referentes de un uso saludable digital.<\/p>",
+            "format": "full_html"
+        }
+    ],
+    "field_modules": [
+        {
+            "target_type": "paragraph",
+            "target_uuid": "e052ef7c-8f1f-4175-9e4e-f6e5ff8819a4"
+        },
+        {
+            "target_type": "paragraph",
+            "target_uuid": "f4f0abf2-cf84-46e5-afd7-034ecb58a4b6"
+        },
+        {
+            "target_type": "paragraph",
+            "target_uuid": "369109a6-2324-447c-b102-ba549a8ae73a"
+        },
+        {
+            "target_type": "paragraph",
+            "target_uuid": "732f802b-37d9-4aea-9095-8e731c3612b2"
+        },
+        {
+            "target_type": "paragraph",
+            "target_uuid": "7f62545b-8ba8-437c-b4af-8d2d6b346595"
+        },
+        {
+            "target_type": "paragraph",
+            "target_uuid": "35679cfd-75dd-49f0-b7b1-a840b20cc5d7"
+        },
+        {
+            "target_type": "paragraph",
+            "target_uuid": "cbfa61a0-63f4-474a-aad4-375cd2d00e57"
+        },
+        {
+            "target_type": "paragraph",
+            "target_uuid": "e0fa2442-f81e-4d18-9d4f-6de586db87d5"
+        },
+        {
+            "target_type": "paragraph",
+            "target_uuid": "9b72fc4a-fb4d-441d-b099-e7f2c6fbc76d"
+        }
+    ]
+}

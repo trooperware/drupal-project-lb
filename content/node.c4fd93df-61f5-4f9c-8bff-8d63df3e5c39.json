@@ -18,7 +18,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2024-07-03T06:13:03+00:00",
+            "value": "2024-09-18T08:38:15+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -42,7 +42,7 @@
     ],
     "title": [
         {
-            "value": "Curso 1 modificat"
+            "value": "Infantil: Prevenci\u00f3n (de 3 A 8 a\u00f1os)"
         }
     ],
     "created": [
@@ -53,7 +53,7 @@
     ],
     "changed": [
         {
-            "value": "2024-07-03T06:13:03+00:00",
+            "value": "2024-09-18T08:38:15+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -85,18 +85,14 @@
     ],
     "field_content": [
         {
-            "value": "<h2>Contenido del curso<\/h2><h2>Objetivos<\/h2><h2>A quien va dirigido<\/h2><h2>Ponentes<\/h2>",
+            "value": "<h2>Contenido del programa<\/h2><p>El&nbsp;<strong>Programa de Educaci\u00f3n Audiovisual (PEA)<\/strong>&nbsp;en esta etapa de prevenci\u00f3n, es un proyecto que busca ofrecer formaci\u00f3n y recursos para que los padres y las madres con hijos de 3 a 8 a\u00f1os gestionen, de la mejor manera, el buen uso de las pantallas. En estas edades es donde la formaci\u00f3n del cerebro es de vital importancia para el desarrollo de los ni\u00f1os y ni\u00f1as y aportamos material digital de apoyo para un tiempo de<em> ocio saludable<\/em>.&nbsp;<\/p>",
             "format": "basic_html"
         }
     ],
     "field_modules": [
         {
             "target_type": "paragraph",
-            "target_uuid": "930bcdee-e7ed-4e13-b212-c9da4fed63c5"
-        },
-        {
-            "target_type": "paragraph",
-            "target_uuid": "a6ae0397-894d-4bb6-9e99-f4e1b0892170"
+            "target_uuid": "041c2d7f-8586-4194-87b5-675c2ee4ea11"
         }
     ]
 }

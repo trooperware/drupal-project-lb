@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "39bfdfb6-4b1d-4af8-8c1c-db1f32cc99bf"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "57cd2b87-53d5-4a9d-aef9-1f2e416a347e"
+        }
+    ],
+    "filename": [
+        {
+            "value": "50- CARTA AL MEU JO.pdf"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2024-09\/50- CARTA AL MEU JO.pdf"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "application\/pdf"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 3815501
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-09-09T16:31:28+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-09-09T16:31:35+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

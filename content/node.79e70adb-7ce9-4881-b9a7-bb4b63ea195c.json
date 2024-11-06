@@ -1,0 +1,119 @@
+{
+    "uuid": [
+        {
+            "value": "79e70adb-7ce9-4881-b9a7-bb4b63ea195c"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "module",
+            "target_type": "node_type",
+            "target_uuid": "3969f277-e6d8-4cf2-8611-47702c40827a"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2024-07-25T10:49:09+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "57cd2b87-53d5-4a9d-aef9-1f2e416a347e"
+        }
+    ],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "57cd2b87-53d5-4a9d-aef9-1f2e416a347e"
+        }
+    ],
+    "title": [
+        {
+            "value": "Webinar: Pantallas y Cerebro infantil"
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-07-25T10:38:57+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-07-25T10:49:09+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false
+        }
+    ],
+    "sticky": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": "",
+            "pid": null,
+            "langcode": "es"
+        }
+    ],
+    "field_attachments": [
+        {
+            "display": true,
+            "description": "TIPS desarrollo cerebro",
+            "target_type": "file",
+            "target_uuid": "bd136d72-34fb-4063-b166-5ee1553d8e42"
+        },
+        {
+            "display": true,
+            "description": "TIPS educaci\u00f3n emocional",
+            "target_type": "file",
+            "target_uuid": "6d6404f4-c1a8-43c0-b620-fb6f38c8f22a"
+        },
+        {
+            "display": true,
+            "description": "TIPS generales del webinar",
+            "target_type": "file",
+            "target_uuid": "da985d33-414e-43fc-8ad0-3da20d55e02b"
+        }
+    ],
+    "field_content": [
+        {
+            "value": "<!-- wp:paragraph -->\r\n<p><strong>Webinar: Pantallas y Cerebro infantil con Virginia Montiel y Patricia Suero<\/strong><\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:paragraph -->\r\n<p><\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:paragraph -->\r\n<p>Sobre el impacto que tienen las pantallas en el desarrollo infantil.<\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:paragraph -->\r\n<p>En este seminario web reflexionaremos con Virginia Montiel, Neuropediatra y Patricia Suero, pediatra sobre el impacto que tienen las pantallas en el desarrollo infantil.<\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:paragraph -->\r\n<p>Para minimizar riesgos futuros de tecnoadicciones, trastornos de alimentaci\u00f3n o baja autoestima, la educaci\u00f3n digital empieza en la primera infancia.<\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:paragraph -->\r\n<p><br>Adem\u00e1s os dejamos algunas infograf\u00edas que recogen las principales ideas.<\/p>\r\n<!-- \/wp:paragraph -->",
+            "format": "gutenberg"
+        }
+    ],
+    "field_media": [
+        {
+            "target_type": "media",
+            "target_uuid": "5cb23947-55c4-43fe-8c80-ebae06c9a34a"
+        }
+    ]
+}

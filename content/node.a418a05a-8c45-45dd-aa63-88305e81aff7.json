@@ -1,0 +1,90 @@
+{
+    "uuid": [
+        {
+            "value": "a418a05a-8c45-45dd-aa63-88305e81aff7"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "page",
+            "target_type": "node_type",
+            "target_uuid": "f7240b7e-8a6b-41b1-8e70-3e0fc4715aa5"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2024-09-09T14:20:27+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "57cd2b87-53d5-4a9d-aef9-1f2e416a347e"
+        }
+    ],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "57cd2b87-53d5-4a9d-aef9-1f2e416a347e"
+        }
+    ],
+    "title": [
+        {
+            "value": "Autoestima y emociones"
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-09-09T14:05:39+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-09-09T14:20:27+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false
+        }
+    ],
+    "sticky": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [],
+    "path": [
+        {
+            "alias": "",
+            "pid": null,
+            "langcode": "es"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>La autoestima es la valoraci\u00f3n que tenemos de nosotros mismos: c\u00f3mo nos sentimos con respecto a nuestra manera de ser y de comportarnos. Como padres o docentes que queremos trabajar la autoestima de nuestros hijos o alumnos, es fundamental trabajar el autoconocimiento. Para evaluar nuestra autoestima, primero debemos conocernos: identificar nuestras fortalezas, debilidades, talentos y motivaciones.<\/p><p>Tener una buena autoestima es una pieza clave para nuestra calidad de vida porque afecta c\u00f3mo actuamos, nos relacionamos, sentimos y pensamos. Por eso, es importante ser conscientes de c\u00f3mo est\u00e1 nuestra autoestima y la de quienes nos rodean, para asegurar que tengamos una buena calidad de vida.<\/p><p>La autoestima en edades tempranas est\u00e1 en plena formaci\u00f3n, por lo que los adultos hemos de poder garantizar un ambiente \u00f3ptimo de desarrollo, para favorecer en el proceso de autoconocimiento.<\/p><p>Para saber m\u00e1s, puedes leer los siguientes art\u00edculos publicados en nuestra web de contenidos contraste.info:<\/p><p><a href=\"https:\/\/contraste.info\/articulo-hipersexualizacion-en-la-musica-un-peligro-para-la-infancia\/\"><em><strong>Hipersexualizaci\u00f3n en la m\u00fasica. Un peligro para la infancia<\/strong><\/em><\/a><\/p><p><a href=\"https:\/\/contraste.info\/articulo-si-tus-hijos-vieran-pornografia-online-lo-sabrias\/\"><em><strong>Si tus hijos vieran pornograf\u00eda online\u2026 \u00bflo sabr\u00edas?<\/strong><\/em><\/a><strong>&nbsp;<\/strong><\/p>",
+            "format": "full_html",
+            "summary": ""
+        }
+    ]
+}

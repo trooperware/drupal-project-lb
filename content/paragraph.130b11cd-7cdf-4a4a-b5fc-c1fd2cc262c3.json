@@ -1,0 +1,47 @@
+{
+    "uuid": [
+        {
+            "value": "130b11cd-7cdf-4a4a-b5fc-c1fd2cc262c3"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "theme",
+            "target_type": "paragraphs_type",
+            "target_uuid": "12fe6fc9-e1a6-411b-9fee-ec83071c64df"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-07-03T10:50:56+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [],
+    "field_module": [],
+    "field_theme": [
+        {
+            "value": "Ciberacoso"
+        }
+    ]
+}

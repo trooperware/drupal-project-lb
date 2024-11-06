@@ -1,0 +1,102 @@
+{
+    "uuid": [
+        {
+            "value": "8f0ab412-915b-4c60-9179-c07d02c6b1c2"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "module",
+            "target_type": "node_type",
+            "target_uuid": "3969f277-e6d8-4cf2-8611-47702c40827a"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2024-07-03T12:15:10+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "57cd2b87-53d5-4a9d-aef9-1f2e416a347e"
+        }
+    ],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "57cd2b87-53d5-4a9d-aef9-1f2e416a347e"
+        }
+    ],
+    "title": [
+        {
+            "value": "\u00bfC\u00f3mo impactan los videojuegos en el desarrollo mental de los ni\u00f1os?"
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-07-03T12:12:59+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-07-03T12:15:10+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false
+        }
+    ],
+    "sticky": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": "",
+            "pid": null,
+            "langcode": "es"
+        }
+    ],
+    "field_attachments": [
+        {
+            "display": true,
+            "description": "Actividades sin pantallas",
+            "target_type": "file",
+            "target_uuid": "4dbb4fba-4e78-44cc-9b1e-e8c1691ded65"
+        }
+    ],
+    "field_content": [
+        {
+            "value": "<!-- wp:paragraph -->\r\n<p>Los videojuegos han pasado a formar parte integral de la vida de muchos ni\u00f1os y ni\u00f1as en la actualidad. Mientras algunos los disfrutan como una forma de entretenimiento, otros los ven como una oportunidad para aprender y socializar. Sin embargo, desde hace un tiempo existe una creciente preocupaci\u00f3n por el uso abusivo que le damos, as\u00ed como el contenido que de estos se desprende.<\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:paragraph -->\r\n<p>Pero, realmente, \u00bfcu\u00e1les son los aspectos tanto positivos como negativos de los videojuegos en el desarrollo de nuestros hijos?<\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:image {\"id\":237423} -->\r\n<figure class=\"wp-block-image\"><img src=\"https:\/\/contraste.info\/desarrollo\/wp-content\/uploads\/2024\/05\/Art-Cerebro01-vj.png\" alt=\"Art\u00edculo Cerebro y videojuegos\" class=\"wp-image-237423\"\/><\/figure>\r\n<!-- \/wp:image -->\r\n\r\n<!-- wp:heading -->\r\n<h2><strong>\u00bfSon da\u00f1inas las pantallas o existe un impacto positivo real?<\/strong><\/h2>\r\n<!-- \/wp:heading -->\r\n\r\n<!-- wp:list -->\r\n<ul><li><strong>Desarrollo de habilidades cognitivas.<\/strong>&nbsp;Algunos estudios sugieren que ciertos tipos de videojuegos pueden mejorar las habilidades cognitivas de los ni\u00f1os, como la resoluci\u00f3n de problemas, la atenci\u00f3n y la memoria. Juegos como&nbsp;<strong><em>Clash Royale<\/em><\/strong>&nbsp;nos piden gestionar recursos y usar la l\u00f3gica; otros como los&nbsp;<strong>Layton<\/strong>&nbsp;nos invitan a explorar los escenarios\u2026<\/li><li><strong>Fomento de la creatividad.<\/strong>&nbsp;Los videojuegos que permiten a los ni\u00f1os crear y personalizar sus propios mundos pueden fomentar la creatividad y la imaginaci\u00f3n. Es el caso de&nbsp;<strong><em>Minecraft<\/em><\/strong>, cuyos l\u00edmites los marca nuestra imaginaci\u00f3n. Eso s\u00ed, no olvidemos que existen muchas otras formas de trabajar la creatividad. \u00bfPor qu\u00e9 no construimos un&nbsp;<strong>Lego<\/strong>?<\/li><li><strong>Sociabilizaci\u00f3n.<\/strong>&nbsp;Muchos videojuegos ofrecen la oportunidad de jugar en l\u00ednea con amigos o conocer a otros jugadores. Esto puede ayudar a los ni\u00f1os a desarrollar habilidades sociales, como trabajar en equipo y comunicarse de manera efectiva. Juegos como&nbsp;<strong><em>Brawl Stars<\/em><\/strong>&nbsp;o&nbsp;<strong><em>Fortnite<\/em><\/strong>&nbsp;sustentan su \u00e9xito en el juego social.<\/li><li><strong>Aprendizaje divertido.<\/strong>&nbsp;Algunos videojuegos est\u00e1n dise\u00f1ados espec\u00edficamente para ense\u00f1ar habilidades acad\u00e9micas, como matem\u00e1ticas, ciencias e idiomas, de una manera divertida y atractiva. A fin de cuentas ocurre como con las series, en versi\u00f3n original, entrenamos el o\u00eddo.<\/li><li><strong>Conciencia ambiental y sensibilizaci\u00f3n social.<\/strong>&nbsp;Algunos videojuegos educativos no solo ense\u00f1an a los ni\u00f1os sobre temas importantes como la sostenibilidad, el cambio clim\u00e1tico y la conservaci\u00f3n del medio ambiente, sino que tambi\u00e9n promueven la sensibilizaci\u00f3n en temas sociales como la diversidad, la igualdad y la justicia. El \u00faltimo ganador del&nbsp;<strong>Premio Zapping<\/strong>&nbsp;a&nbsp;<em>Mejor videojuego de producci\u00f3n propia<\/em>,&nbsp;<strong><em>Inner Ashes<\/em><\/strong>, es una buena muestra de ello.<\/li><\/ul>\r\n<!-- \/wp:list -->\r\n\r\n<!-- wp:image {\"id\":237424} -->\r\n<figure class=\"wp-block-image\"><img src=\"https:\/\/contraste.info\/desarrollo\/wp-content\/uploads\/2024\/05\/Art-Cerebro02-vj.png\" alt=\"Art\u00edculo Cerebro y videojuegos\" class=\"wp-image-237424\"\/><\/figure>\r\n<!-- \/wp:image -->\r\n\r\n<!-- wp:heading -->\r\n<h2><strong>Y, \u00bfcu\u00e1l es el impacto negativo?<\/strong><\/h2>\r\n<!-- \/wp:heading -->\r\n\r\n<!-- wp:list -->\r\n<ul><li><strong>Adicci\u00f3n<\/strong>. El exceso de tiempo dedicado a los videojuegos puede llevar a la adicci\u00f3n y afectar negativamente otras \u00e1reas de la vida de los ni\u00f1os, como el rendimiento escolar y las relaciones sociales. \u00bfRealmente no existen otras formas de entretenimiento que no sea estar pegado a una pantalla<strong>?<\/strong><\/li><li><strong>Violencia y comportamiento agresivo.<\/strong>&nbsp;Algunos estudios han sugerido una relaci\u00f3n entre la exposici\u00f3n a videojuegos violentos y un aumento en la agresividad y reacciones violentas en ni\u00f1os y ni\u00f1as. Y no solo eso, la excesiva excitaci\u00f3n y dependencia hacia los videojuegos puede comportar un cambio repentino en el comportamiento.<\/li><li><strong>Sedentarismo<\/strong>. Pasar largas horas frente a la pantalla puede llevar a un estilo de vida sedentario y contribuir al aumento de peso y problemas de salud relacionados con la obesidad. \u00bfPor qu\u00e9 no salimos m\u00e1s a la calle?<\/li><li><strong>Problemas de salud mental.<\/strong>&nbsp;Aunque pensemos que es una problem\u00e1tica lejana, lo cierto es que cada vez aumentan m\u00e1s el n\u00famero de problemas de salud mental, como la ansiedad, la depresi\u00f3n y la falta de sue\u00f1o.<\/li><li><strong>Dificultades de aprendizaje.<\/strong>&nbsp;Algunos ni\u00f1os pueden experimentar dificultades de aprendizaje debido al exceso de tiempo dedicado a los videojuegos, ya que pueden afectar su capacidad de concentraci\u00f3n y rendimiento acad\u00e9mico.<\/li><\/ul>\r\n<!-- \/wp:list -->\r\n\r\n<!-- wp:heading -->\r\n<h2><strong>Entonces, \u00bfen qu\u00e9 quedamos?<\/strong><\/h2>\r\n<!-- \/wp:heading -->\r\n\r\n<!-- wp:paragraph -->\r\n<p>En conclusi\u00f3n, como hemos visto, los videojuegos pueden tener tanto impactos positivos como negativos en el desarrollo mental de los ni\u00f1os y ni\u00f1as. Es importante que los padres supervisemos el tiempo que nuestros hijos dedican a este ocio y los t\u00edtulos que eligen.<\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:paragraph -->\r\n<p>Optar por propuestas educativas y limitar el tiempo de juego puede ayudar a maximizar los beneficios de los videojuegos mientras se minimizan los riesgos. Al final, encontrar un equilibrio saludable es la clave para convivir con las pantallas.<\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:paragraph -->\r\n<p><strong>Firma:<\/strong>&nbsp;Jos\u00e9 Carlos Amador<\/p>\r\n<!-- \/wp:paragraph -->",
+            "format": "gutenberg"
+        }
+    ],
+    "field_media": []
+}

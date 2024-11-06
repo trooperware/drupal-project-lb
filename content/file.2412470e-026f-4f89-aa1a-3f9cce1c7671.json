@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "2412470e-026f-4f89-aa1a-3f9cce1c7671"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "57cd2b87-53d5-4a9d-aef9-1f2e416a347e"
+        }
+    ],
+    "filename": [
+        {
+            "value": "30- JO EN 3D.pdf"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2024-09\/30- JO EN 3D.pdf"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "application\/pdf"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 6540234
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-09-09T16:31:28+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-09-09T16:31:35+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

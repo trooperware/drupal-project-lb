@@ -1,0 +1,62 @@
+{
+    "uuid": [
+        {
+            "value": "041c2d7f-8586-4194-87b5-675c2ee4ea11"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "theme",
+            "target_type": "paragraphs_type",
+            "target_uuid": "12fe6fc9-e1a6-411b-9fee-ec83071c64df"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-07-03T09:07:01+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [],
+    "field_module": [
+        {
+            "target_type": "node",
+            "target_uuid": "8f0ab412-915b-4c60-9179-c07d02c6b1c2"
+        },
+        {
+            "target_type": "node",
+            "target_uuid": "0a8d5d3f-0293-4d5c-8be1-52e00d35d80d"
+        }
+    ],
+    "field_theme": [
+        {
+            "value": "Cerebro"
+        }
+    ],
+    "field_topic": [
+        {
+            "target_type": "node",
+            "target_uuid": "4bfe7f2c-2460-478f-8200-945d82185990"
+        }
+    ]
+}

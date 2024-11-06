@@ -1,0 +1,94 @@
+{
+    "uuid": [
+        {
+            "value": "4bfe7f2c-2460-478f-8200-945d82185990"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "page",
+            "target_type": "node_type",
+            "target_uuid": "f7240b7e-8a6b-41b1-8e70-3e0fc4715aa5"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2024-07-25T10:22:38+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "57cd2b87-53d5-4a9d-aef9-1f2e416a347e"
+        }
+    ],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "57cd2b87-53d5-4a9d-aef9-1f2e416a347e"
+        }
+    ],
+    "title": [
+        {
+            "value": "Cerebro"
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-07-25T10:22:11+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-07-25T10:22:38+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false
+        }
+    ],
+    "sticky": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": "",
+            "pid": null,
+            "langcode": "es"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>Cada vez de forma m\u00e1s contundente, las evidencias nos muestran la importancia de tener en cuenta los estudios neurocient\u00edficos como instrumento de apoyo en la educaci\u00f3n de nuestros hijos. Saber c\u00f3mo funcionan sus cerebros, qu\u00e9 ocurre en determinadas etapas o en qu\u00e9 edades se producen los momentos m\u00e1s cr\u00edticos, nos da luz para saber c\u00f3mo mejorar nuestra labor de padres y educadores.<\/p><p>En los primeros a\u00f1os de la infancia, de los 0 a los 3 a\u00f1os, es cuando el cerebro se encuentra en llena captaci\u00f3n a trav\u00e9s de los sentidos y los est\u00edmulos. Para un desarrollo cerebral saludable es esencial evitar las pantallas, ya que estas pueden provocar consecuencias nocivas a largo plazo y dificultar el proceso natural de aprendizaje.<\/p>",
+            "format": "basic_html",
+            "summary": ""
+        }
+    ]
+}

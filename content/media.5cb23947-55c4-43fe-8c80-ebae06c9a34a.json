@@ -1,0 +1,87 @@
+{
+    "uuid": [
+        {
+            "value": "5cb23947-55c4-43fe-8c80-ebae06c9a34a"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "remote_video",
+            "target_type": "media_type",
+            "target_uuid": "b6321d53-935a-4a02-b405-680689b9b7aa"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2024-07-25T10:43:01+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log_message": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "57cd2b87-53d5-4a9d-aef9-1f2e416a347e"
+        }
+    ],
+    "name": [
+        {
+            "value": "Pantallas y cerebro infantil. Pautas para un crecimiento equilibrado."
+        }
+    ],
+    "thumbnail": [
+        {
+            "alt": "",
+            "title": null,
+            "width": 480,
+            "height": 360,
+            "target_type": "file",
+            "target_uuid": "a9abe655-f834-4fbd-a9f0-51d9468f3219"
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-07-25T10:43:01+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-07-25T10:43:01+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "es"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/www.youtube.com\/live\/hohhEqt3YlE?feature=shared"
+        }
+    ]
+}

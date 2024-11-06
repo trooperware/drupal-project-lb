@@ -1,0 +1,107 @@
+{
+    "uuid": [
+        {
+            "value": "88387e5c-46a0-45cc-b32d-dacd02b3c4fb"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "course",
+            "target_type": "node_type",
+            "target_uuid": "bc51874a-96c6-424a-8777-786e90c6642d"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2024-07-03T12:11:12+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "57cd2b87-53d5-4a9d-aef9-1f2e416a347e"
+        }
+    ],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "57cd2b87-53d5-4a9d-aef9-1f2e416a347e"
+        }
+    ],
+    "title": [
+        {
+            "value": "Primaria: Formaci\u00f3n (de 8 a 12 a\u00f1os)"
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-06-12T10:10:50+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-07-03T12:11:12+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false
+        }
+    ],
+    "sticky": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [],
+    "path": [
+        {
+            "alias": "",
+            "pid": null,
+            "langcode": "es"
+        }
+    ],
+    "field_content": [
+        {
+            "value": "<p>El&nbsp;<strong>Programa de Educaci\u00f3n Audiovisual (PEA)<\/strong>&nbsp;de la&nbsp;<strong>Fundaci\u00f3n Aprender a Mirar<\/strong>, en la etapa de 8 a 12 a\u00f1os, dota a las escuelas con las herramientas necesarias para una completa formaci\u00f3n en los medios audiovisuales, a trav\u00e9s de un uso ecol\u00f3gico y un consumo cr\u00edtico de sus contenidos. El&nbsp;<strong>PEA&nbsp;<\/strong>trabaja para que padres, madres, docentes y alumnado est\u00e9n formados e informados de modo que&nbsp;saquen el m\u00e1ximo partido al entorno digital en el que vivimos.<\/p>",
+            "format": "full_html"
+        }
+    ],
+    "field_modules": [
+        {
+            "target_type": "paragraph",
+            "target_uuid": "20d0b3c9-d5ee-49b2-811c-8cfed1313d78"
+        },
+        {
+            "target_type": "paragraph",
+            "target_uuid": "40a904e6-8e48-4aa6-a61f-73b4c16dd3e4"
+        },
+        {
+            "target_type": "paragraph",
+            "target_uuid": "c951c26c-3aea-4354-836b-35b7a5c94e67"
+        },
+        {
+            "target_type": "paragraph",
+            "target_uuid": "130b11cd-7cdf-4a4a-b5fc-c1fd2cc262c3"
+        }
+    ]
+}

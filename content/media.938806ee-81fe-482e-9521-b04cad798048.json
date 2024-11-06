@@ -1,0 +1,92 @@
+{
+    "uuid": [
+        {
+            "value": "938806ee-81fe-482e-9521-b04cad798048"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "image",
+            "target_type": "media_type",
+            "target_uuid": "2af8a2f3-f4cc-444d-91eb-6ab10b226733"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2024-08-27T08:26:31+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log_message": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "57cd2b87-53d5-4a9d-aef9-1f2e416a347e"
+        }
+    ],
+    "name": [
+        {
+            "value": "unnamed.png"
+        }
+    ],
+    "thumbnail": [
+        {
+            "alt": null,
+            "title": null,
+            "width": 1150,
+            "height": 647,
+            "target_type": "file",
+            "target_uuid": "ec7be336-6d8c-416a-a814-d2ebfa795648"
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-08-27T08:26:31+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-08-27T08:26:31+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "es"
+        }
+    ],
+    "field_media_image": [
+        {
+            "alt": null,
+            "title": null,
+            "width": 1150,
+            "height": 647,
+            "target_type": "file",
+            "target_uuid": "ec7be336-6d8c-416a-a814-d2ebfa795648"
+        }
+    ]
+}

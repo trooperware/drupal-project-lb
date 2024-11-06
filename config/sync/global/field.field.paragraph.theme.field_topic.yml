@@ -4,7 +4,7 @@ status: true
 dependencies:
   config:
     - field.storage.paragraph.field_topic
-    - node.type.module
+    - node.type.page
     - paragraphs.paragraphs_type.theme
 id: paragraph.theme.field_topic
 field_name: field_topic
@@ -20,7 +20,7 @@ settings:
   handler: 'default:node'
   handler_settings:
     target_bundles:
-      module: module
+      page: page
     sort:
       field: _none
       direction: ASC

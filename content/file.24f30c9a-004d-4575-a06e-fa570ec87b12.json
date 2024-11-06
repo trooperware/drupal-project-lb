@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "24f30c9a-004d-4575-a06e-fa570ec87b12"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "57cd2b87-53d5-4a9d-aef9-1f2e416a347e"
+        }
+    ],
+    "filename": [
+        {
+            "value": "03- YO EN 3D.pdf"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2024-09\/03- YO EN 3D.pdf"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "application\/pdf"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 6525498
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-09-09T16:13:54+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-09-09T16:25:30+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

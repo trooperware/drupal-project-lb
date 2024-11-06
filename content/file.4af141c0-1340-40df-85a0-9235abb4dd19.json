@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "4af141c0-1340-40df-85a0-9235abb4dd19"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "57cd2b87-53d5-4a9d-aef9-1f2e416a347e"
+        }
+    ],
+    "filename": [
+        {
+            "value": "06- IDENTIFICA EL PROBLEMA.pdf"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2024-09\/06- IDENTIFICA EL PROBLEMA.pdf"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "application\/pdf"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 57074
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-09-09T16:25:27+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-09-09T16:25:30+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

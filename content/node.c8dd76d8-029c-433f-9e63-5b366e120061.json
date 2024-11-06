@@ -1,0 +1,95 @@
+{
+    "uuid": [
+        {
+            "value": "c8dd76d8-029c-433f-9e63-5b366e120061"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "module",
+            "target_type": "node_type",
+            "target_uuid": "3969f277-e6d8-4cf2-8611-47702c40827a"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2024-09-09T15:22:50+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "57cd2b87-53d5-4a9d-aef9-1f2e416a347e"
+        }
+    ],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "57cd2b87-53d5-4a9d-aef9-1f2e416a347e"
+        }
+    ],
+    "title": [
+        {
+            "value": "\u00bfEs tu hijo adicto alas pantallas?"
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-09-09T15:19:37+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-09-09T15:22:50+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false
+        }
+    ],
+    "sticky": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": "",
+            "pid": null,
+            "langcode": "es"
+        }
+    ],
+    "field_attachments": [],
+    "field_content": [
+        {
+            "value": "<!-- wp:paragraph {\"fontSize\":\"large\"} -->\r\n<p class=\"has-large-font-size\"><strong>\u00bfEs tu hijo adicto a las pantallas?<\/strong><\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:paragraph -->\r\n<p>Descubre lo que Rafa Guerreo, experto en neurociencia y jefe del gabinete de Darwin Psic\u00f3logos, nos explica sobre c\u00f3mo funciona el cerebro y las emociones de los m\u00e1s peque\u00f1os ante las pantallas.&nbsp;<\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:paragraph -->\r\n<p>Lee el art\u00edculo <a href=\"https:\/\/fundacionaprenderamirar.org\/2021\/06\/15\/es-tu-hijo-adicto-a-las-pantallas\/\" target=\"_blank\" rel=\"noreferrer noopener\"><strong><em>\u00bfEs tu hijo adicto a las pantallas?<\/em><\/strong><\/a> publicado en nuestra web de la Fundaci\u00f3n Aprender a Mirar.<\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:separator -->\r\n<hr class=\"wp-block-separator\"\/>\r\n<!-- \/wp:separator -->\r\n\r\n<!-- wp:paragraph -->\r\n<p>Durante los \u00faltimos a\u00f1os, los dispositivos tecnol\u00f3gicos se han adentrado en nuestras vidas, hasta convertirse en un elemento esencial de la sociedad contempor\u00e1nea. Como si de Times Square se tratase, raro es el ser humano que hoy en d\u00eda no se encuentra rodeado de pantallas y envuelto por el mundo digital.&nbsp;<\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:paragraph -->\r\n<p>El m\u00f3vil, la tablet, la televisi\u00f3n e incluso las videoconsolas se han convertido en una extensi\u00f3n de nuestro cuerpo. Aunque no sea de forma literal, lo cierto es que desde hace un tiempo los dispositivos tecnol\u00f3gicos est\u00e1n a la orden del d\u00eda, no solo en el \u00e1mbito laboral, tambi\u00e9n en el social, en el familiar y, por \u00faltimo pero no menos importante, en el educativo.&nbsp;<\/p>\r\n<!-- \/wp:paragraph -->",
+            "format": "gutenberg"
+        }
+    ],
+    "field_media": []
+}

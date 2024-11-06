@@ -1,0 +1,47 @@
+{
+    "uuid": [
+        {
+            "value": "9b72fc4a-fb4d-441d-b099-e7f2c6fbc76d"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "theme",
+            "target_type": "paragraphs_type",
+            "target_uuid": "12fe6fc9-e1a6-411b-9fee-ec83071c64df"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-07-03T12:08:42+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [],
+    "field_module": [],
+    "field_theme": [
+        {
+            "value": "\u00c1mbito legal"
+        }
+    ]
+}

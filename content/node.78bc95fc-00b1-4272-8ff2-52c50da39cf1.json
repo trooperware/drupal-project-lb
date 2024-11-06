@@ -1,0 +1,95 @@
+{
+    "uuid": [
+        {
+            "value": "78bc95fc-00b1-4272-8ff2-52c50da39cf1"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "module",
+            "target_type": "node_type",
+            "target_uuid": "3969f277-e6d8-4cf2-8611-47702c40827a"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2024-09-09T16:38:44+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "57cd2b87-53d5-4a9d-aef9-1f2e416a347e"
+        }
+    ],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "57cd2b87-53d5-4a9d-aef9-1f2e416a347e"
+        }
+    ],
+    "title": [
+        {
+            "value": "Test autoestima"
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-09-09T16:35:16+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-09-09T16:38:44+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false
+        }
+    ],
+    "sticky": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": "",
+            "pid": null,
+            "langcode": "es"
+        }
+    ],
+    "field_attachments": [],
+    "field_content": [
+        {
+            "value": "<!-- wp:paragraph {\"fontSize\":\"large\"} -->\r\n<p class=\"has-large-font-size\">Test \u00bfTe valoras como mereces?<\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:paragraph -->\r\n<p>La autoestima es un elemento clave para moverse con seguridad en los entornos digitales, as\u00ed como para prevenir el ciberacoso y problemas de salud mental como la depresi\u00f3n, la ansiedad o los trastornos alimenticios, entre otros.&nbsp;<\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:paragraph -->\r\n<p>\u00bfCrees que tienes una autoestima sana?&nbsp;<\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:paragraph -->\r\n<p>\u00bfTe gustar\u00eda respetarte m\u00e1s?&nbsp;<\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:paragraph -->\r\n<p>\u00bfCrees que podr\u00edas pensar m\u00e1s a menudo en tus cualidades, habilidades y logros?&nbsp;<\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:paragraph -->\r\n<p>Estas son algunas de las preguntas que encontrar\u00e1s en la ficha que os proponemos para reflexionar con los m\u00e1s j\u00f3venes sobre su autoestima.&nbsp;<\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:paragraph -->\r\n<p>Descubre si te quieres y valoras como mereces:<\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:paragraph {\"fontSize\":\"medium\"} -->\r\n<p class=\"has-medium-font-size\"><strong><a href=\"https:\/\/es.surveymonkey.com\/r\/TestAutoestima\" target=\"_blank\" rel=\"noreferrer noopener\">ACCEDE AL TEST EN CASTELLANO<\/a><\/strong><\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:paragraph -->\r\n<p><strong><a href=\"https:\/\/es.surveymonkey.com\/r\/TestAutoestimaAss\" target=\"_blank\" rel=\"noreferrer noopener\">ACCEDE AL TEST EN CATAL\u00c1N<\/a><\/strong><\/p>\r\n<!-- \/wp:paragraph -->",
+            "format": "gutenberg"
+        }
+    ],
+    "field_media": []
+}

@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "6d6404f4-c1a8-43c0-b620-fb6f38c8f22a"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "57cd2b87-53d5-4a9d-aef9-1f2e416a347e"
+        }
+    ],
+    "filename": [
+        {
+            "value": "TIPS EDUCACION EMOCIONAL.pdf"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2024-07\/TIPS EDUCACION EMOCIONAL.pdf"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "application\/pdf"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 127788
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-07-25T10:43:41+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-07-25T10:47:14+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

@@ -1,0 +1,168 @@
+{
+    "uuid": [
+        {
+            "value": "ea14b5a0-121c-4f76-bd39-3758b15444e1"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "module",
+            "target_type": "node_type",
+            "target_uuid": "3969f277-e6d8-4cf2-8611-47702c40827a"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2024-09-09T16:43:39+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "57cd2b87-53d5-4a9d-aef9-1f2e416a347e"
+        }
+    ],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "57cd2b87-53d5-4a9d-aef9-1f2e416a347e"
+        }
+    ],
+    "title": [
+        {
+            "value": "\u00bfC\u00f3mo proteger la autoestima en el mundo online?"
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-09-09T14:31:00+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-09-09T16:43:39+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false
+        }
+    ],
+    "sticky": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": "",
+            "pid": null,
+            "langcode": "es"
+        }
+    ],
+    "field_attachments": [
+        {
+            "display": true,
+            "description": "",
+            "target_type": "file",
+            "target_uuid": "b46836fe-7647-414b-8481-45ea74715d24"
+        },
+        {
+            "display": true,
+            "description": "",
+            "target_type": "file",
+            "target_uuid": "e60307c4-125b-4c7f-aa5b-99647c752e84"
+        },
+        {
+            "display": true,
+            "description": "",
+            "target_type": "file",
+            "target_uuid": "24f30c9a-004d-4575-a06e-fa570ec87b12"
+        },
+        {
+            "display": true,
+            "description": "",
+            "target_type": "file",
+            "target_uuid": "55a519f2-cf0f-4b54-b75f-868951c5a2ae"
+        },
+        {
+            "display": true,
+            "description": "",
+            "target_type": "file",
+            "target_uuid": "342bc960-e16b-4a3b-ac43-e14ef6e39d50"
+        },
+        {
+            "display": true,
+            "description": "",
+            "target_type": "file",
+            "target_uuid": "4af141c0-1340-40df-85a0-9235abb4dd19"
+        },
+        {
+            "display": true,
+            "description": "",
+            "target_type": "file",
+            "target_uuid": "4c2ce021-23cf-4121-aa43-df7ac693cdbf"
+        },
+        {
+            "display": true,
+            "description": "",
+            "target_type": "file",
+            "target_uuid": "b3084305-f17f-4db6-a49f-cead8c55fb4e"
+        },
+        {
+            "display": true,
+            "description": "",
+            "target_type": "file",
+            "target_uuid": "2412470e-026f-4f89-aa1a-3f9cce1c7671"
+        },
+        {
+            "display": true,
+            "description": "",
+            "target_type": "file",
+            "target_uuid": "c2e20e72-0be6-4fef-8118-90460eb0244e"
+        },
+        {
+            "display": true,
+            "description": "",
+            "target_type": "file",
+            "target_uuid": "39bfdfb6-4b1d-4af8-8c1c-db1f32cc99bf"
+        },
+        {
+            "display": true,
+            "description": "",
+            "target_type": "file",
+            "target_uuid": "ec1d4f30-ee6a-43d5-88be-42e4ffc116da"
+        }
+    ],
+    "field_content": [
+        {
+            "value": "<!-- wp:paragraph {\"fontSize\":\"large\"} -->\r\n<p class=\"has-large-font-size\"><strong>\u00bfC\u00f3mo proteger la autoestima en el mundo online?<\/strong><\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:paragraph {\"fontSize\":\"normal\"} -->\r\n<p class=\"has-normal-font-size\">Miles de aplicaciones y redes sociales impactan nuestro cerebro d\u00eda tras d\u00eda y, por ende, afecta directamente a nuestra autoestima. Las redes sociales acostumbran a fomentar comparaciones y metas poco realistas, generando inseguridades que provocan ansiedad y frustraci\u00f3n. Numerosos estudios han comprobado que existe una <strong>relaci\u00f3n significativa entre baja autoestima y el uso de las redes sociales<\/strong>.<\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:paragraph {\"fontSize\":\"normal\"} -->\r\n<p class=\"has-normal-font-size\">Como padres o docentes que queremos trabajar la autoestima de nuestros hijos y alumnos, es fundamental trabajar el <strong>autoconocimiento<\/strong>. Para evaluar nuestra autoestima, primero debemos conocernos: <strong>identificar nuestras fortalezas, debilidades, talentos y motivaciones.<\/strong><\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:paragraph {\"fontSize\":\"normal\"} -->\r\n<p class=\"has-normal-font-size\">La autoestima es como una planta que necesita ser nutrida con cosas que nos aporten y nos ayuden a descubrir nuestros talentos. Os facilitamos un art\u00edculo de Manuela Gnecco,<br>Psic\u00f3loga y psicopedagoga y profesora de la Fundaci\u00f3n Aprender a mirar, publicado en nuestra web contraste.info: <strong><a rel=\"noreferrer noopener\" href=\"https:\/\/contraste.info\/articulo-como-proteger-la-autoestima-en-el-mundo-online\/\" target=\"_blank\">C\u00f3mo proteger la autoestima en el mundo online<\/a><\/strong>.<\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:paragraph {\"fontSize\":\"normal\"} -->\r\n<p class=\"has-normal-font-size\">Para fomentar la propia val\u00eda y el autoconcepto positivo desde el aula o desde casa, a continuaci\u00f3n encontrar\u00e1s diferentes materiales que estamos seguros que te ser\u00e1n de gran ayuda.<\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:paragraph {\"fontSize\":\"large\"} -->\r\n<p class=\"has-large-font-size\">\u00cdNDICE DE ACTIVIDADES:<\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:paragraph {\"fontSize\":\"normal\"} -->\r\n<p class=\"has-normal-font-size\"><strong>1.- A mi yo del futuro<\/strong>. Pensar cu\u00e1l es nuestra meta nos ayuda a definir los objetivos a corto plazo. Tambi\u00e9n podemos ver si lo que hacemos ahora nos aleja o nos acerca a nuestra meta.<\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:paragraph {\"fontSize\":\"normal\"} -->\r\n<p class=\"has-normal-font-size\"><br><strong>2.- C\u00f3mo soy<\/strong>. Selecciona los adjetivos que te definen. Esta actividad tambi\u00e9n se puede realizar haciendo que los alumnos se valoren unos a otros. Podemos descubrir cosas que no sabemos de nosotros mismos.<\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:paragraph {\"fontSize\":\"normal\"} -->\r\n<p class=\"has-normal-font-size\"><br><strong>3.- Yo en 3D<\/strong>. Rellena: Cosas de los dem\u00e1s que me gustar\u00eda tener, Cosas por las que creo que me valoran los dem\u00e1s y Cosas buenas que tengo que nadie aprecia.<\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:paragraph {\"fontSize\":\"normal\"} -->\r\n<p class=\"has-normal-font-size\"><br><strong>4.- Ficha de autoconocimiento<\/strong>. Piensa y escribe: \u00bfQui\u00e9n soy? \u00bfC\u00f3mo me definir\u00eda? \u00bfQu\u00e9 habilidades tengo? \u00bfQu\u00e9 me motiva? \u00bfQu\u00e9 me gusta? \u00bfQu\u00e9 podr\u00eda mejorar?<\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:paragraph {\"fontSize\":\"normal\"} -->\r\n<p class=\"has-normal-font-size\"><br><strong>5.- Carta a mi yo.<\/strong> Escr\u00edbete una carta sincera. Luego, si quieres la puedes compartir con alguien de confianza que te pueda ayudar.<\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:paragraph {\"fontSize\":\"normal\"} -->\r\n<p class=\"has-normal-font-size\"><br><strong>6.- Identifica el problema y piensa en positivo<\/strong>. Analizamos los diferentes aspectos de nuestro malestar para valorar la importancia y encontrar soluciones<\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:paragraph {\"fontSize\":\"normal\"} -->\r\n<p class=\"has-normal-font-size\">Estas actividades tambi\u00e9n est\u00e1n disponibles en catal\u00e1n:<\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:paragraph {\"fontSize\":\"normal\"} -->\r\n<p class=\"has-normal-font-size\">10.- El meu jo del futur<br>20.- Com soc<br>30.- Jo en 3D<br>40.- Fixa d'autoconeixement<br>50.- Carta al meu jo<\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:paragraph -->\r\n<p><\/p>\r\n<!-- \/wp:paragraph -->",
+            "format": "gutenberg"
+        }
+    ],
+    "field_media": []
+}

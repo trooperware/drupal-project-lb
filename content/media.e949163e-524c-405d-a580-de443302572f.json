@@ -1,0 +1,87 @@
+{
+    "uuid": [
+        {
+            "value": "e949163e-524c-405d-a580-de443302572f"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "remote_video",
+            "target_type": "media_type",
+            "target_uuid": "b6321d53-935a-4a02-b405-680689b9b7aa"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2024-07-03T11:24:24+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log_message": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "57cd2b87-53d5-4a9d-aef9-1f2e416a347e"
+        }
+    ],
+    "name": [
+        {
+            "value": "\u00daltima salida. La tragedia del suicidio adolescente."
+        }
+    ],
+    "thumbnail": [
+        {
+            "alt": "",
+            "title": null,
+            "width": 480,
+            "height": 360,
+            "target_type": "file",
+            "target_uuid": "701862a5-7468-40c2-b111-57aac1cc29e8"
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-07-03T11:24:24+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-07-03T11:24:24+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "es"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/www.youtube.com\/live\/dV7RClVeagg?feature=shared"
+        }
+    ]
+}

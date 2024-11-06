@@ -1,0 +1,90 @@
+{
+    "uuid": [
+        {
+            "value": "8dfca6bb-25f2-42f8-8867-a4874cf3367d"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "page",
+            "target_type": "node_type",
+            "target_uuid": "f7240b7e-8a6b-41b1-8e70-3e0fc4715aa5"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2024-09-09T14:20:12+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "57cd2b87-53d5-4a9d-aef9-1f2e416a347e"
+        }
+    ],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "57cd2b87-53d5-4a9d-aef9-1f2e416a347e"
+        }
+    ],
+    "title": [
+        {
+            "value": "Conductas de riesgo"
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-09-09T14:11:05+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-09-09T14:20:12+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false
+        }
+    ],
+    "sticky": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [],
+    "path": [
+        {
+            "alias": "",
+            "pid": null,
+            "langcode": "es"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p dir=\"ltr\">Como padres y docentes debemos vigilar nuestras conductas y el uso que hacemos de las pantallas frente a los menores, ya que somos su principal ejemplo.<\/p><p dir=\"ltr\">En este apartado hablaremos de <em>sharenting <\/em>y de los riesgos de compartir v\u00eddeos y fotograf\u00edas de nuestros hijos y\/o alumnos. Adem\u00e1s, aprenderemos la influencia que tienen los dibujos animados en el comportamiento de los m\u00e1s peque\u00f1os.&nbsp;<\/p>",
+            "format": "basic_html",
+            "summary": ""
+        }
+    ]
+}

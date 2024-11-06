@@ -1,0 +1,109 @@
+{
+    "uuid": [
+        {
+            "value": "995a94c2-744d-4e6b-8c70-8248aadc1c43"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "module",
+            "target_type": "node_type",
+            "target_uuid": "3969f277-e6d8-4cf2-8611-47702c40827a"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2024-07-25T10:36:19+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "57cd2b87-53d5-4a9d-aef9-1f2e416a347e"
+        }
+    ],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "57cd2b87-53d5-4a9d-aef9-1f2e416a347e"
+        }
+    ],
+    "title": [
+        {
+            "value": "Una educaci\u00f3n 360\u00ba"
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-03-20T10:22:19+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-07-25T10:36:19+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false
+        }
+    ],
+    "sticky": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [],
+    "path": [
+        {
+            "alias": "",
+            "pid": null,
+            "langcode": "es"
+        }
+    ],
+    "field_attachments": [
+        {
+            "display": true,
+            "description": "TIPS Hay salida",
+            "target_type": "file",
+            "target_uuid": "e0de98da-af88-4921-baa9-31397bdde9e0"
+        },
+        {
+            "display": true,
+            "description": "Presentaci\u00f3n en PowerPoint",
+            "target_type": "file",
+            "target_uuid": "5f5938d5-7f12-423f-ad73-bfff924b2fad"
+        }
+    ],
+    "field_content": [
+        {
+            "value": "<!-- wp:paragraph -->\r\n<p>En&nbsp;<a href=\"https:\/\/joom.ag\/DVkd\" target=\"_blank\" rel=\"noreferrer noopener\">estas l\u00edneas<\/a>&nbsp;hemos hablado muchas veces de la necesidad de educar (y educarnos) en el consumo audiovisual. Nos gusta insistir en temas como escoger el mejor contenido, controlar los tiempos, poner l\u00edmites \u2013a los menores y a nosotros mismos\u2013, conocer las aplicaciones que llegan o que triunfan, descifrar el lenguaje audiovisual o abordar conversaciones sobre la intimidad o la ciberpornograf\u00eda, entre muchos otros temas.<\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:image {\"id\":237888} -->\r\n<figure class=\"wp-block-image\"><img src=\"https:\/\/contraste.info\/desarrollo\/wp-content\/uploads\/2024\/06\/EditJunio01.jpg\" alt=\"Una educaci\u00f3n 360\u00ba\" class=\"wp-image-237888\"\/><\/figure>\r\n<!-- \/wp:image -->\r\n\r\n<!-- wp:paragraph -->\r\n<p>Sin embargo, un consumo audiovisual saludable o un uso racional de la tecnolog\u00eda no requiere simplemente tener unas pautas y seguirlas o, quiz\u00e1, establecer unas normas y esperar que los menores las cumplan. Eso, indiscutiblemente, es un primer paso muy necesario para empezar a andar pero, despu\u00e9s, debemos dar el segundo para no quedarnos atr\u00e1s.<\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:paragraph -->\r\n<p>El siguiente paso se puede orientar en muchas direcciones. No obstante, debido al&nbsp;<a href=\"https:\/\/contraste.info\/el-debate-sobre-la-literatura-romantica-juvenil\/\" target=\"_blank\" rel=\"noreferrer noopener\">art\u00edculo sobre&nbsp;<strong>Wattpad<\/strong><\/a>&nbsp;que publicamos en este n\u00famero, destacamos la importancia de la buena lectura como ant\u00eddoto para prevenir manipulaciones y, especialmente, para fomentar el pensamiento cr\u00edtico.<\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:image {\"id\":237889} -->\r\n<figure class=\"wp-block-image\"><img src=\"https:\/\/contraste.info\/desarrollo\/wp-content\/uploads\/2024\/06\/EditJunio02.jpg\" alt=\"Una educaci\u00f3n 360\u00ba\" class=\"wp-image-237889\"\/><\/figure>\r\n<!-- \/wp:image -->\r\n\r\n<!-- wp:paragraph -->\r\n<p>Las personas que leen desarrollan el pensamiento l\u00f3gico, la empat\u00eda, mejoran la capacidad verbal, la imaginaci\u00f3n, la concentraci\u00f3n, la capacidad de an\u00e1lisis, los conocimientos y un sinf\u00edn de aptitudes muy necesarias para la vida en general. Y, si tenemos en cuenta todos estos beneficios y los aplicamos a la materia que nos ocupa, nos daremos cuenta de que en el \u00e1mbito de la educaci\u00f3n audiovisual no se trata solo de no ver, no usar, no tener o de rodearnos de filtros.<\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:image {\"id\":237890} -->\r\n<figure class=\"wp-block-image\"><img src=\"https:\/\/contraste.info\/desarrollo\/wp-content\/uploads\/2024\/06\/EditJunio03.jpg\" alt=\"Una educaci\u00f3n 360\u00ba\" class=\"wp-image-237890\"\/><\/figure>\r\n<!-- \/wp:image -->\r\n\r\n<!-- wp:paragraph -->\r\n<p>Adem\u00e1s, debemos dar herramientas para que los menores a nuestro cargo aprendan, con el tiempo y por s\u00ed mismos, a reconocer si un producto audiovisual es bueno o malo, si una conducta en internet es aplaudible o no, si son ciertos lo modelos que proponen la redes sociales o si delegan en&nbsp;<strong>ChatGPT<\/strong>&nbsp;los deberes o los trabajos de la universidad.<\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:paragraph -->\r\n<p>Sortear la influencia negativa de la tecnolog\u00eda solo es posible si nos decantamos por una educaci\u00f3n completa, que contemple los diferentes \u00e1mbitos del aprendizaje que, en general, se encuentran en todo lo que nos rodea, y que abarque la vida en 360\u00ba.<\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:paragraph -->\r\n<p>Entre nuestras recomendaciones destacamos el<a href=\"https:\/\/bit.ly\/UltimaSalida\" target=\"_blank\" rel=\"noreferrer noopener\">&nbsp;webinar con el&nbsp;<strong>Dr. Francisco Villar<\/strong><\/a>, una lecci\u00f3n maestra sobre la importancia de vivir en la vida real.<\/p>\r\n<!-- \/wp:paragraph -->",
+            "format": "gutenberg"
+        }
+    ],
+    "field_media": [
+        {
+            "target_type": "media",
+            "target_uuid": "e949163e-524c-405d-a580-de443302572f"
+        }
+    ]
+}

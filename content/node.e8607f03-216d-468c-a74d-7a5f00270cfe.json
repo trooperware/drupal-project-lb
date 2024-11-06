@@ -1,0 +1,95 @@
+{
+    "uuid": [
+        {
+            "value": "e8607f03-216d-468c-a74d-7a5f00270cfe"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "module",
+            "target_type": "node_type",
+            "target_uuid": "3969f277-e6d8-4cf2-8611-47702c40827a"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2024-09-09T14:48:16+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "57cd2b87-53d5-4a9d-aef9-1f2e416a347e"
+        }
+    ],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "57cd2b87-53d5-4a9d-aef9-1f2e416a347e"
+        }
+    ],
+    "title": [
+        {
+            "value": "Aprende a valorarte"
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-09-09T14:43:33+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-09-09T14:48:16+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false
+        }
+    ],
+    "sticky": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": "",
+            "pid": null,
+            "langcode": "es"
+        }
+    ],
+    "field_attachments": [],
+    "field_content": [
+        {
+            "value": "<!-- wp:paragraph {\"fontSize\":\"large\"} -->\r\n<p class=\"has-large-font-size\"><strong>Aprende a valorarte. La autoestima es clave para el bienestar emocional de tu hijo.<\/strong><\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:paragraph -->\r\n<p><strong>AUTOR<\/strong>: Jorge San Nicol\u00e1s<br>Coach juvenil. Profesor de la Fundaci\u00f3n Aprender a Mirar<\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:paragraph -->\r\n<p>La vuelta al colegio ha sido muy gratificante. Tuve el placer de conocer a Gregorio Luri y entrevistarle en la jornada de bienvenida del nuevo curso acad\u00e9mico. Las aportaciones de Luri durante la sesi\u00f3n fueron tan interesantes como alentadoras en un momento en el que las reformas educativas y el actual modelo pedag\u00f3gico se ponen en tela de juicio.<\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:paragraph -->\r\n<p>En medio de una sociedad en la que el hecho educativo parece cada vez m\u00e1s complejo y sofisticado, Luri apela al sentido com\u00fan en la educaci\u00f3n de nuestros hijos. Es necesario recuperar esa genial sencillez de nuestros abuelos. Ellos no eran padres perfectos ni expertos en educaci\u00f3n, pero ten\u00edan muy claro lo que significaba ser una persona bien educada.<\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:paragraph -->\r\n<p>En una conversaci\u00f3n reciente con un alumno ya universitario, me explicaba que sus padres a partir de la adolescencia dejaron de ponerle hora de llegada a casa, entre otras cosas. Me confesaba haberse adelantado a vivir experiencias que no tocaban. Con conocimiento personal de causa creo que la ausencia de l\u00edmites y el exceso de permisividad le empezaban a pasar factura. \u201cOjal\u00e1 mis padres me hubiesen controlado m\u00e1s, me hubiese ahorrado bastantes movidas\u201d.<\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:paragraph -->\r\n<p>Nuestros hijos no esperan que seamos superh\u00e9roes o que no nos equivoquemos. Nos lo perdonan todo, incluso la mayor bronca o correcci\u00f3n. Lo que no nos perdonan es el miedo a educarles.<\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:paragraph {\"fontSize\":\"medium\"} -->\r\n<p class=\"has-medium-font-size\"><strong>Me conecto, luego existo<\/strong><\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:paragraph -->\r\n<p>La digitalizaci\u00f3n, el uso masivo del tel\u00e9fono m\u00f3vil y la conexi\u00f3n casi permanente en redes sociales han revolucionado la forma de comunicarnos y, por tanto, la manera de entender las relaciones sociales. La generaci\u00f3n Z (los nacidos entre finales de la d\u00e9cada de los a\u00f1os noventa y principios de los 2000) son los primeros nativos digitales.<\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:paragraph -->\r\n<p>Han crecido con la globalizaci\u00f3n relacion\u00e1ndose entre s\u00ed a trav\u00e9s de las redes sociales. Est\u00e1n acostumbrados a tratar con sus iguales a trav\u00e9s de una pantalla desde la comodidad y seguridad que ofrece el sof\u00e1 de su casa.<\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:paragraph -->\r\n<p>En los \u00faltimos a\u00f1os, he podido observar c\u00f3mo los adolescentes tienen cada vez m\u00e1s dificultades y miedo a lo real, al hecho de afrontar problemas en el \u201ccara a cara\u201d. \u00bfA qu\u00e9 se debe este fen\u00f3meno? \u00bfLas redes sociales son un punto de encuentro o un refugio?<\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:paragraph {\"fontSize\":\"medium\"} -->\r\n<p class=\"has-medium-font-size\"><strong>La autoestima no es una causa, es una consecuencia<\/strong><\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:paragraph -->\r\n<p>La ciencia ha desmontado la creencia social que explicaba la autoestima como un elemento causal y no como lo que realmente es, es decir, el resultado de una serie de comportamientos, actitudes y h\u00e1bitos de vida. En base a esto, ser\u00eda interesante preguntarnos, \u00bfcu\u00e1l es el factor clave que determina nuestro nivel de autoestima?<\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:paragraph -->\r\n<p>No he encontrado f\u00f3rmulas secretas ni recetas m\u00e1gicas al respecto. Ahora bien, s\u00ed podemos considerar algunos criterios que nos ayuden a acompa\u00f1ar a nuestros hijos para hacer un camino de crecimiento en este sentido. Proponemos tres \u00e1mbitos que sostienen y refuerzan la autoestima. Es necesario promover cada uno de los tres aspectos ya que est\u00e1n interconectados por lo que al mejorar uno de ellos potencia los dem\u00e1s:<\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:paragraph -->\r\n<p>Relaci\u00f3n familiar. La familia es la primera escuela de vida y el primer entorno de sociabilizaci\u00f3n. En la familia nuestros hijos empiezan a forjar su car\u00e1cter. Es importante promover un ambiente de di\u00e1logo y reconocer y valorar en su justa medida<\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:paragraph -->\r\n<p>Grupo de pares. En la adolescencia, el sentido de pertenencia a un grupo es fundamental. El v\u00ednculo que se establece entre los amigos de edad similar fortalece la confianza en uno mismo y potencia la dimensi\u00f3n relacional y social.<\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:paragraph -->\r\n<p>\u00c1mbito de competencia. Una palanca clave para aumentar la autoestima es la pr\u00e1ctica de una actividad o deporte (mucho mejor de competici\u00f3n) donde se pongan en juego las habilidades y talentos. No hay nada m\u00e1s eficaz para aumentar la confianza y la autoestima que el logro y la superaci\u00f3n personal.<\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:paragraph {\"fontSize\":\"medium\"} -->\r\n<p class=\"has-medium-font-size\"><strong>Reconocimiento y reputaci\u00f3n<\/strong><\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:paragraph -->\r\n<p>La persona es un ser \u00fanico e irrepetible. Llevamos grabado en el ADN la necesidad de sentirnos valorados. El reconocimiento es uno de los pilares de la autoestima y en el caso de los j\u00f3venes, es un valor necesario para fortalecer su car\u00e1cter y el bienestar emocional. No todo reconocimiento es sano, de hecho, seg\u00fan se transmita puede llegar causar el efecto opuesto.<\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:paragraph -->\r\n<p>La autoestima d\u00e9bil se nutre de factores externos que no est\u00e1n vinculados a la propia voluntad como los elogios vac\u00edos o la creencia est\u00e1tica de nuestra inteligencia. Una sana autoestima requiere de tiempo y paciencia, necesita del conocimiento de uno mismo y la aceptaci\u00f3n de las propias habilidades y limitaciones.<\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:paragraph -->\r\n<p>En octubre de 2010 Instagram salta al ruedo. Desde entonces y de forma progresiva la reputaci\u00f3n se ha convertido en un valor de referencia social casi absoluto. El algoritmo de Instagram est\u00e1 dise\u00f1ado para fidelizar. Se nutre de contenido id\u00edlico, fantasioso y cuanto m\u00e1s glamuroso mejor. Lo cierto es que excepto Ana de Armas, Robert Pattinson o Bad Bunny, entre otros, \u00bfcu\u00e1ntos de nosotros vivimos una vida tan cool?<\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:paragraph {\"fontSize\":\"medium\"} -->\r\n<p class=\"has-medium-font-size\">Aprende a valorarte. La <strong>autoestima es clave...<\/strong><\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:paragraph -->\r\n<p>Instagram es puro escaparate y somos conscientes de ello. A\u00fan as\u00ed, \u00bfqu\u00e9 nos mueve a querer estar presentes? Nos encontramos frente a un fen\u00f3meno social que va m\u00e1s all\u00e1 de una moda. Es una tendencia y un cambio de paradigma relacional que seg\u00fan se viva puede llegar a da\u00f1ar la identidad y la autoestima de, los j\u00f3venes y adolescentes.<\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:paragraph -->\r\n<p>La obsesi\u00f3n por el like, la carrera por sumar seguidores, el v\u00e9rtigo a no estar presente en redes o el miedo a perderse algo (FOMO: fear of missing out), las conexiones hasta altas horas de madrugada (vamping) o el temor irracional a olvidarse o perder el m\u00f3vil (Nomofobia) entre otra serie de fen\u00f3menos est\u00e1n provocando episodios serios de ansiedad y depresi\u00f3n entre los adolescentes. No quisiera anticipar el apocalipsis, pero s\u00ed hacer una nueva llamada a las familias y educadores sobre la importancia de supervisar y acompa\u00f1ar a los m\u00e1s j\u00f3venes en el buen uso de las pantallas.<\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:paragraph -->\r\n<p>No es cuesti\u00f3n de retirarles todas las pantallas sino de ofrecerles alternativas atractivas y modelos de vida positivos que les ayuden a crecer. Queramos o no, todo educa. Podemos tomar las riendas de la educaci\u00f3n o cederles los derechos a las grandes plataformas sociales. Tal y como afirma Luri en este sentido, \u201cla ignorancia hoy es glamurosa\u201d.<\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:paragraph {\"fontSize\":\"medium\"} -->\r\n<p class=\"has-medium-font-size\"><strong>Conocerme, aceptarme y superarme<\/strong><\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:paragraph -->\r\n<p>No existe un m\u00e9todo educativo infalible. El m\u00e9todo es el educador y su capacidad para establecer una relaci\u00f3n de confianza y autoridad con el educando basada en el amor, la raz\u00f3n y la amabilidad. Estos tres principios fueron los que hicieron a San Juan Bosco, y a grandes educadores de la historia, uno de los pedagogos m\u00e1s relevantes de todos los tiempos. Unido a estos tres principios, el desarrollo de la autoestima y la formaci\u00f3n del car\u00e1cter pueden estructurarse en los siguientes tres \u00e1mbitos: conocimiento personal, aceptaci\u00f3n de uno mismo y capacidad de superaci\u00f3n.<\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:paragraph -->\r\n<p>Las bases de una sana autoestima se van consolidando con el tiempo y con un adecuado acompa\u00f1amiento personal. La propuesta de acompa\u00f1amiento debe contemplar como m\u00ednimo los siguientes tres \u00e1mbitos clave del desarrollo personal expresados mediante un verbo reflexivo:<\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:paragraph -->\r\n<p>Conocerme. Es una aventura que dura toda una vida. Requiere grandes dosis de paciencia y humildad. Descubrir lo que nos hace \u00fanicos y nos diferencia de los dem\u00e1s, tanto en la forma de ser (personalidad) como en la manera en que planteamos o resolvemos los retos u objetivos que nos presenta la vida (talento).<\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:paragraph -->\r\n<p>Aceptarme. He aqu\u00ed uno de los factores m\u00e1s relevantes de la autoestima seg\u00fan Nathaniel Branden. La aceptaci\u00f3n personal es una necesidad vital. Una persona no puede estar c\u00f3moda sin su propia aprobaci\u00f3n. Es importante transmitir a nuestros hijos que la aceptaci\u00f3n personal no viene de fuera, de la nota que nos pongan los dem\u00e1s sino de un conocimiento y aceptaci\u00f3n interna. Si dependemos de la opini\u00f3n de los dem\u00e1s, la cr\u00edtica puede llegar a acabar con nosotros.<\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:paragraph -->\r\n<p>Superarme. La mejor medida de crecimiento es uno mismo. Podemos luchar por ser el mejor, la primera de la clase o del equipo o el n\u00famero uno. Quiz\u00e1s lo consigamos, pero a\u00fan as\u00ed puede que nos quedemos a medio camino de dar lo mejor de uno mismo. La motivaci\u00f3n por comparaci\u00f3n es interesante (aunque insuficiente) en la medida que me impulsa a querer batir mis propias metas. Es importante ayudar a nuestros hijos a exponerse a los problemas y dificultades (bajo supervisi\u00f3n adulta) para que aprendan a hacerles frente, teniendo \u00e9xito o fracasando.<\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:paragraph {\"fontSize\":\"medium\"} -->\r\n<p class=\"has-medium-font-size\"><strong>El verdadero prop\u00f3sito de la educaci\u00f3n<\/strong><\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:paragraph -->\r\n<p>La mayor herencia que podemos dejarles a nuestros hijos no tiene valor material. Lo que verdaderamente necesitan es toda nuestra firmeza a la hora de establecer l\u00edmites en su educaci\u00f3n y grandes dosis de cari\u00f1o y amabilidad. Aunque no sean capaces de expresarlo as\u00ed desean que los miremos de forma \u00fanica y les acojamos incondicionalmente pase lo que pase.<\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:paragraph -->\r\n<p>Ojal\u00e1 que el prop\u00f3sito de todo educador y padre y madre de familia sea el deseo de transmitirles a nuestros j\u00f3venes la grandeza de la vida como una aventura que merece la pena ser vivida.<\/p>\r\n<!-- \/wp:paragraph -->\r\n\r\n<!-- wp:paragraph -->\r\n<p>El conocimiento personal, la aceptaci\u00f3n de uno mismo y el anhelo de superaci\u00f3n nos van a permitir desarrollar una sana autoestima. Nuestra misi\u00f3n como padres y educadores no es otra que la de acompa\u00f1arlos y brindarles experiencias que ayuden a crecer para poder dejar de ser lo que son y dirigirse hacia lo que pueden llegar a ser.<\/p>\r\n<!-- \/wp:paragraph -->",
+            "format": "gutenberg"
+        }
+    ],
+    "field_media": []
+}

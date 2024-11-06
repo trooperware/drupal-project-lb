@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "bd136d72-34fb-4063-b166-5ee1553d8e42"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "57cd2b87-53d5-4a9d-aef9-1f2e416a347e"
+        }
+    ],
+    "filename": [
+        {
+            "value": "TIPS DESARROLLO CEREBRAL.pdf"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2024-07\/TIPS DESARROLLO CEREBRAL.pdf"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "application\/pdf"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 131265
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-07-25T10:43:41+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-07-25T10:47:14+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}
