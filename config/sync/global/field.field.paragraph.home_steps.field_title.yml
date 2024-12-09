@@ -1,0 +1,24 @@
+uuid: 4daeca62-ef38-4585-8609-3c4600dfa55d
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_title
+    - filter.format.full_html
+    - paragraphs.paragraphs_type.home_steps
+  module:
+    - text
+id: paragraph.home_steps.field_title
+field_name: field_title
+entity_type: paragraph
+bundle: home_steps
+label: 'Título del paso'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - full_html
+field_type: text

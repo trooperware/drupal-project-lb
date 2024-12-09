@@ -4,28 +4,25 @@ status: true
 dependencies:
   config:
     - field.field.node.homepage.field_slider
+    - field.field.node.homepage.field_steps
+    - field.field.node.homepage.field_subtitle_section_1
+    - field.field.node.homepage.field_title_section_1
     - node.type.homepage
   module:
-    - entity_reference_revisions
     - user
 id: node.homepage.default
 targetEntityType: node
 bundle: homepage
 mode: default
 content:
-  field_slider:
-    type: entity_reference_revisions_entity_view
-    label: above
-    settings:
-      view_mode: default
-      link: ''
-    third_party_settings: {  }
-    weight: 101
-    region: content
   links:
     settings: {  }
     third_party_settings: {  }
-    weight: 100
+    weight: 0
     region: content
 hidden:
+  field_slider: true
+  field_steps: true
+  field_subtitle_section_1: true
+  field_title_section_1: true
   langcode: true

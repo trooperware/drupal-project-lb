@@ -1,0 +1,64 @@
+{
+    "uuid": [
+        {
+            "value": "01d316eb-fcdf-4c3d-969e-e0d7b43528f6"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "home_steps",
+            "target_type": "paragraphs_type",
+            "target_uuid": "3fe2f2e9-9e82-456d-b08f-9a8fded0e8ba"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-12-09T09:04:36+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "field_content": [
+        {
+            "value": "Env\u00edanos una solicitud de inscripci\u00f3n y empieza a formarte.",
+            "format": "full_html"
+        }
+    ],
+    "field_cta": [
+        {
+            "uri": "internal:\/",
+            "title": "Quiero empezar",
+            "options": []
+        }
+    ],
+    "field_title": [
+        {
+            "value": "Ap\u00fantate en el curso",
+            "format": "full_html"
+        }
+    ]
+}

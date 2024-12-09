@@ -1,0 +1,37 @@
+uuid: 66b82919-5246-4cbc-bf56-9746a191746c
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_steps
+    - node.type.homepage
+    - paragraphs.paragraphs_type.home_steps
+  module:
+    - entity_reference_revisions
+id: node.homepage.field_steps
+field_name: field_steps
+entity_type: node
+bundle: homepage
+label: 'Sección Pasos'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      home_steps: home_steps
+    negate: 0
+    target_bundles_drag_drop:
+      home_slider_item:
+        weight: 4
+        enabled: false
+      home_steps:
+        weight: 5
+        enabled: true
+      theme:
+        weight: 6
+        enabled: false
+field_type: entity_reference_revisions

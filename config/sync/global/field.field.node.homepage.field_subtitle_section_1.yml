@@ -1,0 +1,19 @@
+uuid: 6c2d81d7-94a1-43a2-b046-41ab961e852d
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_subtitle_section_1
+    - node.type.homepage
+id: node.homepage.field_subtitle_section_1
+field_name: field_subtitle_section_1
+entity_type: node
+bundle: homepage
+label: 'Subtítulo sección pasos'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

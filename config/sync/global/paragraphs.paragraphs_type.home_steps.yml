@@ -1,0 +1,10 @@
+uuid: 3fe2f2e9-9e82-456d-b08f-9a8fded0e8ba
+langcode: es
+status: true
+dependencies: {  }
+id: home_steps
+label: 'Home steps'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

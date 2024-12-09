@@ -1,151 +1,168 @@
 {% include '@ruhi/template-parts/header.html.twig' %}
 {% if page.highlighted %}
-  {% include '@thex/template-parts/highlighted.html.twig' %}
+	{% include '@thex/template-parts/highlighted.html.twig' %}
 {% endif %}
 <div class="main-wrapper">
-  {% if page.content_home_top %}
-    {% include '@thex/template-parts/content-parts/content_home_top.html.twig' %}
-  {% endif %}
-  <div class="container-fluid">
-    <div class="main-container">
-      {% if front_sidebar %}
-        <main id="main" class="frontpage-main main-content">
-      {% else %}
-        <main id="front-main" class="frontpage-main main-content">
-      {% endif %}
-        <a id="main-content" tabindex="-1"></a>
-        {% if page.content_top %}
-          {% include '@thex/template-parts/content-parts/content_top.html.twig' %}
-        {% endif %}
-        <div class="node-content">
-          {# page.content #}
+	{% if page.content_home_top %}
+		{% include '@thex/template-parts/content-parts/content_home_top.html.twig' %}
+	{% endif %}
+	<div class="container-fluid">
+		<div class="main-container">
+			{% if front_sidebar %}
+				<main id="main" class="frontpage-main main-content">
+				{% else %}
+					<main id="front-main" class="frontpage-main main-content">
+					{% endif %}
+					<a id="main-content" tabindex="-1"></a>
+					{% if page.content_top %}
+						{% include '@thex/template-parts/content-parts/content_top.html.twig' %}
+					{% endif %}
+					<div
+						class="node-content">
+						{{ page.content }}
 
 
-
-  <div class="list-box paragraph">
-<div class="container">
-		<h2 class="basic-text_title">Apúntate y aprende online en 3 pasos</h2>
-		<div class="text-center">
-			<p class="width60 center">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.<br/><br/>
-			</p>
-		</div>
-    <div class="field field--name-body field--type-text-with-summary field--label-hidden field-item">
-			<div class="items">
-			<div class="box box-secondary">
-				<!--<strong>Encuentra tu camino</strong>-->
-				<h4>Inscríbete en el curso</h4>
-				<p>Envíanos una solicitud de inscripción y empieza a formarte.</p>
-				<a class="button button-secondary" href="#">Quiero empezar</a>
-			</div>
-			<div class="box animate-fadeInUp fancy animated">
-				<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-person-video3" viewBox="0 0 16 16">
-					  <path d="m 14,9.5 a 2,2 0 1 1 -4,0 2,2 0 0 1 4,0 z M 8,15.2 C 8,16 8.8,16 8.8,16 h 6.4 c 0,0 0.8,0 0.8,-0.8 C 16,14.4 15.2,12 12,12 8.8,12 8,14.4 8,15.2 Z" id="path1" style="display:inline;fill:#ffb456;fill-opacity:1" />
-  					<path d="M 2,2 A 2,2 0 0 0 0,4 v 8 a 2,2 0 0 0 2,2 H 7.243 C 7.365,13.674 7.538,13.332 7.769,13 H 2 A 1,1 0 0 1 1,12 V 4 A 1,1 0 0 1 2,3 h 12 a 1,1 0 0 1 1,1 v 7.81 c 0.353,0.23 0.656,0.496 0.91,0.783 C 15.969,12.406 16,12.207 16,12 V 4 A 2,2 0 0 0 14,2 Z" id="path2" style="display:inline" />
-				</svg>
-				<h4>Aprende</h4>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
-			</div>
-			<div class="box animate-fadeInUp slow fancy animated">
-				<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-clipboard-check" viewBox="0 0 16 16">
-					  <path fill-rule="evenodd" d="M10.854 7.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 9.793l2.646-2.647a.5.5 0 0 1 .708 0z" id="path1" style="fill:#ffb456;fill-opacity:1" />
-  					<path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z" id="path2" />
-  					<path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z" id="path3" />
-				</svg>
-				<h4>Completa el test</h4>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
-			</div>
-			<div class="box animate-fadeInUp slow fancy animated">
-				<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-award" viewBox="0 0 16 16">
-					<path d="M9.669.864 8 0 6.331.864l-1.858.282-.842 1.68-1.337 1.32L2.6 6l-.306 1.854 1.337 1.32.842 1.68 1.858.282L8 12l1.669-.864 1.858-.282.842-1.68 1.337-1.32L13.4 6l.306-1.854-1.337-1.32-.842-1.68L9.669.864zm1.196 1.193.684 1.365 1.086 1.072L12.387 6l.248 1.506-1.086 1.072-.684 1.365-1.51.229L8 10.874l-1.355-.702-1.51-.229-.684-1.365-1.086-1.072L3.614 6l-.25-1.506 1.087-1.072.684-1.365 1.51-.229L8 1.126l1.356.702 1.509.229z" id="path1" />
-  				<path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z" id="path2" style="fill:#ffb456;fill-opacity:1" />
-				</svg>
-				<h4>Obtén certificación</h4>
-				<p>Obtén el certificado de curso conforme has adquirido los conocimientos necesarios para...</p>
-			</div>
-		</div>
-	</div><!--/.block-content -->
-</div>
-</div>
-
-
-
-
-
-					<div class="basic-text paragraph">
-						<div class="container">
-
-            <div class="field field--name-body field--type-text-with-summary field--label-hidden field-item"><div class="items">
-<div class="animate-fadeIn fancy animated">
-		<strong>Educación para todos</strong>
-<h2>¿Qué és el Programa de Educación Audiovisual?</h2>
-<p>Facilitar la educación audiovisual minimizando los efectos negativos de las pantallas, al mismo tiempo que se pretende maximizar los positivos</p>
-<div class="items">
-<div>
-<ul class="check-list"><li>Utilizar internet de forma segura</li>
-<li>Escoger videojuegos adecuados para cada
-edad</li>
-<li>Enseñar a ver contenidos con espíritu crítico</li>
-</ul></div>
-<div>
-<ul class="check-list"><li>Access to 100+ online courses</li>
-<li>100% campus placement</li>
-<li>Modern infrastructure</li>
-</ul></div>
-</div>
-</div>
-<div class="animate-fadeInRight delay fancy animated">
-<img src="/themes/custom/ruhi/images/demo/book-lover.svg" alt="slider image" />
-</div>
-</div>
-<!--/items --></div>
-
-    </div>
-		</div>
-
-
-
-					<div class="basic-text paragraph">
-						<div class="container">
-							<h2 class="basic-text_title">Preguntas frecuentes</h2>
-							<div class="basic-text_content">
-								<div class="field field--name-body field--type-text-with-summary field--label-hidden field-item">
+						{% if steps_items %}
+							<div class="list-box paragraph">
+								<div class="container">
+									<h2 class="basic-text_title">{{ steps_items.title|raw }}</h2>
 									<div class="text-center">
-										<h4>¿Montes semper nisl suscipit?</h4>
 										<p class="width60 center">
-											Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
-										</p>
-										<h4>¿Sociosqu faucibus quisque?</h4>
-										<p class="width60 center">
-											Natoque mauris ultrices placerat dictumst et ornare tincidunt, orci interdum magna vulputate sollicitudin ac in.
-										</p>
-										<h4>¿Orci interdum magna vulputate?</h4>
-										<p class="width60 center">
-											Vitae dui massa pulvinar facilisis in libero maecenas, iaculis tempus auctor curae orci quam risus, ligula nunc ut eros est inceptos.
+											{{ steps_items.subtitle|raw }}<br/><br/>
 										</p>
 									</div>
+									<div class="field field--name-body field--type-text-with-summary field--label-hidden field-item">
+										<div class="items">
+											{% for item in steps_items.steps %}
+												{% set case = loop.index %}
+												{% if case == 1 %}
+													<div
+														class="box box-secondary">
+														<!--<strong>Encuentra tu camino</strong>-->
+														<h4>{{ item.title|raw }}</h4>
+														<p>{{ item.content|raw }}</p>
+														<a class="button button-secondary" href="item.cta.uri">{{ item.cta.title }}</a>
+													</div>
+												{% elseif case == 2 %}
+													<div class="box animate-fadeInUp fancy animated">
+														<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-person-video3" viewbox="0 0 16 16">
+															<path d="m 14,9.5 a 2,2 0 1 1 -4,0 2,2 0 0 1 4,0 z M 8,15.2 C 8,16 8.8,16 8.8,16 h 6.4 c 0,0 0.8,0 0.8,-0.8 C 16,14.4 15.2,12 12,12 8.8,12 8,14.4 8,15.2 Z" id="path1" style="display:inline;fill:#ffb456;fill-opacity:1"/>
+															<path d="M 2,2 A 2,2 0 0 0 0,4 v 8 a 2,2 0 0 0 2,2 H 7.243 C 7.365,13.674 7.538,13.332 7.769,13 H 2 A 1,1 0 0 1 1,12 V 4 A 1,1 0 0 1 2,3 h 12 a 1,1 0 0 1 1,1 v 7.81 c 0.353,0.23 0.656,0.496 0.91,0.783 C 15.969,12.406 16,12.207 16,12 V 4 A 2,2 0 0 0 14,2 Z" id="path2" style="display:inline"/>
+														</svg>
+														<h4>{{ item.title|raw }}</h4>
+														<p>{{ item.content|raw }}</p>
+													</div>
+												{% elseif case == 3 %}
+													<div class="box animate-fadeInUp slow fancy animated">
+														<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-clipboard-check" viewbox="0 0 16 16">
+															<path fill-rule="evenodd" d="M10.854 7.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 9.793l2.646-2.647a.5.5 0 0 1 .708 0z" id="path1" style="fill:#ffb456;fill-opacity:1"/>
+															<path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z" id="path2"/>
+															<path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z" id="path3"/>
+														</svg>
+														<h4>{{ item.title|raw }}</h4>
+														<p>{{ item.content|raw }}</p>
+													</div>
+												{% else %}
+													<div class="box animate-fadeInUp slow fancy animated">
+														<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-award" viewbox="0 0 16 16">
+															<path d="M9.669.864 8 0 6.331.864l-1.858.282-.842 1.68-1.337 1.32L2.6 6l-.306 1.854 1.337 1.32.842 1.68 1.858.282L8 12l1.669-.864 1.858-.282.842-1.68 1.337-1.32L13.4 6l.306-1.854-1.337-1.32-.842-1.68L9.669.864zm1.196 1.193.684 1.365 1.086 1.072L12.387 6l.248 1.506-1.086 1.072-.684 1.365-1.51.229L8 10.874l-1.355-.702-1.51-.229-.684-1.365-1.086-1.072L3.614 6l-.25-1.506 1.087-1.072.684-1.365 1.51-.229L8 1.126l1.356.702 1.509.229z" id="path1"/>
+															<path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z" id="path2" style="fill:#ffb456;fill-opacity:1"/>
+														</svg>
+														<h4>{{ item.title|raw }}</h4>
+														<p>{{ item.content|raw }}</p>
+													</div>
+												{% endif %}
+											{% endfor %}
+										</div>
+									</div>
+									<!--/.block-content -->
 								</div>
-							</div><!--/.block-content -->
+							</div>
+						{% endif %}
+
+
+						<div class="basic-text paragraph">
+							<div class="container">
+
+								<div class="field field--name-body field--type-text-with-summary field--label-hidden field-item">
+									<div class="items">
+										<div class="animate-fadeIn fancy animated">
+											<strong>Educación para todos</strong>
+											<h2>¿Qué és el Programa de Educación Audiovisual?</h2>
+											<p>Facilitar la educación audiovisual minimizando los efectos negativos de las pantallas, al mismo tiempo que se pretende maximizar los positivos</p>
+											<div class="items">
+												<div>
+													<ul class="check-list">
+														<li>Utilizar internet de forma segura</li>
+														<li>Escoger videojuegos adecuados para cada
+															edad</li>
+														<li>Enseñar a ver contenidos con espíritu crítico</li>
+													</ul>
+												</div>
+												<div>
+													<ul class="check-list">
+														<li>Access to 100+ online courses</li>
+														<li>100% campus placement</li>
+														<li>Modern infrastructure</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+										<div class="animate-fadeInRight delay fancy animated">
+											<img src="/themes/custom/ruhi/images/demo/book-lover.svg" alt="slider image"/>
+										</div>
+									</div>
+									<!--/items -->
+								</div>
+
+							</div>
 						</div>
+
+
+						<div class="basic-text paragraph">
+							<div class="container">
+								<h2 class="basic-text_title">Preguntas frecuentes</h2>
+								<div class="basic-text_content">
+									<div class="field field--name-body field--type-text-with-summary field--label-hidden field-item">
+										<div class="text-center">
+											<h4>¿Montes semper nisl suscipit?</h4>
+											<p class="width60 center">
+												Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
+											</p>
+											<h4>¿Sociosqu faucibus quisque?</h4>
+											<p class="width60 center">
+												Natoque mauris ultrices placerat dictumst et ornare tincidunt, orci interdum magna vulputate sollicitudin ac in.
+											</p>
+											<h4>¿Orci interdum magna vulputate?</h4>
+											<p class="width60 center">
+												Vitae dui massa pulvinar facilisis in libero maecenas, iaculis tempus auctor curae orci quam risus, ligula nunc ut eros est inceptos.
+											</p>
+										</div>
+									</div>
+								</div>
+								<!--/.block-content -->
+							</div>
+						</div>
+
+
 					</div>
-
-
-
-        </div>
-        {% if page.content_bottom %}
-          {% include '@thex/template-parts/content-parts/content_bottom.html.twig' %}
-        {% endif %}
-      </main>
-    {% if front_sidebar and page.sidebar_first %}
-      {% include '@thex/template-parts/sidebar/sidebar_left.html.twig' %}
-    {% endif %}
-    {% if front_sidebar and page.sidebar_second %}
-      {% include '@thex/template-parts/sidebar/sidebar_right.html.twig' %}
-    {% endif %}
-    </div><!--/main-container -->
-	</div><!--/container -->
-  {% if page.content_home_bottom %}
-    {% include '@thex/template-parts/content-parts/content_home_bottom.html.twig' %}
-  {% endif %}
-</div><!--/main-wrapper -->
-{% include '@ruhi/template-parts/footer.html.twig' %}
+					{% if page.content_bottom %}
+						{% include '@thex/template-parts/content-parts/content_bottom.html.twig' %}
+					{% endif %}
+				</main>
+				{% if front_sidebar and page.sidebar_first %}
+					{% include '@thex/template-parts/sidebar/sidebar_left.html.twig' %}
+				{% endif %}
+				{% if front_sidebar and page.sidebar_second %}
+					{% include '@thex/template-parts/sidebar/sidebar_right.html.twig' %}
+				{% endif %}
+			</div>
+			<!--/main-container -->
+		</div>
+		<!--/container -->
+		{% if page.content_home_bottom %}
+			{% include '@thex/template-parts/content-parts/content_home_bottom.html.twig' %}
+		{% endif %}
+	</div>
+	<!--/main-wrapper -->
+	{% include '@ruhi/template-parts/footer.html.twig' %}

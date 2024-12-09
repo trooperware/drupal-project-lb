@@ -60,7 +60,7 @@ function ruhi_preprocess_page(array &$variables) {
 	if (\Drupal::service('path.matcher')->isFrontPage()) {
 		$node = \Drupal::routeMatch()->getParameter('node');
 		if ($node instanceof \Drupal\node\NodeInterface) {
-			// Ensure the field_slider exists and is not empty.
+			// Slider.
 			if ($node->hasField('field_slider') && !$node->get('field_slider')->isEmpty()) {
 				// Get the paragraphs.
 				$paragraphs = $node->get('field_slider')->referencedEntities();
@@ -79,6 +79,29 @@ function ruhi_preprocess_page(array &$variables) {
 				}
 				$variables['slider_items'] = $slider_items;
 			}
+		}
+		// Steps.
+		if ($node->hasField('field_steps') && !$node->get('field_steps')->isEmpty()) {
+			$steps_items = [];
+			$steps_items['title'] = $node->get('field_title_section_1')->value;
+			$steps_items['subtitle'] = $node->get('field_subtitle_section_1')->value;
+			// Get the paragraphs.
+			$paragraphs = $node->get('field_steps')->referencedEntities();
+			$steps = [];
+			foreach ($paragraphs as $paragraph) {
+					if ($paragraph->bundle() === 'home_steps') {
+							$steps[] = [
+									'title' => $paragraph->get('field_title')->value ?? '',
+									'content' => $paragraph->get('field_content')->value ?? '',
+									'cta' => $paragraph->get('field_cta')->getValue() ? [
+											'uri' => $paragraph->get('field_cta')->uri,
+											'title' => $paragraph->get('field_cta')->title,
+									] : null,
+							];
+					}
+			}
+			$steps_items['steps'] = $steps;
+			$variables['steps_items'] = $steps_items;
 		}
 	}
 

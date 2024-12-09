@@ -1,0 +1,58 @@
+{
+    "uuid": [
+        {
+            "value": "bcbffcf1-2ae0-4786-a188-462843ba171e"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "home_steps",
+            "target_type": "paragraphs_type",
+            "target_uuid": "3fe2f2e9-9e82-456d-b08f-9a8fded0e8ba"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-12-09T09:10:44+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "field_content": [
+        {
+            "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
+            "format": "full_html"
+        }
+    ],
+    "field_cta": [],
+    "field_title": [
+        {
+            "value": "Completa el test",
+            "format": "full_html"
+        }
+    ]
+}

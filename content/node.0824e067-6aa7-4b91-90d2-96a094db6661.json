@@ -53,7 +53,7 @@
     ],
     "changed": [
         {
-            "value": "2024-12-09T06:28:16+00:00",
+            "value": "2024-12-09T11:08:44+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -91,6 +91,34 @@
         {
             "target_type": "paragraph",
             "target_uuid": "3618abf9-dbbb-4576-91cb-cbc675e5cbdd"
+        }
+    ],
+    "field_steps": [
+        {
+            "target_type": "paragraph",
+            "target_uuid": "01d316eb-fcdf-4c3d-969e-e0d7b43528f6"
+        },
+        {
+            "target_type": "paragraph",
+            "target_uuid": "d8ee1452-87ef-4b67-b20d-a7b6c82c09e8"
+        },
+        {
+            "target_type": "paragraph",
+            "target_uuid": "bcbffcf1-2ae0-4786-a188-462843ba171e"
+        },
+        {
+            "target_type": "paragraph",
+            "target_uuid": "06d42a3c-8b9b-4d20-bed5-6fed7b84f89c"
+        }
+    ],
+    "field_subtitle_section_1": [
+        {
+            "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore."
+        }
+    ],
+    "field_title_section_1": [
+        {
+            "value": "Inscr\u00edbete y aprende online en 3 pasos"
         }
     ]
 }
