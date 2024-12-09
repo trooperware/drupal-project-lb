@@ -34,7 +34,7 @@ function ruhi_preprocess_html(&$variables) {
 function ruhi_preprocess_page(array &$variables) {
 	// theme path
 	$variables['page_ruhi_path'] = \Drupal::service('extension.list.theme')->getPath('ruhi');
-	
+
 	// Layout
 	$variables['container_width'] = theme_get_setting('container_width', 'ruhi');
 	$variables['header_width'] = theme_get_setting('header_width', 'ruhi');
@@ -57,6 +57,30 @@ function ruhi_preprocess_page(array &$variables) {
     $imageuri = $slider_image_file->getFileUri();
 		$variables['slider_image_path'] = \Drupal::service('file_url_generator')->generateAbsoluteString($imageuri);
 	};
+	if (\Drupal::service('path.matcher')->isFrontPage()) {
+		$node = \Drupal::routeMatch()->getParameter('node');
+		if ($node instanceof \Drupal\node\NodeInterface) {
+			// Ensure the field_slider exists and is not empty.
+			if ($node->hasField('field_slider') && !$node->get('field_slider')->isEmpty()) {
+				// Get the paragraphs.
+				$paragraphs = $node->get('field_slider')->referencedEntities();
+				$slider_items = [];
+				foreach ($paragraphs as $paragraph) {
+						if ($paragraph->bundle() === 'home_slider_item') {
+								$slider_items[] = [
+										'title' => $paragraph->get('field_title')->value ?? '',
+										'content' => $paragraph->get('field_content')->value ?? '',
+										'cta' => $paragraph->get('field_cta')->getValue() ? [
+												'uri' => $paragraph->get('field_cta')->uri,
+												'title' => $paragraph->get('field_cta')->title,
+										] : null,
+								];
+						}
+				}
+				$variables['slider_items'] = $slider_items;
+			}
+		}
+	}
 
 	// Header
 	$variables['header_main_default'] = theme_get_setting('header_main_default', 'ruhi');
@@ -72,7 +96,7 @@ function ruhi_preprocess_page(array &$variables) {
 	$variables['sidebar_width_default'] = theme_get_setting('sidebar_width_default', 'ruhi');
 	$variables['sidebar_width_left'] = theme_get_setting('sidebar_width_left', 'ruhi');
 	$variables['sidebar_width_right'] = theme_get_setting('sidebar_width_right', 'ruhi');
-	$variables['sidebar_block_default'] = theme_get_setting('sidebar_block_default', 'ruhi');	
+	$variables['sidebar_block_default'] = theme_get_setting('sidebar_block_default', 'ruhi');
 	$variables['sidebar_padding'] = theme_get_setting('sidebar_padding', 'ruhi');
 	$variables['sidebar_radius'] = theme_get_setting('sidebar_radius', 'ruhi');
 	$variables['sidebar_margin'] = theme_get_setting('sidebar_margin', 'ruhi');
@@ -145,7 +169,7 @@ function ruhi_preprocess_page(array &$variables) {
 	$variables['main_menu_sub_size'] = theme_get_setting('main_menu_sub_size', 'ruhi');
 	$variables['main_menu_sub_weight'] = theme_get_setting('main_menu_sub_weight', 'ruhi');
 	$variables['main_menu_sub_transform'] = theme_get_setting('main_menu_sub_transform', 'ruhi');
-	
+
 	// Element -> Page title
 	$variables['page_title_default'] = theme_get_setting('page_title_default', 'ruhi');
 	$variables['page_title_size_desktop'] = theme_get_setting('page_title_size_desktop', 'ruhi');
@@ -161,10 +185,10 @@ function ruhi_preprocess_page(array &$variables) {
 	$variables['fontawesome_four'] = theme_get_setting('fontawesome_four', 'ruhi');
 	$variables['fontawesome_five'] = theme_get_setting('fontawesome_five', 'ruhi');
 	$variables['bootstrapicons'] = theme_get_setting('bootstrapicons', 'ruhi');
-	
+
 	// Components -> scroll to top
 	$variables['scrolltotop_on'] = theme_get_setting('scrolltotop_on', 'ruhi');
-	
+
 	// Comment
 	$variables['highlight_author_comment'] = theme_get_setting('highlight_author_comment', 'ruhi');
 }

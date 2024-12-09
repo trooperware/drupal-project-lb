@@ -1,0 +1,24 @@
+uuid: ecea6118-890d-4852-ab5c-2081e546b066
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_title
+    - filter.format.full_html
+    - paragraphs.paragraphs_type.home_slider_item
+  module:
+    - text
+id: paragraph.home_slider_item.field_title
+field_name: field_title
+entity_type: paragraph
+bundle: home_slider_item
+label: title
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - full_html
+field_type: text

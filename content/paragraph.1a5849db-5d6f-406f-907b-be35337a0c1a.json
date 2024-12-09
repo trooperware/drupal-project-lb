@@ -1,0 +1,64 @@
+{
+    "uuid": [
+        {
+            "value": "1a5849db-5d6f-406f-907b-be35337a0c1a"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "home_slider_item",
+            "target_type": "paragraphs_type",
+            "target_uuid": "cabf97b1-9ece-49c5-8a35-f06d078749a5"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-12-08T16:50:12+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "field_content": [
+        {
+            "value": "El PEA dota a las entidades educativas de las herramientas necesarias para una completa educaci\u00f3n en medios audiovisuales.",
+            "format": "full_html"
+        }
+    ],
+    "field_cta": [
+        {
+            "uri": "internal:\/",
+            "title": "Inscribirme ahora",
+            "options": []
+        }
+    ],
+    "field_title": [
+        {
+            "value": "Quiero <em>inscribirme<\/em> en el Programa de Educaci\u00f3n Audiovisual",
+            "format": "full_html"
+        }
+    ]
+}

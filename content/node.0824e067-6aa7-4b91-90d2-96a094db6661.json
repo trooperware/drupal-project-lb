@@ -1,0 +1,96 @@
+{
+    "uuid": [
+        {
+            "value": "0824e067-6aa7-4b91-90d2-96a094db6661"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "homepage",
+            "target_type": "node_type",
+            "target_uuid": "b5eee743-0aa2-4787-ab6b-325ddecbaf98"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2023-11-14T08:03:04+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "57cd2b87-53d5-4a9d-aef9-1f2e416a347e"
+        }
+    ],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "57cd2b87-53d5-4a9d-aef9-1f2e416a347e"
+        }
+    ],
+    "title": [
+        {
+            "value": "Inicio"
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-11-14T08:02:25+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-12-09T06:28:16+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false
+        }
+    ],
+    "sticky": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/Inicio",
+            "langcode": "es"
+        }
+    ],
+    "field_slider": [
+        {
+            "target_type": "paragraph",
+            "target_uuid": "1a5849db-5d6f-406f-907b-be35337a0c1a"
+        },
+        {
+            "target_type": "paragraph",
+            "target_uuid": "3618abf9-dbbb-4576-91cb-cbc675e5cbdd"
+        }
+    ]
+}

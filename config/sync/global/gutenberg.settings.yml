@@ -74,6 +74,8 @@ module_allowed_blocks:
   core-embed/videopress: 0
   core-embed/wordpress-tv: 0
 module_allowed_drupal_blocks:
+  drupalblock/all_content_block: 0
+  'block_content:90a92a3d-ff78-474d-ba34-5a5de87294a7': 0
   drupalblock/all_core: 0
   page_title_block: 0
   search_form_block: search_form_block

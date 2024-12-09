@@ -1,4 +1,5 @@
 {{ attach_library('ruhi/slider') }}
+{% if slider_items %}
 <section class="slider">
   <div class="container">
   <div class="slider-container">
@@ -7,12 +8,13 @@
         {% if slider_code != '' %}
           {{ slider_code | striptags('<ol>,<ul>,<li>,<p>,<a>,<img>,<video>,<h1>,<h2>,<h3>,<h4>,<em>,<strong>,<br>,<i>,<button>,<mark>,<hr>,<div>,<span>,<sub>,<sup>') | raw }}
         {% else %}
+        {% for item in slider_items %}
         <li>
-  				<h1>Quiero <em>inscribirme</em> en el Programa de Educación Audiovisual</h1>
-  				<p>El PEA dota a las entidades educativas de las herramientas necesarias para una completa educación en medios audiovisuales.</p>
-  				<a class="button" href="#">Inscribirme ahora</a>
+  				<h1>{{ item.title|raw }}</h1>
+  				<p>{{ item.content|raw }}</p>
+  				<a class="button" href="{{ item.cta.uri }}">{{ item.cta.title }}</a>
   			</li>
-
+        {% endfor %}
   			<li>
   				<h2>Soy padre y quiero que </em>más información</em></h2>
   				<p>El PEA trabaja para que padres, profesores y alumnos estén informados y formados de modo que saquen el máximo partido al entorno digital en el que vivimos. </p>
@@ -38,3 +40,4 @@
   </div> <!--/.slider-container -->
   </div> <!--/.container -->
 </section>
+{% endif %}

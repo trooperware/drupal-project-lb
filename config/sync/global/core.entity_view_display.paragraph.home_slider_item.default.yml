@@ -1,0 +1,44 @@
+uuid: 06bb47fc-1486-4341-952e-9eee4d04d721
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.home_slider_item.field_content
+    - field.field.paragraph.home_slider_item.field_cta
+    - field.field.paragraph.home_slider_item.field_title
+    - paragraphs.paragraphs_type.home_slider_item
+  module:
+    - link
+    - text
+id: paragraph.home_slider_item.default
+targetEntityType: paragraph
+bundle: home_slider_item
+mode: default
+content:
+  field_content:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_cta:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_title:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

@@ -1,0 +1,64 @@
+{
+    "uuid": [
+        {
+            "value": "3618abf9-dbbb-4576-91cb-cbc675e5cbdd"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "home_slider_item",
+            "target_type": "paragraphs_type",
+            "target_uuid": "cabf97b1-9ece-49c5-8a35-f06d078749a5"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-12-09T06:27:40+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "field_content": [
+        {
+            "value": "Ok!",
+            "format": "full_html"
+        }
+    ],
+    "field_cta": [
+        {
+            "uri": "internal:\/",
+            "title": "Jander",
+            "options": []
+        }
+    ],
+    "field_title": [
+        {
+            "value": "Hola esto es <em>una<\/em> prueba",
+            "format": "full_html"
+        }
+    ]
+}

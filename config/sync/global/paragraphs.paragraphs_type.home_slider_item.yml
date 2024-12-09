@@ -1,0 +1,10 @@
+uuid: cabf97b1-9ece-49c5-8a35-f06d078749a5
+langcode: es
+status: true
+dependencies: {  }
+id: home_slider_item
+label: 'Home slider item'
+icon_uuid: null
+icon_default: null
+description: 'Hoke slider content fields'
+behavior_plugins: {  }
