@@ -4,3 +4,57 @@
  * @file
  * Primary module hooks for basic_config module.
  */
+
+use Drupal\node\Entity\Node;
+use Drupal\node\NodeInterface;
+use Drupal\paragraphs\Entity\Paragraph;
+
+ /**
+ * Implements hook_node_view().
+ */
+function basic_config_node_view(array &$build, \Drupal\node\NodeInterface $node, $view_mode) {
+  if ($node->bundle() === 'course') {
+    \Drupal::service('basic_config.course_context')->setCurrentCourse($node->id());
+  }
+
+  if ($node->bundle() === 'module') {
+    $course_id = \Drupal::service('basic_config.course_context')->getCurrentCourse();
+
+    if ($course_id) {
+      $course = \Drupal\node\Entity\Node::load($course_id);
+      if ($course) {
+        $build['#current_course'] = [
+          'id' => $course_id,
+          'title' => $course->label(),
+          'url' => $course->toUrl()->toString(),
+        ];
+      }
+    }
+  }
+}
+
+function basic_config_preprocess_node(array &$variables) {
+  $node = $variables['node'];
+
+  // Check if we are processing a "module" node.
+  if ($node->bundle() === 'module') {
+    $course_id = \Drupal::service('basic_config.course_context')->getCurrentCourse();
+
+    dump($course_id);
+
+    if ($course_id) {
+      $course = \Drupal\node\Entity\Node::load($course_id);
+      if ($course) {
+        // Pass the course information to Twig.
+        $variables['current_course'] = [
+          'id' => $course_id,
+          'title' => $course->label(),
+          'url' => $course->toUrl()->toString(),
+        ];
+      }
+    }
+  }
+}
+
+
+
