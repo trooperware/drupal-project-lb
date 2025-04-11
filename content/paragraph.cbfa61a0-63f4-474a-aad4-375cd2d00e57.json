@@ -1,0 +1,57 @@
+{
+    "uuid": [
+        {
+            "value": "cbfa61a0-63f4-474a-aad4-375cd2d00e57"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "theme",
+            "target_type": "paragraphs_type",
+            "target_uuid": "12fe6fc9-e1a6-411b-9fee-ec83071c64df"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-07-03T12:08:02+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "field_module": [],
+    "field_theme": [
+        {
+            "value": "Juego y apuestas online"
+        }
+    ],
+    "field_topic": [
+        {
+            "target_type": "node",
+            "target_uuid": "34d87d23-edd0-407e-9ff7-835731b3d559"
+        }
+    ]
+}

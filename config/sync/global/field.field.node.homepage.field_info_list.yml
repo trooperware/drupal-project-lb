@@ -1,0 +1,19 @@
+uuid: e0b3c27f-b0aa-46f0-b1ce-1829b1b56495
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_info_list
+    - node.type.homepage
+id: node.homepage.field_info_list
+field_name: field_info_list
+entity_type: node
+bundle: homepage
+label: 'Lista de información'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

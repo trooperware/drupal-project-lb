@@ -64,3 +64,4 @@ Thumbs.db
 # estos archivos.
 # /web/sites/*/settings.php
 # /web/sites/*/settings.*.php
+/web/sites/*/settings.*.php

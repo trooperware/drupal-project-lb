@@ -3,6 +3,7 @@ global-styling:
   css:
     theme:
       css/style.min.css: {}
+      css/custom.css: {}
   js:
     js/ruhi.js: {}
   dependencies:

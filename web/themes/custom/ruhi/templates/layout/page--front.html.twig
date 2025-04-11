@@ -80,30 +80,41 @@
 							</div>
 						{% endif %}
 
-
+						{% if info_items %}
 						<div class="basic-text paragraph">
 							<div class="container">
 
 								<div class="field field--name-body field--type-text-with-summary field--label-hidden field-item">
 									<div class="items">
 										<div class="animate-fadeIn fancy animated">
-											<strong>Educación para todos</strong>
-											<h2>¿Qué és el Programa de Educación Audiovisual?</h2>
-											<p>Facilitar la educación audiovisual minimizando los efectos negativos de las pantallas, al mismo tiempo que se pretende maximizar los positivos</p>
+											<strong>{{ info_items.pretitle|raw }}</strong>
+											<h2>{{ info_items.title|raw }}</h2>
+											<p>{{ info_items.subtitle|raw }}</p>
 											<div class="items">
 												<div>
 													<ul class="check-list">
-														<li>Utilizar internet de forma segura</li>
-														<li>Escoger videojuegos adecuados para cada
-															edad</li>
-														<li>Enseñar a ver contenidos con espíritu crítico</li>
+														{% if info_items.info_list_values.0 %}
+															<li>{{ info_items.info_list_values.0 }}</li>
+														{% endif %}
+														{% if info_items.info_list_values.1 %}
+															<li>{{ info_items.info_list_values.1 }}</li>
+														{% endif %}
+														{% if info_items.info_list_values.2 %}
+															<li>{{ info_items.info_list_values.2 }}</li>
+														{% endif %}
 													</ul>
 												</div>
 												<div>
 													<ul class="check-list">
-														<li>Access to 100+ online courses</li>
-														<li>100% campus placement</li>
-														<li>Modern infrastructure</li>
+														{% if info_items.info_list_values.3 %}
+															<li>{{ info_items.info_list_values.3 }}</li>
+														{% endif %}
+														{% if info_items.info_list_values.4 %}
+															<li>{{ info_items.info_list_values.4 }}</li>
+														{% endif %}
+														{% if info_items.info_list_values.5 %}
+															<li>{{ info_items.info_list_values.5 }}</li>
+														{% endif %}
 													</ul>
 												</div>
 											</div>
@@ -117,18 +128,21 @@
 
 							</div>
 						</div>
-
+						{% endif %}
 
 						<div class="basic-text paragraph">
 							<div class="container">
-								<h2 class="basic-text_title">Preguntas frecuentes</h2>
+								<h2 class="basic-text_title">{{ faqs_items.title|raw }}</h2>
 								<div class="basic-text_content">
 									<div class="field field--name-body field--type-text-with-summary field--label-hidden field-item">
 										<div class="text-center">
-											<h4>¿Montes semper nisl suscipit?</h4>
-											<p class="width60 center">
-												Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
-											</p>
+											{% for item in faqs_items.faqs %}
+												<h4>{{ item.title|raw }}</h4>
+												<p class="width60 center">
+													{{ item.content|raw }}
+												</p>
+											{% endfor %}
+											<!--
 											<h4>¿Sociosqu faucibus quisque?</h4>
 											<p class="width60 center">
 												Natoque mauris ultrices placerat dictumst et ornare tincidunt, orci interdum magna vulputate sollicitudin ac in.
@@ -137,6 +151,7 @@
 											<p class="width60 center">
 												Vitae dui massa pulvinar facilisis in libero maecenas, iaculis tempus auctor curae orci quam risus, ligula nunc ut eros est inceptos.
 											</p>
+											-->
 										</div>
 									</div>
 								</div>

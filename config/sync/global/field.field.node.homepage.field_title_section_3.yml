@@ -1,0 +1,19 @@
+uuid: 798f52bb-1c37-4891-ab98-b9d5d5e18cf1
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_title_section_3
+    - node.type.homepage
+id: node.homepage.field_title_section_3
+field_name: field_title_section_3
+entity_type: node
+bundle: homepage
+label: 'Título FAQs'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

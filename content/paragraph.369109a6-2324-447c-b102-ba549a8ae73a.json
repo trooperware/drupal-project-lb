@@ -1,0 +1,57 @@
+{
+    "uuid": [
+        {
+            "value": "369109a6-2324-447c-b102-ba549a8ae73a"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "theme",
+            "target_type": "paragraphs_type",
+            "target_uuid": "12fe6fc9-e1a6-411b-9fee-ec83071c64df"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-07-03T12:06:48+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "field_module": [],
+    "field_theme": [
+        {
+            "value": "Videojuegos"
+        }
+    ],
+    "field_topic": [
+        {
+            "target_type": "node",
+            "target_uuid": "a418a05a-8c45-45dd-aa63-88305e81aff7"
+        }
+    ]
+}

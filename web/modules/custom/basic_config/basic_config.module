@@ -19,6 +19,7 @@ function basic_config_node_view(array &$build, \Drupal\node\NodeInterface $node,
 
   if ($node->bundle() === 'module') {
     $course_id = \Drupal::service('basic_config.course_context')->getCurrentCourse();
+    $course_id = 9;
 
     if ($course_id) {
       $course = \Drupal\node\Entity\Node::load($course_id);
@@ -39,22 +40,60 @@ function basic_config_preprocess_node(array &$variables) {
   // Check if we are processing a "module" node.
   if ($node->bundle() === 'module') {
     $course_id = \Drupal::service('basic_config.course_context')->getCurrentCourse();
+    $course_id = 9;
 
-    dump($course_id);
-
+    // dump($course_id);
     if ($course_id) {
-      $course = \Drupal\node\Entity\Node::load($course_id);
-      if ($course) {
-        // Pass the course information to Twig.
+      $course = Node::load($course_id);
+      // dump($course);
+      if ($course && $course->hasField('field_modules')) {
+        // Prepare data to pass to Twig
+        $paragraph_data = [];
+
+        $item = [];
+        foreach ($course->get('field_modules')->referencedEntities() as $paragraph) {
+
+          // You can extract any paragraph fields here
+          //dump($paragraph);
+
+          // Example: get text field
+          if ($paragraph->hasField('field_theme')) {
+            $item['field_theme'] = $paragraph->get('field_theme')->value;
+          }
+
+
+          // Example: get referenced entities (like modules)
+          if ($paragraph->hasField('field_module')) {
+            $refs = [];
+            foreach ($paragraph->get('field_module')->referencedEntities() as $ref_node) {
+              // dump($ref_node);
+              $refs[] = [
+                'title' => $ref_node->label(),
+                'url' => $ref_node->toUrl()->toString(),
+              ];
+            }
+            $item['field_module'] = $refs;
+          }
+
+
+
+          $paragraph_data[] = $item;
+        }
+
+        //dump($paragraph_data);
+
+        // Add everything to Twig
         $variables['current_course'] = [
           'id' => $course_id,
           'title' => $course->label(),
           'url' => $course->toUrl()->toString(),
+          'paragraphs' => $paragraph_data,
         ];
       }
     }
   }
 }
+
 
 
 

@@ -1,0 +1,24 @@
+uuid: e88fcaed-aee3-491d-886a-511b9a9191e4
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_content
+    - filter.format.full_html
+    - paragraphs.paragraphs_type.home_faqs
+  module:
+    - text
+id: paragraph.home_faqs.field_content
+field_name: field_content
+entity_type: paragraph
+bundle: home_faqs
+label: Pregunta
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - full_html
+field_type: text

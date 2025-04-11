@@ -103,7 +103,50 @@ function ruhi_preprocess_page(array &$variables) {
 			$steps_items['steps'] = $steps;
 			$variables['steps_items'] = $steps_items;
 		}
+
+		// Info.
+		if ($node->hasField('field_title_section_2') && !$node->get('field_title_section_2')->isEmpty()) {
+			$info_items = [];
+			$info_items['pretitle'] = $node->get('field_pretitle_section_2')->value;
+			$info_items['title'] = $node->get('field_title_section_2')->value;
+			$info_items['subtitle'] = $node->get('field_subtitle_section_2')->value;
+			$variables['info_items'] = $info_items;
+			// Get list of values.
+			if ($node->hasField('field_info_list') && !$node->get('field_info_list')->isEmpty()) {
+				// Get all values of the field as an array.
+				$info_list_values = [];
+				foreach ($node->get('field_info_list')->getValue() as $value) {
+						$info_list_values[] = $value['value'];
+				}
+				$variables['info_items']['info_list_values'] = $info_list_values;
+			}
+		}
+
+		// FAQs.
+		if ($node->hasField('field_faqs') && !$node->get('field_faqs')->isEmpty()) {
+			$faqs_items = [];
+			$faqs_items['title'] = $node->get('field_title_section_3')->value;
+			$faqs_items['subtitle'] = $node->get('field_subtitle_section_3')->value;
+			// Get the paragraphs.
+			$paragraphs = $node->get('field_faqs')->referencedEntities();
+			$faqs = [];
+			foreach ($paragraphs as $paragraph) {
+					if ($paragraph->bundle() === 'home_faqs') {
+							$faqs[] = [
+									'title' => $paragraph->get('field_title')->value ?? '',
+									'content' => $paragraph->get('field_content')->value ?? '',
+							];
+					}
+			}
+			$faqs_items['faqs'] = $faqs;
+			$variables['faqs_items'] = $faqs_items;
+		}
+
 	}
+
+
+
+
 
 	// Header
 	$variables['header_main_default'] = theme_get_setting('header_main_default', 'ruhi');

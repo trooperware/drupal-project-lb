@@ -1,0 +1,57 @@
+{
+    "uuid": [
+        {
+            "value": "f9355e47-05ba-4e00-a76a-aa0369d9d98f"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "home_faqs",
+            "target_type": "paragraphs_type",
+            "target_uuid": "3b481501-b67b-4734-ba99-158ea4537a53"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-12-09T16:22:04+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "field_content": [
+        {
+            "value": "Natoque mauris ultrices placerat dictumst et ornare tincidunt, orci interdum magna vulputate sollicitudin ac in.",
+            "format": "full_html"
+        }
+    ],
+    "field_title": [
+        {
+            "value": "\u00bfSociosqu faucibus quisque?",
+            "format": "full_html"
+        }
+    ]
+}

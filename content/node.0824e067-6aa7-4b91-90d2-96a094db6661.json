@@ -53,7 +53,7 @@
     ],
     "changed": [
         {
-            "value": "2024-12-09T11:08:44+00:00",
+            "value": "2024-12-30T09:37:33+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -81,6 +81,38 @@
         {
             "alias": "\/Inicio",
             "langcode": "es"
+        }
+    ],
+    "field_faqs": [
+        {
+            "target_type": "paragraph",
+            "target_uuid": "f9355e47-05ba-4e00-a76a-aa0369d9d98f"
+        },
+        {
+            "target_type": "paragraph",
+            "target_uuid": "0bf0bd78-7f4e-4e23-8803-f2252ef013cd"
+        }
+    ],
+    "field_info_list": [
+        {
+            "value": "Utilizar internet de forma segura."
+        },
+        {
+            "value": "Escoger videojuegos adecuados para cada edad."
+        },
+        {
+            "value": "Ense\u00f1ar a ver contenidos con esp\u00edritu cr\u00edtico."
+        },
+        {
+            "value": "Access to 100+ online courses."
+        },
+        {
+            "value": "100% campus placement."
+        }
+    ],
+    "field_pretitle_section_2": [
+        {
+            "value": "Educaci\u00f3n para todos"
         }
     ],
     "field_slider": [
@@ -116,9 +148,30 @@
             "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore."
         }
     ],
+    "field_subtitle_section_2": [
+        {
+            "value": "Facilitar la educaci\u00f3n audiovisual minimizando los efectos negativos de las pantallas, al mismo tiempo que se pretende maximizar los positivos.",
+            "format": "full_html"
+        }
+    ],
+    "field_subtitle_section_3": [
+        {
+            "value": "Subt\u00edtulo FAQs"
+        }
+    ],
     "field_title_section_1": [
         {
             "value": "Inscr\u00edbete y aprende online en 3 pasos"
+        }
+    ],
+    "field_title_section_2": [
+        {
+            "value": "\u00bfQu\u00e9 \u00e9s el Programa de Educaci\u00f3n Audiovisual?"
+        }
+    ],
+    "field_title_section_3": [
+        {
+            "value": "FAQs"
         }
     ]
 }

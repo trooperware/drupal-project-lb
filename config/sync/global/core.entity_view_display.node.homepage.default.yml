@@ -3,10 +3,17 @@ langcode: es
 status: true
 dependencies:
   config:
+    - field.field.node.homepage.field_faqs
+    - field.field.node.homepage.field_info_list
+    - field.field.node.homepage.field_pretitle_section_2
     - field.field.node.homepage.field_slider
     - field.field.node.homepage.field_steps
     - field.field.node.homepage.field_subtitle_section_1
+    - field.field.node.homepage.field_subtitle_section_2
+    - field.field.node.homepage.field_subtitle_section_3
     - field.field.node.homepage.field_title_section_1
+    - field.field.node.homepage.field_title_section_2
+    - field.field.node.homepage.field_title_section_3
     - node.type.homepage
   module:
     - user
@@ -21,8 +28,15 @@ content:
     weight: 0
     region: content
 hidden:
+  field_faqs: true
+  field_info_list: true
+  field_pretitle_section_2: true
   field_slider: true
   field_steps: true
   field_subtitle_section_1: true
+  field_subtitle_section_2: true
+  field_subtitle_section_3: true
   field_title_section_1: true
+  field_title_section_2: true
+  field_title_section_3: true
   langcode: true

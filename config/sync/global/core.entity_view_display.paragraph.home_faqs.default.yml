@@ -1,0 +1,30 @@
+uuid: cb7bf4a1-50d6-4ab6-aec9-7b50de11ab5b
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.home_faqs.field_content
+    - field.field.paragraph.home_faqs.field_title
+    - paragraphs.paragraphs_type.home_faqs
+  module:
+    - text
+id: paragraph.home_faqs.default
+targetEntityType: paragraph
+bundle: home_faqs
+mode: default
+content:
+  field_content:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_title:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

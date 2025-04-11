@@ -1,0 +1,57 @@
+{
+    "uuid": [
+        {
+            "value": "0bf0bd78-7f4e-4e23-8803-f2252ef013cd"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "home_faqs",
+            "target_type": "paragraphs_type",
+            "target_uuid": "3b481501-b67b-4734-ba99-158ea4537a53"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-12-09T16:22:15+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "field_content": [
+        {
+            "value": "Vitae dui massa pulvinar facilisis in libero maecenas, iaculis tempus auctor curae orci quam risus, ligula nunc ut eros est inceptos.",
+            "format": "full_html"
+        }
+    ],
+    "field_title": [
+        {
+            "value": "\u00bfOrci interdum magna vulputate?",
+            "format": "full_html"
+        }
+    ]
+}

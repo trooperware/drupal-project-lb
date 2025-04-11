@@ -1,0 +1,24 @@
+uuid: 9e7fc5a9-8f36-469e-8694-63c5561188f8
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_title
+    - filter.format.full_html
+    - paragraphs.paragraphs_type.home_faqs
+  module:
+    - text
+id: paragraph.home_faqs.field_title
+field_name: field_title
+entity_type: paragraph
+bundle: home_faqs
+label: Respuesta
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - full_html
+field_type: text

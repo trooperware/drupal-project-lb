@@ -1,0 +1,6 @@
+services:
+  basic_config.course_context:
+    class: Drupal\basic_config\Service\CourseContext
+    arguments: ['@session']
+    tags:
+      - { name: service_provider }
