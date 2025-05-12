@@ -1,0 +1,5 @@
+services:
+  students.webform_handler.create_student:
+    class: Drupal\students\Plugin\WebformHandler\CreateStudentHandler
+    tags:
+      - { name: webform.handler }

@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "7d340e25-cf31-451d-9f77-d8d859084ff0"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/webform\/create_student\/confirmation"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/webform\/registrar-estudiante\/confirmation"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

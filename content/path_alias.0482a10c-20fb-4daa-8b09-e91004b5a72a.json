@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "0482a10c-20fb-4daa-8b09-e91004b5a72a"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/webform\/editar_estudiante\/drafts"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/webform\/editar-estudiante\/drafts"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

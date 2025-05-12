@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "37cc5da4-380f-41c9-9671-78340c605c19"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "und"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/webform\/editar_estudiante\/submissions"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/webform\/editar-estudiante\/submissions"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

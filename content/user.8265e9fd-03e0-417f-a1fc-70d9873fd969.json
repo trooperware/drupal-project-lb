@@ -1,0 +1,78 @@
+{
+    "uid": [
+        {
+            "value": 3
+        }
+    ],
+    "uuid": [
+        {
+            "value": "8265e9fd-03e0-417f-a1fc-70d9873fd969"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es"
+        }
+    ],
+    "preferred_langcode": [
+        {
+            "value": "es"
+        }
+    ],
+    "preferred_admin_langcode": [],
+    "name": [
+        {
+            "value": "Test"
+        }
+    ],
+    "mail": [
+        {
+            "value": "jaume.es.teban@naranjus.com"
+        }
+    ],
+    "timezone": [
+        {
+            "value": "UTC"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2025-05-11T18:46:03+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2025-05-11T18:46:03+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "roles": [
+        {
+            "target_id": "student",
+            "target_type": "user_role",
+            "target_uuid": "995660cf-c87b-4320-9cd0-c468969b6d88"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "field_courses": [
+        {
+            "target_type": "node",
+            "target_uuid": "c4fd93df-61f5-4f9c-8bff-8d63df3e5c39"
+        },
+        {
+            "target_type": "node",
+            "target_uuid": "88387e5c-46a0-45cc-b32d-dacd02b3c4fb"
+        }
+    ],
+    "user_picture": []
+}

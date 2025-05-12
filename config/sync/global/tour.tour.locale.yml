@@ -50,7 +50,7 @@ tips:
   locale-translate:
     id: locale-translate
     plugin: text
-    label: Translate
+    label: Traducir
     weight: 6
     selector: .js-form-type-textarea
     body: 'You can write your own translation in the text fields of the right column. Try to figure out in which context the text will be used in order to translate it in the appropriate way.'

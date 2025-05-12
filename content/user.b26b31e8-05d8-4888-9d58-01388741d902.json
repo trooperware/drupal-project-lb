@@ -52,7 +52,7 @@
     ],
     "changed": [
         {
-            "value": "2024-01-04T16:49:39+00:00",
+            "value": "2025-05-12T11:32:21+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -66,6 +66,16 @@
     "default_langcode": [
         {
             "value": true
+        }
+    ],
+    "field_courses": [
+        {
+            "target_type": "node",
+            "target_uuid": "c4fd93df-61f5-4f9c-8bff-8d63df3e5c39"
+        },
+        {
+            "target_type": "node",
+            "target_uuid": "3bfebc8c-86e1-4a59-bed3-b3d2d69f07ec"
         }
     ],
     "user_picture": []

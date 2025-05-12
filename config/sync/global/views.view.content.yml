@@ -69,7 +69,7 @@ display:
           entity_type: node
           entity_field: type
           plugin_id: field
-          label: 'Content type'
+          label: 'Tipo de contenido'
           exclude: false
           alter:
             alter_text: false
@@ -172,7 +172,7 @@ display:
           entity_type: node
           entity_field: changed
           plugin_id: field
-          label: Updated
+          label: Actualizado
           exclude: false
           alter:
             alter_text: false
@@ -253,8 +253,8 @@ display:
           tags:
             next: 'Next ›'
             previous: '‹ Previous'
-            first: '« First'
-            last: 'Last »'
+            first: '« Primero'
+            last: 'Último »'
       exposed_form:
         type: basic
         options:
@@ -340,7 +340,7 @@ display:
           exposed: true
           expose:
             operator_id: type_op
-            label: 'Content type'
+            label: 'Tipo de contenido'
             description: ''
             use_operator: false
             operator: type_op
@@ -594,7 +594,7 @@ display:
       tags: {  }
   page_1:
     id: page_1
-    display_title: Page
+    display_title: Página
     display_plugin: page
     position: 1
     display_options:

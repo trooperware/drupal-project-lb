@@ -1,0 +1,30 @@
+uuid: 563b55a7-c14e-4aad-94e3-d650891bfc43
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_courses
+    - node.type.course
+  module:
+    - user
+id: user.user.field_courses
+field_name: field_courses
+entity_type: user
+bundle: user
+label: 'Cursos activos'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      course: course
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

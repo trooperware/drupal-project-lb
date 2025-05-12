@@ -1,0 +1,7 @@
+name: 'Students'
+type: module
+description: 'Gestión de estudiantes: creación, edición, asignación de cursos.'
+core_version_requirement: ^10
+package: Custom
+dependencies:
+  - webform:webform

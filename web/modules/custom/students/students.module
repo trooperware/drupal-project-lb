@@ -1,0 +1,41 @@
+<?php
+use Drupal\user\Entity\User;
+
+function students_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
+  if (str_contains($form_id, 'webform')) {
+    \Drupal::logger('students')->notice("Formulario detectado: " . $form_id);
+  }
+}
+
+/**
+ * Alterar el Webform para precargar datos del usuario según el uid en la URL.
+ */
+function students_form_webform_submission_editar_estudiante_add_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
+  \Drupal::logger('students')->notice("students_form_webform_submission_editar_estudiante_add_form_alter ejecutado");
+  $uid = \Drupal::request()->query->get('uid');
+  if (!$uid || !is_numeric($uid)) {
+    return;
+  }
+
+  $user = User::load($uid);
+  if (!$user) {
+    return;
+  }
+
+  // Prellenar el campo oculto 'uid'
+  if (isset($form['elements']['userid'])) {
+    $form['elements']['userid']['#default_value'] = $uid;
+  }
+
+  // Prellenar cursos
+  if (isset($form['elements']['courses'])) {
+    $form['elements']['courses']['#default_value'] = array_column($user->get('field_courses')->getValue(), 'target_id');
+  }
+
+  if (isset($form['elements']['nombre'])) {
+    $form['elements']['nombre']['#default_value'] = $user->getAccountName();
+  }
+  if (isset($form['elements']['mail'])) {
+    $form['elements']['mail']['#default_value'] = $user->getEmail();
+  }
+}

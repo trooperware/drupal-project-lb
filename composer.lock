@@ -4,8 +4,23 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4f26136ef599e173b3bdd9aef33a57b8",
+    "content-hash": "0063ad3fe73a361b8519756450edd366",
     "packages": [
+        {
+            "name": "algolia/places",
+            "version": "1.19.0",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/places.js/-/places.js-1.19.0.tgz"
+            },
+            "type": "drupal-library",
+            "extra": {
+                "installer-name": "algolia.places"
+            },
+            "license": [
+                "MIT"
+            ]
+        },
         {
             "name": "asm89/stack-cors",
             "version": "v2.1.1",
@@ -122,6 +137,36 @@
                 "source": "https://github.com/Chi-teck/drupal-code-generator/tree/2.6.2"
             },
             "time": "2022-11-11T15:34:04+00:00"
+        },
+        {
+            "name": "choices/choices",
+            "version": "9.0.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/Choices-js/Choices/archive/refs/tags/v9.0.1.zip"
+            },
+            "type": "drupal-library",
+            "extra": {
+                "installer-name": "choices"
+            },
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "codemirror/codemirror",
+            "version": "5.65.12",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/components/codemirror/archive/refs/tags/5.65.12.zip"
+            },
+            "type": "drupal-library",
+            "extra": {
+                "installer-name": "codemirror"
+            },
+            "license": [
+                "MIT"
+            ]
         },
         {
             "name": "composer/installers",
@@ -3094,6 +3139,183 @@
             }
         },
         {
+            "name": "drupal/webform",
+            "version": "6.2.7",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/webform.git",
+                "reference": "6.2.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/webform-6.2.7.zip",
+                "reference": "6.2.7",
+                "shasum": "7e0520773f2521d70837371b08e09a13704b4274"
+            },
+            "require": {
+                "drupal/core": "^10.1",
+                "php": ">=8.1"
+            },
+            "require-dev": {
+                "drupal/address": "1.x-dev",
+                "drupal/bootstrap": "3.x-dev",
+                "drupal/captcha": "^1 || ^2",
+                "drupal/chosen": "3.0.x-dev",
+                "drupal/ckeditor": "1.0.x-dev",
+                "drupal/clientside_validation": "^3 || ^4",
+                "drupal/clientside_validation_jquery": "*",
+                "drupal/devel": "5.x-dev",
+                "drupal/entity": "1.x-dev",
+                "drupal/entity_print": "2.x-dev",
+                "drupal/group": "1.x-dev",
+                "drupal/hal": "1 - 2",
+                "drupal/jquery_ui": "1.x-dev",
+                "drupal/jquery_ui_button": "2.x-dev",
+                "drupal/jquery_ui_checkboxradio": "2.x-dev",
+                "drupal/jquery_ui_datepicker": "2.x-dev",
+                "drupal/mailsystem": "4.x-dev",
+                "drupal/metatag": "1.x-dev",
+                "drupal/paragraphs": "1.x-dev",
+                "drupal/select2": "1.x-dev",
+                "drupal/smtp": "1.x-dev",
+                "drupal/styleguide": "^1 || ^2",
+                "drupal/telephone_validation": "2.x-dev",
+                "drupal/token": "1.x-dev",
+                "drupal/variationcache": "1.x-dev",
+                "drupal/webform_access": "*",
+                "drupal/webform_attachment": "*",
+                "drupal/webform_clientside_validation": "*",
+                "drupal/webform_devel": "*",
+                "drupal/webform_entity_print": "*",
+                "drupal/webform_node": "*",
+                "drupal/webform_options_limit": "*",
+                "drupal/webform_scheduled_email": "*",
+                "drupal/webform_share": "*",
+                "drupal/webform_ui": "*"
+            },
+            "suggest": {
+                "drupal/jquery_ui_buttons": "Provides jQuery UI Checkboxradio library. Required by the Webform jQueryUI Buttons module. The Webform jQueryUI Buttons module is deprecated because jQueryUI is no longer maintained.",
+                "drupal/jquery_ui_datepicker": "Provides jQuery UI Datepicker library. Required to support datepickers. The Webform jQueryUI Datepicker module is deprecated because jQueryUI is no longer maintained."
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "6.2.7",
+                    "datestamp": "1721425228",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                },
+                "drush": {
+                    "services": {
+                        "drush.services.yml": ">=9"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Jacob Rockowitz (jrockowitz)",
+                    "homepage": "https://www.drupal.org/u/jrockowitz",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Contributors",
+                    "homepage": "https://www.drupal.org/node/7404/committers",
+                    "role": "Contributor"
+                },
+                {
+                    "name": "liam morland",
+                    "homepage": "https://www.drupal.org/user/493050"
+                },
+                {
+                    "name": "mandclu",
+                    "homepage": "https://www.drupal.org/user/52136"
+                },
+                {
+                    "name": "quicksketch",
+                    "homepage": "https://www.drupal.org/user/35821"
+                }
+            ],
+            "description": "Enables the creation of webforms and questionnaires.",
+            "homepage": "https://drupal.org/project/webform",
+            "support": {
+                "source": "https://git.drupalcode.org/project/webform",
+                "issues": "https://www.drupal.org/project/issues/webform?version=8.x",
+                "docs": "https://www.drupal.org/docs/8/modules/webform",
+                "forum": "https://drupal.stackexchange.com/questions/tagged/webform"
+            }
+        },
+        {
+            "name": "drupal/webform_user_registration",
+            "version": "1.0.0-alpha2",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/webform_user_registration.git",
+                "reference": "8.x-1.0-alpha2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/webform_user_registration-8.x-1.0-alpha2.zip",
+                "reference": "8.x-1.0-alpha2",
+                "shasum": "4a0654675f267d74342a1d8bde9f3bc5ec1acbf2"
+            },
+            "require": {
+                "drupal/core": "^9.1 || ^10",
+                "drupal/webform": "^6"
+            },
+            "require-dev": {
+                "drupal/coder": "^8.2",
+                "jakub-onderka/php-console-highlighter": "^0.3.2",
+                "jakub-onderka/php-parallel-lint": "^0.9.2"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.0-alpha2",
+                    "datestamp": "1704802768",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "scripts": {
+                "phplint": [
+                    "vendor/bin/parallel-lint --exclude vendor/ --exclude .idea/ -e php,module,inc,install,profile,theme ."
+                ],
+                "phpcs": [
+                    "vendor/bin/phpcs --ignore=vendor/,.idea/ --standard=vendor/drupal/coder/coder_sniffer/Drupal/ruleset.xml --extensions=php,module,inc,install,profile,theme --report=full --warning-severity=0 ."
+                ],
+                "phpcbf": [
+                    "vendor/bin/phpcbf --ignore=vendor/,.idea/ --standard=vendor/drupal/coder/coder_sniffer/Drupal/ruleset.xml --extensions=php,module,inc,install,profile,theme ."
+                ]
+            },
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Berdir",
+                    "homepage": "https://www.drupal.org/user/214652"
+                },
+                {
+                    "name": "Etroid",
+                    "homepage": "https://www.drupal.org/user/3048985"
+                }
+            ],
+            "description": "Webform user registration handler.",
+            "homepage": "https://www.drupal.org/project/webform_user_registration",
+            "support": {
+                "source": "https://git.drupalcode.org/project/webform_user_registration"
+            }
+        },
+        {
             "name": "drush/drush",
             "version": "11.6.0",
             "source": {
@@ -3836,6 +4058,186 @@
                 "source": "https://github.com/jfeltkamp/cookiesjsr.git"
             },
             "time": "2022-03-25T09:05:23+00:00"
+        },
+        {
+            "name": "jquery/chosen",
+            "version": "1.8.7",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/harvesthq/chosen/releases/download/v1.8.7/chosen_v1.8.7.zip"
+            },
+            "type": "drupal-library",
+            "extra": {
+                "installer-name": "jquery.chosen"
+            },
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "jquery/geocomplete",
+            "version": "1.7.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/ubilabs/geocomplete/archive/refs/tags/1.7.0.zip"
+            },
+            "type": "drupal-library",
+            "extra": {
+                "installer-name": "jquery.geocomplete"
+            },
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "jquery/hotkeys",
+            "version": "0.2.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/jeresig/jquery.hotkeys/archive/refs/tags/0.2.0.zip"
+            },
+            "type": "drupal-library",
+            "extra": {
+                "installer-name": "jquery.hotkeys"
+            },
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "jquery/icheck",
+            "version": "1.0.2 ",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/dargullin/icheck/archive/refs/tags/1.0.2.zip"
+            },
+            "type": "drupal-library",
+            "extra": {
+                "installer-name": "jquery.icheck"
+            },
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "jquery/image-picker",
+            "version": "0.3.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/rvera/image-picker/archive/refs/tags/0.3.1.zip"
+            },
+            "type": "drupal-library",
+            "extra": {
+                "installer-name": "jquery.image-picker"
+            },
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "jquery/inputmask",
+            "version": "5.0.8",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/RobinHerbots/jquery.inputmask/archive/refs/tags/5.0.8.zip"
+            },
+            "type": "drupal-library",
+            "extra": {
+                "installer-name": "jquery.inputmask"
+            },
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "jquery/intl-tel-input",
+            "version": "17.0.19",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/jackocnr/intl-tel-input/archive/refs/tags/v17.0.19.zip"
+            },
+            "type": "drupal-library",
+            "extra": {
+                "installer-name": "jquery.intl-tel-input"
+            },
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "jquery/rateit",
+            "version": "1.1.5",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/gjunge/rateit.js/archive/refs/tags/1.1.5.zip"
+            },
+            "type": "drupal-library",
+            "extra": {
+                "installer-name": "jquery.rateit"
+            },
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "jquery/select2",
+            "version": "4.0.13",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/select2/select2/archive/refs/tags/4.0.13.zip"
+            },
+            "type": "drupal-library",
+            "extra": {
+                "installer-name": "jquery.select2"
+            },
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "jquery/textcounter",
+            "version": "0.9.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/ractoon/jQuery-Text-Counter/archive/refs/tags/0.9.1.zip"
+            },
+            "type": "drupal-library",
+            "extra": {
+                "installer-name": "jquery.textcounter"
+            },
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "jquery/timepicker",
+            "version": "1.14.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/jonthornton/jquery-timepicker/archive/refs/tags/1.14.0.zip"
+            },
+            "type": "drupal-library",
+            "extra": {
+                "installer-name": "jquery.timepicker"
+            },
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "jquery/toggles",
+            "version": "4.0.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/simontabor/jquery-toggles/archive/refs/tags/v4.0.0.zip"
+            },
+            "type": "drupal-library",
+            "extra": {
+                "installer-name": "jquery.toggles"
+            },
+            "license": [
+                "MIT"
+            ]
         },
         {
             "name": "league/container",
@@ -4934,6 +5336,36 @@
             "time": "2021-09-22T16:57:06+00:00"
         },
         {
+            "name": "popperjs/popperjs",
+            "version": "2.11.6",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/@popperjs/core/-/core-2.11.6.tgz"
+            },
+            "type": "drupal-library",
+            "extra": {
+                "installer-name": "popperjs"
+            },
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "progress-tracker/progress-tracker",
+            "version": "2.0.7",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/NigelOToole/progress-tracker/archive/refs/tags/2.0.7.zip"
+            },
+            "type": "drupal-library",
+            "extra": {
+                "installer-name": "progress-tracker"
+            },
+            "license": [
+                "MIT"
+            ]
+        },
+        {
             "name": "psr/cache",
             "version": "3.0.0",
             "source": {
@@ -5484,6 +5916,36 @@
                 }
             ],
             "time": "2023-05-07T05:35:17+00:00"
+        },
+        {
+            "name": "signature_pad/signature_pad",
+            "version": "2.3.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/szimek/signature_pad/archive/refs/tags/v2.3.0.zip"
+            },
+            "type": "drupal-library",
+            "extra": {
+                "installer-name": "signature_pad"
+            },
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "svg-pan-zoom/svg-pan-zoom",
+            "version": "3.6.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/ariutta/svg-pan-zoom/archive/refs/tags/3.6.1.zip"
+            },
+            "type": "drupal-library",
+            "extra": {
+                "installer-name": "svg-pan-zoom"
+            },
+            "license": [
+                "BSD-2-Clause"
+            ]
         },
         {
             "name": "symfony/console",
@@ -8066,6 +8528,36 @@
                 }
             ],
             "time": "2023-11-06T10:58:05+00:00"
+        },
+        {
+            "name": "tabby/tabby",
+            "version": "12.0.3",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/cferdinandi/tabby/archive/refs/tags/v12.0.3.zip"
+            },
+            "type": "drupal-library",
+            "extra": {
+                "installer-name": "tabby"
+            },
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "tippyjs/tippyjs",
+            "version": "6.3.7",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/tippy.js/-/tippy.js-6.3.7.tgz"
+            },
+            "type": "drupal-library",
+            "extra": {
+                "installer-name": "tippyjs"
+            },
+            "license": [
+                "MIT"
+            ]
         },
         {
             "name": "twig/twig",
@@ -14150,6 +14642,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "drupal/webform_user_registration": 15,
         "drupal/config_delete": 10,
         "phpmd/phpmd": 0
     },
@@ -14162,6 +14655,6 @@
         "ext-gd": "*",
         "ext-zlib": "*"
     },
-    "platform-dev": {},
+    "platform-dev": [],
     "plugin-api-version": "2.6.0"
 }

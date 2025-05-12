@@ -1,0 +1,82 @@
+{
+    "serial": [
+        {
+            "value": 4
+        }
+    ],
+    "uuid": [
+        {
+            "value": "0e2647b2-da7b-463f-8801-98a8697c568e"
+        }
+    ],
+    "token": [
+        {
+            "value": "6HH_yRg_GE4GRYdTZ-bUz7CMx5SVsMwjWegWVFdaSWs"
+        }
+    ],
+    "uri": [
+        {
+            "value": "\/webform\/registrar-estudiante"
+        }
+    ],
+    "created": [
+        {
+            "value": "2025-05-10T10:54:05+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "completed": [
+        {
+            "value": "2025-05-10T10:54:05+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2025-05-10T10:54:05+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "in_draft": [
+        {
+            "value": false
+        }
+    ],
+    "current_page": [],
+    "remote_addr": [
+        {
+            "value": "172.19.0.2"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "57cd2b87-53d5-4a9d-aef9-1f2e416a347e"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es"
+        }
+    ],
+    "webform_id": [
+        {
+            "target_id": "create_student",
+            "target_type": "webform",
+            "target_uuid": "4151c5e3-e0c4-4f55-9312-7dd964882d66"
+        }
+    ],
+    "entity_type": [],
+    "entity_id": [],
+    "locked": [
+        {
+            "value": false
+        }
+    ],
+    "sticky": [
+        {
+            "value": false
+        }
+    ],
+    "notes": []
+}

@@ -16,7 +16,7 @@ id: block_content.reusable_block.body
 field_name: body
 entity_type: block_content
 bundle: reusable_block
-label: Body
+label: Cuerpo
 description: ''
 required: false
 translatable: true

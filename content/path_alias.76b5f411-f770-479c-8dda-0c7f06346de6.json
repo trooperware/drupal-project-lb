@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "76b5f411-f770-479c-8dda-0c7f06346de6"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "und"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/webform\/create_student\/drafts"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/webform\/registrar-estudiante\/drafts"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

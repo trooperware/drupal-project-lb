@@ -3,6 +3,7 @@ langcode: es
 status: true
 dependencies:
   config:
+    - field.field.user.user.field_courses
     - field.field.user.user.user_picture
     - image.style.thumbnail
   module:
@@ -21,6 +22,16 @@ content:
   contact:
     weight: 5
     region: content
+  field_courses:
+    type: entity_reference_autocomplete
+    weight: 7
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
   language:
     weight: 0
     region: content

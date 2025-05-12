@@ -82,7 +82,7 @@ display:
           entity_type: user
           entity_field: name
           plugin_id: field
-          label: Username
+          label: 'Nombre de usuario'
           exclude: false
           alter:
             alter_text: false
@@ -179,7 +179,7 @@ display:
           settings:
             format: custom
             format_custom_false: Blocked
-            format_custom_true: Active
+            format_custom_true: Activo
         roles_target_id:
           id: roles_target_id
           table: user__roles
@@ -468,14 +468,14 @@ display:
           tags:
             next: 'Next ›'
             previous: '‹ Previous'
-            first: '« First'
-            last: 'Last »'
+            first: '« Primero'
+            last: 'Último »'
           expose:
             items_per_page: false
-            items_per_page_label: 'Items per page'
+            items_per_page_label: 'Elementos por página'
             items_per_page_options: '5, 10, 25, 50'
             items_per_page_options_all: false
-            items_per_page_options_all_label: '- All -'
+            items_per_page_options_all_label: '- Todo -'
             offset: false
             offset_label: Desplazamiento
           quantity: 9
@@ -611,7 +611,7 @@ display:
             default_group_multiple: {  }
             group_items:
               1:
-                title: Active
+                title: Activo
                 operator: '='
                 value: '1'
               2:
@@ -674,7 +674,7 @@ display:
           exposed: true
           expose:
             operator_id: permission_op
-            label: Permission
+            label: Permiso
             description: ''
             use_operator: false
             operator: permission_op
@@ -894,7 +894,7 @@ display:
       tags: {  }
   page_1:
     id: page_1
-    display_title: Page
+    display_title: Página
     display_plugin: page
     position: 1
     display_options:

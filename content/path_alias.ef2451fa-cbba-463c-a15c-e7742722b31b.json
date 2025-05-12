@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "ef2451fa-cbba-463c-a15c-e7742722b31b"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/webform\/create_student\/submissions"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/webform\/registrar-estudiante\/submissions"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

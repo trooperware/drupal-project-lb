@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "88331614-d09c-410d-819e-816652ceca08"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "und"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/webform\/editar_estudiante\/confirmation"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/webform\/editar-estudiante\/confirmation"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}
