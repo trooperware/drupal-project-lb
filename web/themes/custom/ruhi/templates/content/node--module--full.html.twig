@@ -85,42 +85,7 @@ set node_classes = [
   {% endif %}
 {{ title_suffix }}
 
-{% if current_course %}
-  <p>This module belongs to the course:
-    <a href="{{ current_course.url }}">{{ current_course.title }}</a>
-  </p>
-{% else %}
-  <p>This module does not belong to a course.</p>
-{% endif %}
 
-{# drupal_view('curse_sections', 'block_1', current_course.id) #}
-
-{% if current_course %}
-  <h2>Related Course: <a href="{{ current_course.url }}">{{ current_course.title }}</a></h2>
-
-  {% if current_course.paragraphs %}
-    <h3>Course Content:</h3>
-    <ul>
-      {% for paragraph in current_course.paragraphs %}
-        <li>
-          {% if paragraph.text %}
-            <p>{{ paragraph.text }}</p>
-          {% endif %}
-          {% if paragraph.references %}
-            <ul>
-              {% for ref in paragraph.field_topic %}
-                <li><a href="{{ ref.url }}">{{ ref.title }}</a></li>
-              {% endfor %}
-              {% for ref in paragraph.references %}
-                <li><a href="{{ ref.url }}">{{ ref.title }}</a></li>
-              {% endfor %}
-            </ul>
-          {% endif %}
-        </li>
-      {% endfor %}
-    </ul>
-  {% endif %}
-{% endif %}
 
 
 {% if display_submitted %}
@@ -146,7 +111,24 @@ set node_classes = [
     </div>
   </header>
 {% endif %}
-  <div{{ content_attributes.addClass('node-content clear') }}>
-    {{ content }}
-  </div>
+
+
+<div class="container">
+    <div class="main-container">
+      <main id="main" class="main-content">
+        <div{{ content_attributes.addClass('node-content clear') }}>
+          {{ content }}
+        </div>
+      </main>
+      <aside id="sidebar-left" class="sidebar block-section" role="complementary">
+        {% if course_menu %}
+          <nav class="sidebar-menu">
+            {{ course_menu }}
+          </nav>
+        {% endif %}
+      </aside>
+    </div>
+
+</div>
+
 </article>

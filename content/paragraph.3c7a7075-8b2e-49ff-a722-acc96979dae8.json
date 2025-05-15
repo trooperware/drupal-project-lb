@@ -1,0 +1,66 @@
+{
+    "uuid": [
+        {
+            "value": "3c7a7075-8b2e-49ff-a722-acc96979dae8"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "theme",
+            "target_type": "paragraphs_type",
+            "target_uuid": "12fe6fc9-e1a6-411b-9fee-ec83071c64df"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2025-05-12T14:49:25+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "field_module": [
+        {
+            "target_type": "node",
+            "target_uuid": "87e83991-3c38-4d26-bd7a-64cb4bd3e908"
+        },
+        {
+            "target_type": "node",
+            "target_uuid": "ac897fa5-2e46-4711-9303-83fd8b0ee69d"
+        },
+        {
+            "target_type": "node",
+            "target_uuid": "ab406093-e3e8-4dd6-be3f-2b225092e7e6"
+        }
+    ],
+    "field_theme": [],
+    "field_topic": [
+        {
+            "target_type": "node",
+            "target_uuid": "f4a33bf4-8c7c-4cde-8c2c-fe9c8a5dcd8f"
+        }
+    ]
+}

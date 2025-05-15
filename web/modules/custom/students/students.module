@@ -1,5 +1,9 @@
 <?php
+use Drupal\node\Entity\Node;
 use Drupal\user\Entity\User;
+use Drupal\paragraphs\Entity\Paragraph;
+use Drupal\Core\Url;
+use Drupal\Core\Link;
 
 function students_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
   if (str_contains($form_id, 'webform')) {
@@ -37,5 +41,102 @@ function students_form_webform_submission_editar_estudiante_add_form_alter(&$for
   }
   if (isset($form['elements']['mail'])) {
     $form['elements']['mail']['#default_value'] = $user->getEmail();
+  }
+}
+
+
+/**
+ * Genera el menú completo de un curso a partir del nodo actual.
+ */
+function students_build_course_menu(Node $current_node) {
+  // Buscar el curso al que pertenece este nodo
+  $course = students_find_course_from_node($current_node);
+  if (!$course || !$course->hasField('field_modules')) {
+    return NULL;
+  }
+
+  $items = [];
+
+  foreach ($course->get('field_modules')->referencedEntities() as $theme_paragraph) {
+    if (!$theme_paragraph instanceof Paragraph) {
+      continue;
+    }
+
+    // Obtener nodo padre (unidad)
+    $topic_nodes = $theme_paragraph->get('field_topic')->referencedEntities();
+    $topic_node = !empty($topic_nodes) ? reset($topic_nodes) : NULL;
+
+    if ($topic_node instanceof Node) {
+      $topic_title = $topic_node->label();
+      $topic_url = Url::fromRoute('entity.node.canonical', ['node' => $topic_node->id()]);
+      $active = $current_node->id() == $topic_node->id();
+      $item = '<li class="menu-topic' . ($active ? ' is-active' : '') . '">';
+      $item .= Link::fromTextAndUrl($topic_title, $topic_url)->toString();
+      $item .= '<ul>';
+
+      // Obtener módulos hijos
+      $module_nodes = $theme_paragraph->get('field_module')->referencedEntities();
+      foreach ($module_nodes as $module_node) {
+        if ($module_node instanceof Node) {
+          $active_child = $current_node->id() == $module_node->id();
+          $module_title = $module_node->label();
+          $module_url = Url::fromRoute('entity.node.canonical', ['node' => $module_node->id()]);
+          $item .= '<li class="menu-module' . ($active_child ? ' is-active' : '') . '">';
+          $item .= Link::fromTextAndUrl($module_title, $module_url)->toString();
+          $item .= '</li>';
+        }
+      }
+
+      $item .= '</ul></li>';
+      $items[] = $item;
+    }
+  }
+
+  return '<ul class="course-menu">' . implode('', $items) . '</ul>';
+}
+
+/**
+ * Encuentra el curso al que pertenece un nodo (página o módulo).
+ */
+function students_find_course_from_node(Node $node) {
+  // Buscar todos los cursos publicados
+  $courses = \Drupal::entityTypeManager()
+    ->getStorage('node')
+    ->loadByProperties(['type' => 'course', 'status' => 1]);
+
+  foreach ($courses as $course) {
+    if (!$course->hasField('field_modules')) {
+      continue;
+    }
+
+    foreach ($course->get('field_modules')->referencedEntities() as $theme_paragraph) {
+      if (!$theme_paragraph instanceof Paragraph) {
+        continue;
+      }
+
+      $topics = $theme_paragraph->get('field_topic')->referencedEntities();
+      $modules = $theme_paragraph->get('field_module')->referencedEntities();
+
+      foreach (array_merge($topics, $modules) as $related_node) {
+        if ($related_node->id() == $node->id()) {
+          return $course;
+        }
+      }
+    }
+  }
+
+  return NULL;
+}
+
+function students_preprocess_node(array &$variables) {
+  $node = $variables['node'];
+  $menu = students_build_course_menu($node);
+
+  if ($menu) {
+    $variables['course_menu'] = [
+      '#markup' => $menu,
+      '#allowed_tags' => ['ul', 'li', 'a', 'span'], // para evitar filtrado
+      '#cache' => ['contexts' => ['url.path']],
+    ];
   }
 }

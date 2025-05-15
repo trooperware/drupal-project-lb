@@ -1,0 +1,107 @@
+{
+    "uuid": [
+        {
+            "value": "eac160bf-113b-466c-ac87-fb17aa708564"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "course",
+            "target_type": "node_type",
+            "target_uuid": "bc51874a-96c6-424a-8777-786e90c6642d"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2025-05-12T15:13:14+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "57cd2b87-53d5-4a9d-aef9-1f2e416a347e"
+        }
+    ],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "57cd2b87-53d5-4a9d-aef9-1f2e416a347e"
+        }
+    ],
+    "title": [
+        {
+            "value": "Curso de ejemplo"
+        }
+    ],
+    "created": [
+        {
+            "value": "2025-05-12T14:47:36+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2025-05-12T15:13:14+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false
+        }
+    ],
+    "sticky": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": "",
+            "pid": null,
+            "langcode": "es"
+        }
+    ],
+    "field_content": [
+        {
+            "value": "<p>Este curso sirve como ejemplo para la creaci\u00f3n de futuros cursos.<\/p><p>En la parte inferior est\u00e1n relacionadas las p\u00e1ginas que definen la estructura del curso.<\/p>",
+            "format": "basic_html"
+        }
+    ],
+    "field_modules": [
+        {
+            "target_type": "paragraph",
+            "target_uuid": "3c7a7075-8b2e-49ff-a722-acc96979dae8"
+        },
+        {
+            "target_type": "paragraph",
+            "target_uuid": "14924c9d-0240-42ff-8c32-69def9bec85b"
+        },
+        {
+            "target_type": "paragraph",
+            "target_uuid": "4b58127e-704a-49f4-8f2f-01dfd4e0f693"
+        }
+    ]
+}

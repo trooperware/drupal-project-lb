@@ -1,0 +1,29 @@
+uuid: c628abd9-8b64-400d-a11a-9cfa5d1cdc2f
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.topic.body
+    - node.type.topic
+  module:
+    - text
+    - user
+id: node.topic.default
+targetEntityType: node
+bundle: topic
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

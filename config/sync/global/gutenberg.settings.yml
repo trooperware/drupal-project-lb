@@ -99,3 +99,4 @@ module_allowed_drupal_blocks:
   system_branding_block: 0
   node_syndicate_block: 0
   drupalblock/all_usuario: 0
+topic_enable_full: 0

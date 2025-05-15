@@ -1,0 +1,90 @@
+{
+    "uuid": [
+        {
+            "value": "ac897fa5-2e46-4711-9303-83fd8b0ee69d"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "module",
+            "target_type": "node_type",
+            "target_uuid": "3969f277-e6d8-4cf2-8611-47702c40827a"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2025-05-12T14:46:34+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "57cd2b87-53d5-4a9d-aef9-1f2e416a347e"
+        }
+    ],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "57cd2b87-53d5-4a9d-aef9-1f2e416a347e"
+        }
+    ],
+    "title": [
+        {
+            "value": "M\u00f3dulo 1.2"
+        }
+    ],
+    "created": [
+        {
+            "value": "2025-05-12T14:46:28+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2025-05-12T14:46:34+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false
+        }
+    ],
+    "sticky": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": "",
+            "pid": null,
+            "langcode": "es"
+        }
+    ],
+    "field_attachments": [],
+    "field_content": [],
+    "field_media": []
+}

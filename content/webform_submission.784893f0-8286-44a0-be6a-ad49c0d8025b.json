@@ -1,0 +1,82 @@
+{
+    "serial": [
+        {
+            "value": 5
+        }
+    ],
+    "uuid": [
+        {
+            "value": "784893f0-8286-44a0-be6a-ad49c0d8025b"
+        }
+    ],
+    "token": [
+        {
+            "value": "l-c7MTVxLNjn2fhaSkldxCoKAdE5oZpDW-oLyFJtZHI"
+        }
+    ],
+    "uri": [
+        {
+            "value": "\/webform\/editar-estudiante?uid=2"
+        }
+    ],
+    "created": [
+        {
+            "value": "2025-05-12T14:03:13+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "completed": [
+        {
+            "value": "2025-05-12T14:03:13+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2025-05-12T14:03:13+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "in_draft": [
+        {
+            "value": false
+        }
+    ],
+    "current_page": [],
+    "remote_addr": [
+        {
+            "value": "172.19.0.2"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "57cd2b87-53d5-4a9d-aef9-1f2e416a347e"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es"
+        }
+    ],
+    "webform_id": [
+        {
+            "target_id": "editar_estudiante",
+            "target_type": "webform",
+            "target_uuid": "a83bbe6a-4973-4a12-9c5d-d4d16780265b"
+        }
+    ],
+    "entity_type": [],
+    "entity_id": [],
+    "locked": [
+        {
+            "value": false
+        }
+    ],
+    "sticky": [
+        {
+            "value": false
+        }
+    ],
+    "notes": []
+}

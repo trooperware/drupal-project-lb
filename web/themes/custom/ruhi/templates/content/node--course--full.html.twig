@@ -85,6 +85,13 @@ set node_classes = [
   {% endif %}
 {{ title_suffix }}
 
+{% if course_menu %}
+  <nav class="sidebar-menu">
+    AAA{{ course_menu }}BBB
+  </nav>
+{% endif %}
+
+
 {% if display_submitted %}
   <header class="node-header">
     {% if node_author_pic %}
