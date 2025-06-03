@@ -17,7 +17,6 @@ Thumbs.db
 # Packages.
 *.7z
 *.dmg
-*.gz
 *.bz2
 *.iso
 *.jar
