@@ -79,7 +79,7 @@ DRUPAL_DB_PREFIX=''
 # - LANDO: database.[LANDO_NAME].internal
 # - LOCAL: localhost
 # - REMOTO: xxx.xxx.xxx.xxx (IP)
-DRUPAL_DB_HOSTNAME=database.aprenderamirar.internal
+DRUPAL_DB_HOSTNAME=127.0.0.1
 
 
 # ##############################################################################
