@@ -3,3 +3,37 @@
     border-bottom: 1px solid #D05700;
     list-style-type: none;
 }
+
+.footer-logos-apoyo .logos-container {
+  background: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+.footer-logos-apoyo {
+  background: white!important;
+}
+
+.footer-logos-apoyo .logos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.footer-logos-apoyo .logo-box {
+  flex: 1 1 50%;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.footer-logos-apoyo .logo-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 720px) {
+  .footer-logos-apoyo .logo-box {
+    flex: 1 1 100%;
+  }
+}
