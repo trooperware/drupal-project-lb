@@ -9,7 +9,7 @@ use Drupal\node\Entity\Node;
 use Drupal\node\NodeInterface;
 use Drupal\paragraphs\Entity\Paragraph;
 
- /**
+/**
  * Implements hook_node_view().
  */
 function basic_config_node_view(array &$build, \Drupal\node\NodeInterface $node, $view_mode) {
@@ -34,6 +34,9 @@ function basic_config_node_view(array &$build, \Drupal\node\NodeInterface $node,
   }
 }
 
+/**
+ * Implements hook_preprocess_node().
+ */
 function basic_config_preprocess_node(array &$variables) {
   $node = $variables['node'];
 
@@ -94,6 +97,16 @@ function basic_config_preprocess_node(array &$variables) {
   }
 }
 
+/**
+ * Implements hook_form_FORM_form_alter().
+ */
+function basic_config_form_user_register_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
+  $current_route = \Drupal::routeMatch()->getRouteName();
+  if ($current_route === 'basic_config.register') {
+    // Ocultamo el selector de cursos
+    unset($form['field_courses']);
+  }
+}
 
 
 

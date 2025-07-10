@@ -1,5 +1,8 @@
 basic_config.register:
   path: /user/register
+  defaults:
+    _entity_form: 'user.register'
+    _title: 'Create new account'
   requirements:
     _role: 'anonymous'
   options:

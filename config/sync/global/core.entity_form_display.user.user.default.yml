@@ -5,9 +5,7 @@ dependencies:
   config:
     - field.field.user.user.field_courses
     - field.field.user.user.user_picture
-    - image.style.thumbnail
   module:
-    - image
     - user
 _core:
   default_config_hash: FaQ9Ptcpxpg30AtiqRDtl_8zbJArHP1LPfug_s59TOA
@@ -17,14 +15,13 @@ bundle: user
 mode: default
 content:
   account:
-    weight: -10
+    weight: 0
     region: content
-  contact:
-    weight: 5
-    region: content
+    settings: {  }
+    third_party_settings: {  }
   field_courses:
     type: entity_reference_autocomplete
-    weight: 7
+    weight: 1
     region: content
     settings:
       match_operator: CONTAINS
@@ -32,19 +29,9 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-  language:
-    weight: 0
-    region: content
-  timezone:
-    weight: 6
-    region: content
-  user_picture:
-    type: image_image
-    weight: -1
-    region: content
-    settings:
-      progress_indicator: throbber
-      preview_image_style: thumbnail
-    third_party_settings: {  }
 hidden:
+  contact: true
   langcode: true
+  language: true
+  timezone: true
+  user_picture: true
