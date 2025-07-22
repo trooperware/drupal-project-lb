@@ -8,3 +8,9 @@ services:
     arguments: ['@messenger', '@current_user']
     tags:
       - { name: event_subscriber }
+  students.breadcrumb.course_topic:
+    class: Drupal\students\Breadcrumb\CourseTopicBreadcrumbBuilder
+    arguments: ['@entity_type.manager']
+    tags:
+      - { name: breadcrumb_builder, priority: 100 }
+
