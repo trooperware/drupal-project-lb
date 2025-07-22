@@ -119,43 +119,43 @@ set node_classes = [
     {{ content }}
 
 <div class="container">
-  
-    
+  <div class="block-content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden field-item">
+      <div class="text-center">
+        <h2 class="block-title">Temáticas</h2>
+      </div>
+      <div class="spacer-small"></div>
+      <div class="features animate-fadeInUp fancy animated">
 
-      <div class="block-content">
-        <div class="field field-name-body field-type-text-with-summary field-label-hidden field-item">
-          <div class="text-center">
-            <h2 class="block-title">Temáticas</h2>
-          </div><!--/text-center -->
-          <div class="spacer-small"></div>
-          <div class="features animate-fadeInUp fancy animated">
+        {% for module in node.field_modules %}
+          {% set paragraph = module.entity %}
+          {% if paragraph.field_topic is not empty %}
+            {% set topic_node = paragraph.field_topic.entity %}
             <div class="feature">
-              <h3>Autoestima</h3>
+              <h3>{{ topic_node.label }}</h3>
 
-              <ul class="plan-details">
-                <li>Aprende a valorarte</li>
-              </ul>
-              <p><a class="button" href="#">Acceder</a></p>
-            </div><!--/feature -->
-            <div class="feature">
-              <h3>Videojuegos</h3>
+              {% if paragraph.field_module is not empty %}
+                <ul class="plan-details">
+                  {% for mod_ref in paragraph.field_module %}
+                    {% set mod_node = mod_ref.entity %}
+                    <li>{{ mod_node.label }}</li>
+                  {% endfor %}
+                </ul>
+              {% endif %}
 
-              <ul class="plan-details">
-                <li>Las cuatro palabras mágicas</li>
-                <li>Una educación 360º</li>
-                <li>¿Es tu hijo adicto alas pantallas?</li>
-                <li>Webinar: Pantallas y Cerebro infantil</li>
-              </ul>
-              <p><a class="button" href="#">Acceder</a></p>
-            </div><!--/feature -->
-            <div class="feature">
-              <h3>Ciberacoso</h3>
+              <p><a class="button" href="{{ path('entity.node.canonical', {'node': topic_node.id}) }}">Acceder</a></p>
+            </div>
+          {% endif %}
+        {% endfor %}
 
-              <p><a class="button" href="#">Acceder</a></p>
-            </div><!--/feature -->
-          </div><!--/features --></div>
-      
-    </div><!--/.block-content -->
+      </div>
+    </div>
   </div>
+</div>
+
+
+
+
+
   </div>
 </article>
