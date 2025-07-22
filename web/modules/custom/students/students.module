@@ -128,17 +128,43 @@ function students_find_course_from_node(Node $node) {
   return NULL;
 }
 
+/**
+ * Implement hook_preprocess_node().
+ */
 function students_preprocess_node(array &$variables) {
   $node = $variables['node'];
-  $menu = students_build_course_menu($node);
 
+  // Afegim el menú del curs.
+  $menu = students_build_course_menu($node);
   if ($menu) {
     $variables['course_menu'] = [
       '#markup' => $menu,
-      '#allowed_tags' => ['ul', 'li', 'a', 'span'], // para evitar filtrado
+      '#allowed_tags' => ['ul', 'li', 'a', 'span'],
       '#cache' => ['contexts' => ['url.path']],
     ];
   }
+
+  // Si és un node topic, busquem el curs associat.
+  if ($node->bundle() === 'topic') {
+    $course_nodes = \Drupal::entityTypeManager()
+      ->getStorage('node')
+      ->loadByProperties(['type' => 'course']);
+
+    foreach ($course_nodes as $course) {
+      if (!$course->hasField('field_modules') || $course->get('field_modules')->isEmpty()) {
+        continue;
+      }
+
+      foreach ($course->get('field_modules') as $item) {
+        $paragraph = $item->entity;
+        if ($paragraph && $paragraph->hasField('field_topic')) {
+          $topic = $paragraph->get('field_topic')->entity;
+          if ($topic && $topic->id() === $node->id()) {
+            $variables['course_modules_paragraphs'] = $course->get('field_modules');
+            return;
+          }
+        }
+      }
+    }
+  }
 }
-
-
