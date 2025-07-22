@@ -1,0 +1,10 @@
+uuid: ce559d8f-3046-4931-9898-19fff2c6f36b
+langcode: es
+status: true
+dependencies:
+  module:
+    - file
+id: file.token
+label: Comodín
+targetEntityType: file
+cache: true

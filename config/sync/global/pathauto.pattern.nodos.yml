@@ -1,0 +1,27 @@
+uuid: aa1f3535-2e00-4cd2-bcd4-336641bd46cb
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+id: nodos
+label: Nodos
+type: 'canonical_entities:node'
+pattern: '[node:title]'
+selection_criteria:
+  f53b0339-0ef1-40ed-842e-1da92e44b5e4:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: f53b0339-0ef1-40ed-842e-1da92e44b5e4
+    context_mapping:
+      node: node
+    bundles:
+      article: article
+      course: course
+      homepage: homepage
+      module: module
+      page: page
+      topic: topic
+selection_logic: and
+weight: -5
+relationships: {  }

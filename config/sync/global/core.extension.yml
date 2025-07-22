@@ -49,6 +49,7 @@ module:
   system: 0
   taxonomy: 0
   text: 0
+  token: 0
   toolbar: 0
   tour: 0
   user: 0
@@ -56,6 +57,7 @@ module:
   webform: 0
   webform_ui: 0
   webform_user_registration: 0
+  pathauto: 1
   views: 10
   paragraphs: 11
   standard: 1000

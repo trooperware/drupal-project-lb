@@ -129,7 +129,7 @@ display:
           entity_type: file
           entity_field: filemime
           plugin_id: field
-          label: 'MIME type'
+          label: 'Tipo MIME'
           exclude: false
           alter:
             alter_text: false
@@ -621,7 +621,7 @@ display:
           exposed: true
           expose:
             operator_id: filemime_op
-            label: 'MIME type'
+            label: 'Tipo MIME'
             description: ''
             use_operator: false
             operator: filemime_op

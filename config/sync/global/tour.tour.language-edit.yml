@@ -29,7 +29,7 @@ tips:
   language-edit-label:
     id: language-edit-label
     plugin: text
-    label: 'Language name'
+    label: 'Nombre del idioma'
     weight: 3
     selector: '#edit-label'
     body: '<p>The language name is used throughout the site for all users and is written in English. Names of built-in languages can be translated using the Interface Translation module, and names of both built-in and custom languages can be translated using the Configuration Translation module.</p>'
