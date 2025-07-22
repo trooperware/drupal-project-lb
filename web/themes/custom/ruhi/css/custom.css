@@ -9,6 +9,10 @@
   margin-left: 12px;
 }
 
+.sidebar li.is-active {
+  font-weight: bold;
+}
+
 
 .footer-logos-apoyo .logos-container {
   background: white;
