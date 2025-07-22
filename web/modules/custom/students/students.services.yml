@@ -3,3 +3,8 @@ services:
     class: Drupal\students\Plugin\WebformHandler\CreateStudentHandler
     tags:
       - { name: webform.handler }
+  students.content_access_subscriber:
+    class: Drupal\students\EventSubscriber\ContentAccessSubscriber
+    arguments: ['@messenger', '@current_user']
+    tags:
+      - { name: event_subscriber }
