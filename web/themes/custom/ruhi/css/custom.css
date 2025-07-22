@@ -1,8 +1,14 @@
 .plan-details li {
     padding: 10px 0;
-    border-bottom: 1px solid #D05700;
+    border-bottom: 1px solid #dddddd;
     list-style-type: none;
 }
+
+.sidebar li.menu-module {
+  border-bottom: none;
+  margin-left: 12px;
+}
+
 
 .footer-logos-apoyo .logos-container {
   background: white;

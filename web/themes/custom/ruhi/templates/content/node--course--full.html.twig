@@ -131,20 +131,20 @@ set node_classes = [
           {% set paragraph = module.entity %}
           {% if paragraph.field_topic is not empty %}
             {% set topic_node = paragraph.field_topic.entity %}
-            <div class="feature">
-              <h3>{{ topic_node.label }}</h3>
+              <div class="feature">
+              
+                <h3><a href="{{ path('entity.node.canonical', {'node': topic_node.id}) }}" class="feature-link">{{ topic_node.label }}</a></h3>
 
-              {% if paragraph.field_module is not empty %}
-                <ul class="plan-details">
-                  {% for mod_ref in paragraph.field_module %}
-                    {% set mod_node = mod_ref.entity %}
-                    <li>{{ mod_node.label }}</li>
-                  {% endfor %}
-                </ul>
-              {% endif %}
-
-              <p><a class="button" href="{{ path('entity.node.canonical', {'node': topic_node.id}) }}">Acceder</a></p>
-            </div>
+                {% if paragraph.field_module is not empty %}
+                  <ul class="plan-details">
+                    {% for mod_ref in paragraph.field_module %}
+                      {% set mod_node = mod_ref.entity %}
+                      <li><a href="{{ path('entity.node.canonical', {'node': mod_node.id}) }}" class="feature-link">{{ mod_node.label }}</a></li>
+                    {% endfor %}
+                  </ul>
+                {% endif %}
+              </div>
+            
           {% endif %}
         {% endfor %}
 
@@ -152,6 +152,7 @@ set node_classes = [
     </div>
   </div>
 </div>
+
 
 
 
