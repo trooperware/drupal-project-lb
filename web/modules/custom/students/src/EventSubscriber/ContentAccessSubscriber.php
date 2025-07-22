@@ -26,9 +26,6 @@ class ContentAccessSubscriber implements EventSubscriberInterface {
   }
 
   public function checkAccess(RequestEvent $event) {
-    xdebug_break();
-    \Drupal::logger('students')->notice('➡️ Ha entrat al ContentAccessSubscriber::checkAccess()');
-
     $request = $event->getRequest();
     $node = $request->attributes->get('node');
 
