@@ -4,6 +4,18 @@
     list-style-type: none;
 }
 
+.homepage.slider-page .header {
+  min-height: 80vh;
+}
+
+.slider {
+  height: calc(65vh);
+}
+
+.slider-container {
+  height: calc(65vh);
+}
+
 .sidebar li.menu-module {
   border-bottom: none;
   margin-left: 12px;
