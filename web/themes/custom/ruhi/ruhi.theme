@@ -4,6 +4,8 @@
  * Extra Functions for Ruhi theme.
  */
 use Drupal\file\Entity\File;
+use Drupal\Core\Url;
+
 /**
  * Sanitise input urls.
  */
@@ -90,11 +92,13 @@ function ruhi_preprocess_page(array &$variables) {
 			$steps = [];
 			foreach ($paragraphs as $paragraph) {
 					if ($paragraph->bundle() === 'home_steps') {
+							$uri = $paragraph->get('field_cta')->getValue()[0]['uri'] ?? NULL;
+
 							$steps[] = [
 									'title' => $paragraph->get('field_title')->value ?? '',
 									'content' => $paragraph->get('field_content')->value ?? '',
 									'cta' => $paragraph->get('field_cta')->getValue() ? [
-											'uri' => $paragraph->get('field_cta')->uri,
+											'url' => Url::fromUri($uri)->toString(),
 											'title' => $paragraph->get('field_cta')->title,
 									] : null,
 							];

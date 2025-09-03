@@ -41,7 +41,7 @@
 														<!--<strong>Encuentra tu camino</strong>-->
 														<h4>{{ item.title|raw }}</h4>
 														<p>{{ item.content|raw }}</p>
-														<a class="button button-secondary" href="item.cta.uri">{{ item.cta.title }}</a>
+														<a class="button button-secondary" href="{{ item.cta.url }}">{{ item.cta.title }}</a>
 													</div>
 												{% elseif case == 2 %}
 													<div class="box animate-fadeInUp fancy animated">
