@@ -43,6 +43,7 @@
         "drupal/thex": "^10.0",
         "drupal/tome": "^1.11",
         "drupal/twig_tweak": "*",
+        "drupal/video_embed_field": "^2.5",
         "drupal/webform_user_registration": "^1.0@alpha",
         "drush/drush": "^11.6",
         "mikehaertl/phpwkhtmltopdf": "^2.5",

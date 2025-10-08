@@ -6,11 +6,13 @@ dependencies:
     - field.field.node.module.field_attachments
     - field.field.node.module.field_content
     - field.field.node.module.field_media
+    - field.field.node.module.field_video_embed
     - node.type.module
   module:
     - file
     - text
     - user
+    - video_embed_field
 id: node.module.default
 targetEntityType: node
 bundle: module
@@ -22,28 +24,31 @@ content:
     settings:
       use_description_as_link_text: true
     third_party_settings: {  }
-    weight: 103
+    weight: 3
     region: content
   field_content:
     type: text_default
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 102
+    weight: 2
     region: content
-  field_media:
-    type: entity_reference_entity_view
+  field_video_embed:
+    type: video_embed_field_video
     label: hidden
     settings:
-      view_mode: full
-      link: false
+      autoplay: true
+      responsive: true
+      width: 854
+      height: 480
     third_party_settings: {  }
-    weight: 101
+    weight: 1
     region: content
   links:
     settings: {  }
     third_party_settings: {  }
-    weight: 100
+    weight: 0
     region: content
 hidden:
+  field_media: true
   langcode: true
