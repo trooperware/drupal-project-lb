@@ -59,3 +59,30 @@
     flex: 1 1 100%;
   }
 }
+
+/* Enlaces top-level del course-menu */
+ul.course-menu > li.menu-topic > a{
+  display:inline-flex;
+  align-items:center;
+  gap:.5rem;
+  text-decoration:none; /* opcional */
+}
+
+/* Chevron a la derecha con ::before */
+ul.course-menu > li.menu-topic > a::before{
+  content:"";
+  width:.55em; 
+  height:.55em;
+  border-right:2px solid currentColor;
+  border-top:2px solid currentColor;
+  transform:rotate(45deg);
+  transition:transform .2s;
+}
+
+/* Animación */
+ul.course-menu > li.menu-topic > a:hover::before{
+  transform:translateX(2px) rotate(45deg);
+}
+
+/* (Opcional) Solo si el li tiene submenú — requiere :has() */
+ul.course-menu > li.menu-topic:not(:has(> ul)) > a::before{ content:none; }
