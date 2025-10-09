@@ -66,6 +66,7 @@ ul.course-menu > li.menu-topic > a{
   align-items:center;
   gap:.5rem;
   text-decoration:none; /* opcional */
+  color: #383549;
 }
 
 /* Chevron a la derecha con ::before */
