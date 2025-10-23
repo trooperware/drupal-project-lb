@@ -90,5 +90,5 @@ ul.course-menu > li.menu-topic:not(:has(> ul)) > a::before{ content:none; }
 
 em {
     font-style: italic;
-    color: #000000;
+    color: #383549;
 }
