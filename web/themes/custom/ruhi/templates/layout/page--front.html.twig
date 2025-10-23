@@ -41,7 +41,9 @@
 														<!--<strong>Encuentra tu camino</strong>-->
 														<h4>{{ item.title|raw }}</h4>
 														<p>{{ item.content|raw }}</p>
-														<a class="button button-secondary" href="{{ item.cta.url }}">{{ item.cta.title }}</a>
+														{% if item.cta.url %}
+															<a class="button button-secondary" href="{{ item.cta.url }}">{{ item.cta.title }}</a>
+														{% endif %}
 													</div>
 												{% elseif case == 2 %}
 													<div class="box animate-fadeInUp fancy animated">
@@ -51,6 +53,9 @@
 														</svg>
 														<h4>{{ item.title|raw }}</h4>
 														<p>{{ item.content|raw }}</p>
+														{% if item.cta.url %}
+															<a class="button button-primary" href="{{ item.cta.url }}">{{ item.cta.title }}</a>
+														{% endif %}
 													</div>
 												{% elseif case == 3 %}
 													<div class="box animate-fadeInUp slow fancy animated">
@@ -61,6 +66,9 @@
 														</svg>
 														<h4>{{ item.title|raw }}</h4>
 														<p>{{ item.content|raw }}</p>
+														{% if item.cta.url %}
+															<a class="button button-primary" href="{{ item.cta.url }}">{{ item.cta.title }}</a>
+														{% endif %}
 													</div>
 												{% else %}
 													<div class="box animate-fadeInUp slow fancy animated">
@@ -70,6 +78,9 @@
 														</svg>
 														<h4>{{ item.title|raw }}</h4>
 														<p>{{ item.content|raw }}</p>
+														{% if item.cta.url %}
+															<a class="button button-primary" href="{{ item.cta.url }}">{{ item.cta.title }}</a>
+														{% endif %}
 													</div>
 												{% endif %}
 											{% endfor %}
