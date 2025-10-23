@@ -7,7 +7,6 @@ dependencies:
     - field.field.node.module.field_attachments
     - field.field.node.module.field_content
     - field.field.node.module.field_media
-    - field.field.node.module.field_video_embed
     - node.type.module
   module:
     - user
@@ -25,5 +24,4 @@ hidden:
   field_attachments: true
   field_content: true
   field_media: true
-  field_video_embed: true
   langcode: true

@@ -12,14 +12,14 @@
     <div class="container">
       <div class="logos-container">
         <h3>Con el apoyo de:</h3>
-        <div class="logos">
-          <div class="logo-box">
-            <img src="/themes/custom/ruhi/images/footer/logos/logo1.jpg" alt="Logo 1">
+          <div class="logos">
+            {% for logo in footer_logos %}
+              <div class="logo-box">
+                <img src="{{ logo.url }}" alt="{{ logo.alt|e }}">
+              </div>
+            {% endfor %}
           </div>
-          <div class="logo-box">
-            <img src="/themes/custom/ruhi/images/footer/logos/logo2.jpg" alt="Logo 2">
-          </div>
-        </div>
+
       </div>
     </div>
   </div>

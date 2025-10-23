@@ -3,6 +3,7 @@
  * @file
  * Extra Functions for Ruhi theme.
  */
+use Drupal\node\Entity\Node;
 use Drupal\file\Entity\File;
 use Drupal\Core\Url;
 
@@ -176,6 +177,14 @@ function ruhi_preprocess_page(array &$variables) {
 	// Footer
 	$variables['copyright_text'] = theme_get_setting('copyright_text', 'ruhi');
 
+	// Footer logos (homepage)
+	$variables['footer_logos'] = [];
+	$logos = _ruhi_load_footer_logos();
+	$variables['footer_logos'] = $logos['items'];
+	if (!empty($logos['tags'])) {
+		$variables['#cache']['tags'] = array_merge($variables['#cache']['tags'] ?? [], $logos['tags']);
+	}
+
 	// content
 	$variables['rtl'] = theme_get_setting('rtl', 'ruhi');
 
@@ -275,4 +284,58 @@ function ruhi_preprocess_node(array &$variables) {
  */
 function ruhi_preprocess_comment(array &$variables) {
 	$variables['comment_user_pic'] = theme_get_setting('comment_user_pic', 'ruhi');
+}
+
+/**
+ * Devuelve logos del campo field_logos_footer del único nodo homepage.
+ */
+function _ruhi_load_footer_logos(): array {
+  static $result;                       // cache por petición
+  if (isset($result)) return $result;
+
+  $result = ['items' => [], 'tags' => []];
+
+  $nids = \Drupal::entityQuery('node')
+    ->condition('type', 'homepage')
+    ->condition('status', 1)
+	->accessCheck(TRUE)
+    ->range(0, 1)
+    ->execute();
+
+  if (!$nids) return $result;
+
+  $nid  = reset($nids);
+  $node = Node::load($nid);
+  $result['tags'][] = 'node:' . $nid;
+
+  if (!$node || !$node->hasField('field_logos_footer') || $node->get('field_logos_footer')->isEmpty()) {
+    return $result;
+  }
+
+  $file_url_generator = \Drupal::service('file_url_generator');
+
+  foreach ($node->get('field_logos_footer') as $item) {
+    $entity = $item->entity;
+    $file = null;
+    $alt  = '';
+
+    if ($entity && $entity->getEntityTypeId() === 'media' && $entity->bundle() === 'image' && $entity->hasField('field_media_image')) {
+      $img  = $entity->get('field_media_image');
+      $file = $img->entity instanceof File ? $img->entity : null;
+      $alt  = $img->alt ?? '';
+    }
+    elseif ($entity instanceof File) { // imagen directa
+      $file = $entity;
+      $alt  = $item->alt ?? '';
+    }
+
+    if ($file instanceof File) {
+      $result['items'][] = [
+        'url' => $file_url_generator->generateString($file->getFileUri()),
+        'alt' => $alt,
+      ];
+    }
+  }
+
+  return $result;
 }

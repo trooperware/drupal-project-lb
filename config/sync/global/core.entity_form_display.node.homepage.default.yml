@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.node.homepage.field_faqs
     - field.field.node.homepage.field_info_list
+    - field.field.node.homepage.field_logos_footer
     - field.field.node.homepage.field_pretitle_section_2
     - field.field.node.homepage.field_slider
     - field.field.node.homepage.field_steps
@@ -17,6 +18,7 @@ dependencies:
     - node.type.homepage
   module:
     - field_group
+    - media_library
     - paragraphs
     - path
     - text
@@ -28,6 +30,7 @@ third_party_settings:
         - group_steps
         - group_info
         - group_faqs
+        - group_footer
       label: 'Home tabs'
       region: content
       parent_name: ''
@@ -111,6 +114,22 @@ third_party_settings:
         formatter: closed
         description: ''
         required_fields: true
+    group_footer:
+      children:
+        - field_logos_footer
+      label: Footer
+      region: content
+      parent_name: group_home_tabs
+      weight: 15
+      format_type: tab
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        formatter: closed
+        description: ''
+        required_fields: true
 id: node.homepage.default
 targetEntityType: node
 bundle: homepage
@@ -147,6 +166,13 @@ content:
     settings:
       size: 60
       placeholder: ''
+    third_party_settings: {  }
+  field_logos_footer:
+    type: media_library_widget
+    weight: 36
+    region: content
+    settings:
+      media_types: {  }
     third_party_settings: {  }
   field_pretitle_section_2:
     type: string_textfield

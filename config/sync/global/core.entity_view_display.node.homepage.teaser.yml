@@ -6,6 +6,7 @@ dependencies:
     - core.entity_view_mode.node.teaser
     - field.field.node.homepage.field_faqs
     - field.field.node.homepage.field_info_list
+    - field.field.node.homepage.field_logos_footer
     - field.field.node.homepage.field_pretitle_section_2
     - field.field.node.homepage.field_slider
     - field.field.node.homepage.field_steps
@@ -31,6 +32,7 @@ content:
 hidden:
   field_faqs: true
   field_info_list: true
+  field_logos_footer: true
   field_pretitle_section_2: true
   field_slider: true
   field_steps: true
