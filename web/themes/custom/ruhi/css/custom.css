@@ -87,3 +87,8 @@ ul.course-menu > li.menu-topic > a:hover::before{
 
 /* (Opcional) Solo si el li tiene submenú — requiere :has() */
 ul.course-menu > li.menu-topic:not(:has(> ul)) > a::before{ content:none; }
+
+em {
+    font-style: italic;
+    color: #000000;
+}
