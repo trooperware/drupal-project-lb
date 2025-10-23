@@ -1,0 +1,19 @@
+{% if breadcrumb %}
+  <nav class="breadcrumb" role="navigation" aria-labelledby="system-breadcrumb">
+    <ol class="breadcrumb-items">
+      {% set found_no_url = false %}
+      {% for item in breadcrumb %}
+        {% if item.url %}
+          <li class="breadcrumb-item">
+            <a href="{{ item.url }}">{{ item.text }}</a><span><i class="icon-angle-right"></i></span>
+          </li>
+        {% else %}
+          {% if not found_no_url %}
+            <li class="breadcrumb-item">{{ item.text }}</li>
+            {% set found_no_url = true %}
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    </ol>
+  </nav>
+{% endif %}
