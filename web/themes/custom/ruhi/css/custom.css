@@ -92,3 +92,23 @@ em {
     font-style: italic;
     color: #383549;
 }
+
+/* En tu tema (por ejemplo en ruhi/css/components/views.css) */
+.views-exposed-form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 12px;
+}
+
+.views-exposed-form .form-item,
+.views-exposed-form .form-actions {
+  margin: 0;
+}
+.views-exposed-form .js-form-item {
+  max-width: 300px;
+}
+
+.views-exposed-form .js-form-item .description {
+  display: none;
+}

@@ -36,6 +36,22 @@ elements: |-
   userid:
     '#type': hidden
     '#title': UserID
+  school:
+    '#type': entity_autocomplete
+    '#title': 'Colegio existente'
+    '#target_type': taxonomy_term
+    '#selection_handler': 'default:taxonomy_term'
+    '#selection_settings':
+      target_bundles:
+        school: school
+      sort:
+        field: name
+        direction: asc
+      auto_create: true
+      auto_create_bundle: ''
+  school_new:
+    '#type': textfield
+    '#title': 'Crear colegio'
 css: ''
 javascript: ''
 settings:

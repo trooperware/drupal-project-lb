@@ -1,0 +1,11 @@
+uuid: e3ca7be0-486c-49ca-985d-6fc4022f9ae2
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.school
+id: taxonomy_term.school
+target_entity_type_id: taxonomy_term
+target_bundle: school
+default_langcode: site_default
+language_alterable: false

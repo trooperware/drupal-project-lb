@@ -1,5 +1,6 @@
 <?php
 use Drupal\node\Entity\Node;
+use Drupal\taxonomy\Entity\Term;
 use Drupal\user\Entity\User;
 use Drupal\paragraphs\Entity\Paragraph;
 use Drupal\Core\Url;
@@ -14,19 +15,12 @@ function students_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_
 /**
  * Alterar el Webform para precargar datos del usuario según el uid en la URL.
  */
-function students_form_webform_submission_editar_estudiante_add_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
-  \Drupal::logger('students')->notice("students_form_webform_submission_editar_estudiante_add_form_alter ejecutado");
+function students_form_webform_submission_editar_estudiante_add_form_alter(array &$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
   $uid = \Drupal::request()->query->get('uid');
-  if (!$uid || !is_numeric($uid)) {
-    return;
-  }
-
+  if (!$uid || !is_numeric($uid)) return;
   $user = User::load($uid);
-  if (!$user) {
-    return;
-  }
+  if (!$user) return;
 
-  // Prellenar el campo oculto 'uid'
   if (isset($form['elements']['userid'])) {
     $form['elements']['userid']['#default_value'] = $uid;
   }
@@ -42,8 +36,30 @@ function students_form_webform_submission_editar_estudiante_add_form_alter(&$for
   if (isset($form['elements']['mail'])) {
     $form['elements']['mail']['#default_value'] = $user->getEmail();
   }
-}
 
+  // Preseleccionar SCHOOL
+  if (isset($form['elements']['school'])) {
+    $tids = array_column($user->get('field_school')->getValue(), 'target_id');
+
+    // Si es entity_autocomplete => necesita entidades.
+    if (($form['elements']['school']['#type'] ?? '') === 'entity_autocomplete') {
+      $terms = Term::loadMultiple($tids);
+      if (!empty($form['elements']['school']['#tags'])) {
+        // Múltiple (tags): array de entidades.
+        $form['elements']['school']['#default_value'] = array_values($terms);
+      } else {
+        // Único: una entidad o NULL.
+        $form['elements']['school']['#default_value'] = $terms ? reset($terms) : NULL;
+      }
+    }
+    // Si es entity_select (Webform Entity Select), acepta IDs:
+    elseif (($form['elements']['school']['#type'] ?? '') === 'entity_select') {
+      $form['elements']['school']['#default_value'] = !empty($form['elements']['school']['#multiple'])
+        ? $tids
+        : (reset($tids) ?: NULL);
+    }
+  }
+}
 
 /**
  * Genera el menú completo de un curso a partir del nodo actual.

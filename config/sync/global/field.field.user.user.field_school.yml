@@ -1,0 +1,30 @@
+uuid: 80791fe1-31bf-47ad-8a7b-852610867875
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_school
+    - taxonomy.vocabulary.school
+  module:
+    - user
+id: user.user.field_school
+field_name: field_school
+entity_type: user
+bundle: user
+label: Colegio
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      school: school
+    sort:
+      field: name
+      direction: asc
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

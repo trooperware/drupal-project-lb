@@ -1,0 +1,8 @@
+uuid: 9ffba7f5-c807-4a68-8db1-fdf7805a49bf
+langcode: es
+status: true
+dependencies: {  }
+name: Colegios
+vid: school
+description: 'Listado de colegios disponibles'
+weight: 0
