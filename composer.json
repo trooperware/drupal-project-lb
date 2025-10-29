@@ -39,6 +39,7 @@
         "drupal/robotstxt": "^1.5",
         "drupal/ruhi": "^10.2",
         "drupal/simple_sitemap": "^4.1",
+        "drupal/smtp": "^1.4",
         "drupal/social_auth_google": "^4.0",
         "drupal/thex": "^10.0",
         "drupal/tome": "^1.11",
